@@ -1,0 +1,193 @@
+# HIPHOPアーティスト ファン言説分析 ― 最終版（v5）
+
+## 手法の最終的な改善点
+
+v3/v4での検証を経て、以下の方式に統一した:
+- トピック判定は個別コメントへの直接正規表現マッチング（HDBSCANクラスタ単位の判定は誤判定のリスクがあるため不採用）
+- 動画数を6本、コメント数を600件/動画に増量（多様性確保・統計的検出力向上）
+- 全アーティストでチャンネルの正当性を確認済み
+
+## アーティスト別の信頼度サマリー
+
+| アーティスト | 支配的トピック | 件数 | 信頼度 |
+|---|---|---|---|
+| Kendrick Lamar | ⚔️ ビーフ | 416 | ◎ 信頼できる |
+| J. Cole | ⚔️ ビーフ | 349 | ◎ 信頼できる |
+| Joey Bada$$ | ⚔️ ビーフ | 174 | ◎ 信頼できる |
+| Mac Miller | 🕯️ 追悼 | 131 | ◎ 信頼できる |
+| Tyler, The Creator | ⚔️ ビーフ | 37 | ▲ 要注意 |
+| Nas | ⚔️ ビーフ | 35 | ▲ 要注意 |
+| JPEGMAFIA | ⚔️ ビーフ | 26 | ▲ 要注意 |
+| Travis Scott | 🎪 ライブ | 26 | ▲ 要注意 |
+| A$AP Rocky | ⚔️ ビーフ | 20 | ▲ 要注意 |
+| Young Thug | 🕯️ 追悼 | 17 | ▲ 要注意 |
+| Playboi Carti | 🕯️ 追悼 | 8 | ✗ 不十分 |
+| Future | 🕯️ 追悼 | 5 | ✗ 不十分 |
+
+
+## 交絡チェック（動画単位の分解）
+
+            artist                                                                                             video_title  n_total  topic  count  pct
+               Nas                            Nas - &quot;Wave Gods&quot; feat. A$AP Rocky and DJ Premier (Official Video)      300 ⚔️ ビーフ      5  1.7
+               Nas                            Nas - &quot;Wave Gods&quot; feat. A$AP Rocky and DJ Premier (Official Video)      300  🕯️ 追悼      1  0.3
+               Nas                                                     Nas - Nobody feat. Ms. Lauryn Hill (Official Audio)      308 ⚔️ ビーフ      1  0.3
+               Nas                                                     Nas - Nobody feat. Ms. Lauryn Hill (Official Audio)      308  🎪 ライブ      1  0.3
+               Nas                                                     Nas - Nobody feat. Ms. Lauryn Hill (Official Audio)      308   🔥 炎上      1  0.3
+               Nas                                                   Nas - EPMD 2 feat. Eminem &amp; EPMD (Official Audio)      366 ⚔️ ビーフ      6  1.6
+               Nas                                                   Nas - EPMD 2 feat. Eminem &amp; EPMD (Official Audio)      366  🕯️ 追悼      3  0.8
+               Nas                                                   Nas - EPMD 2 feat. Eminem &amp; EPMD (Official Audio)      366   🔥 炎上      1  0.3
+               Nas                                                                   Nas - Death Row East (Official Audio)      411 ⚔️ ビーフ     17  4.1
+               Nas                                                                   Nas - Death Row East (Official Audio)      411  🎪 ライブ      1  0.2
+               Nas                                                                   Nas - Death Row East (Official Audio)      411  🕯️ 追悼     15  3.6
+               Nas                                                                   Nas - Death Row East (Official Audio)      411   🔥 炎上      1  0.2
+               Nas                                                                             Nas - Rare (Official Video)      331 ⚔️ ビーフ      3  0.9
+               Nas                                                                             Nas - Rare (Official Video)      331  🎪 ライブ      1  0.3
+               Nas                                                         Nas - Sitting With My Thoughts (Official Video)      326 ⚔️ ビーフ      3  0.9
+               Nas                                                         Nas - Sitting With My Thoughts (Official Video)      326  🎪 ライブ      1  0.3
+               Nas                                                         Nas - Sitting With My Thoughts (Official Video)      326  🕯️ 追悼      3  0.9
+    Kendrick Lamar                                                                                             Not Like Us      357 ⚔️ ビーフ     87 24.4
+    Kendrick Lamar                                                                                             Not Like Us      357  🕯️ 追悼      2  0.6
+    Kendrick Lamar                                                                                             Not Like Us      357   🔥 炎上      4  1.1
+    Kendrick Lamar                                                                Kendrick Lamar - luther (Official Audio)      292 ⚔️ ビーフ     36 12.3
+    Kendrick Lamar                                                                Kendrick Lamar - luther (Official Audio)      292  🎪 ライブ      2  0.7
+    Kendrick Lamar                                                                Kendrick Lamar - luther (Official Audio)      292   🔥 炎上      1  0.3
+    Kendrick Lamar                                                                Kendrick Lamar - tv off (Official Audio)      272 ⚔️ ビーフ     68 25.0
+    Kendrick Lamar                                                                                                euphoria      402 ⚔️ ビーフ    122 30.3
+    Kendrick Lamar                                                                                                euphoria      402   🔥 炎上      1  0.2
+    Kendrick Lamar                                                                                             squabble up      330 ⚔️ ビーフ     65 19.7
+    Kendrick Lamar                                                              Kendrick Lamar - peekaboo (Official Audio)      322 ⚔️ ビーフ     38 11.8
+    Kendrick Lamar                                                              Kendrick Lamar - peekaboo (Official Audio)      322  🕯️ 追悼      4  1.2
+    Kendrick Lamar                                                              Kendrick Lamar - peekaboo (Official Audio)      322   🔥 炎上      1  0.3
+           J. Cole                                                               J. Cole – Work Out (Official Music Video)      312 ⚔️ ビーフ     49 15.7
+           J. Cole                                                               J. Cole – Work Out (Official Music Video)      312  🕯️ 追悼      1  0.3
+           J. Cole                                                               J. Cole – Work Out (Official Music Video)      312   🔥 炎上      1  0.3
+           J. Cole                                                                 J. Cole - MIDDLE CHILD (Official Audio)      291 ⚔️ ビーフ     55 18.9
+           J. Cole                                                                 J. Cole - MIDDLE CHILD (Official Audio)      291  🕯️ 追悼      1  0.3
+           J. Cole                                                                 J. Cole - MIDDLE CHILD (Official Audio)      291   🔥 炎上      1  0.3
+           J. Cole                                                                             J. Cole - Kevin&#39;s Heart      384 ⚔️ ビーフ     44 11.5
+           J. Cole                                                                             J. Cole - Kevin&#39;s Heart      384  🕯️ 追悼      1  0.3
+           J. Cole                                                                             J. Cole - Kevin&#39;s Heart      384   🔥 炎上      8  2.1
+           J. Cole                                       J. Cole - m y . l i f e  feat. 21 Savage, Morray (Official Audio)      318 ⚔️ ビーフ     55 17.3
+           J. Cole                                       J. Cole - m y . l i f e  feat. 21 Savage, Morray (Official Audio)      318  🕯️ 追悼      2  0.6
+           J. Cole                                       J. Cole - m y . l i f e  feat. 21 Savage, Morray (Official Audio)      318   🔥 炎上      1  0.3
+           J. Cole                     J. Cole - p r i d e . i s . t h e . d e v i l  feat. Lil&#39; Baby (Official Audio)      375 ⚔️ ビーフ     78 20.8
+           J. Cole                     J. Cole - p r i d e . i s . t h e . d e v i l  feat. Lil&#39; Baby (Official Audio)      375  🕯️ 追悼      1  0.3
+           J. Cole                                                              J. Cole - a m a r i (Official Music Video)      280 ⚔️ ビーフ     68 24.3
+           J. Cole                                                              J. Cole - a m a r i (Official Music Video)      280  🎪 ライブ      2  0.7
+           J. Cole                                                              J. Cole - a m a r i (Official Music Video)      280   🔥 炎上      2  0.7
+       Joey Bada$$                                                           Joey Bada$$ - Where I Belong (Official Video)      343 ⚔️ ビーフ      4  1.2
+       Joey Bada$$                                                           Joey Bada$$ - Where I Belong (Official Video)      343  🎪 ライブ      1  0.3
+       Joey Bada$$                                                           Joey Bada$$ - Where I Belong (Official Video)      343  🕯️ 追悼      4  1.2
+       Joey Bada$$                                                     Joey Bada$$ - The Ruler&#39;s Back (Official Video)      394 ⚔️ ビーフ     40 10.2
+       Joey Bada$$                                                     Joey Bada$$ - The Ruler&#39;s Back (Official Video)      394  🎪 ライブ      1  0.3
+       Joey Bada$$                                                     Joey Bada$$ - The Ruler&#39;s Back (Official Video)      394  🕯️ 追悼      2  0.5
+       Joey Bada$$                                                     Joey Bada$$ - The Ruler&#39;s Back (Official Video)      394   🔥 炎上      3  0.8
+       Joey Bada$$                                                                 Joey Bada$$ - Zipcodes (Official Video)      365 ⚔️ ビーフ      3  0.8
+       Joey Bada$$                                                                 Joey Bada$$ - Zipcodes (Official Video)      365  🕯️ 追悼      6  1.6
+       Joey Bada$$                                                                 Joey Bada$$ - Zipcodes (Official Video)      365   🔥 炎上     17  4.7
+       Joey Bada$$                                                              Joey Bada$$ - CRASH DUMMY (Official Audio)      405 ⚔️ ビーフ     57 14.1
+       Joey Bada$$                                                              Joey Bada$$ - CRASH DUMMY (Official Audio)      405  🎪 ライブ      1  0.2
+       Joey Bada$$                                                              Joey Bada$$ - CRASH DUMMY (Official Audio)      405  🕯️ 追悼      3  0.7
+       Joey Bada$$                                                              Joey Bada$$ - CRASH DUMMY (Official Audio)      405   🔥 炎上      4  1.0
+       Joey Bada$$                                                          Joey Bada$$ - Sorry Not Sorry (Official Video)      374 ⚔️ ビーフ     63 16.8
+       Joey Bada$$                                                          Joey Bada$$ - Sorry Not Sorry (Official Video)      374  🕯️ 追悼      3  0.8
+       Joey Bada$$                                                                   Joey Bada$$ - Eulogy (Official Video)      354 ⚔️ ビーフ      7  2.0
+       Joey Bada$$                                                                   Joey Bada$$ - Eulogy (Official Video)      354  🕯️ 追悼      3  0.8
+            Future                                                      Future &quot;No Matter What&quot; [Official Video]      233 ⚔️ ビーフ      1  0.4
+            Future                                                      Future &quot;No Matter What&quot; [Official Video]      233  🎪 ライブ      1  0.4
+            Future                                                      Future &quot;No Matter What&quot; [Official Video]      233  🕯️ 追悼      3  1.3
+            Future                                                                  Future - Tycoon (Official Music Video)      322 ⚔️ ビーフ      1  0.3
+            Future                                                           Future - March Madness (Official Lyric Video)      263 ⚔️ ビーフ      1  0.4
+            Future                                                                Future - Neva End (Official Lyric Video)      100 ⚔️ ビーフ      1  1.0
+            Future                                                          Future - Same Damn Time (Official Lyric Video)       77   🔥 炎上      1  1.3
+            Future                                                          Future - You Deserve It (Official Lyric Video)      111  🕯️ 追悼      2  1.8
+     Playboi Carti                                          &quot;2024&quot; prod. ojivolta, earlonthebeat, and Kanye West      283 ⚔️ ビーフ      1  0.4
+     Playboi Carti                                                                                  Playboi Carti - R.I.P.      295 ⚔️ ビーフ      1  0.3
+     Playboi Carti                                                                                  Playboi Carti - R.I.P.      295  🎪 ライブ      2  0.7
+     Playboi Carti                                                                                  Playboi Carti - R.I.P.      295  🕯️ 追悼      7  2.4
+     Playboi Carti                                                         Playboi Carti - Shoota (Audio) ft. Lil Uzi Vert      311 ⚔️ ビーフ      1  0.3
+     Playboi Carti                                                                    Playboi Carti - Sky (Official Audio)      253  🎪 ライブ      1  0.4
+     Playboi Carti                                                                    Playboi Carti - Sky (Official Audio)      253  🕯️ 追悼      1  0.4
+     Playboi Carti                                        &quot;BACKR00MS&quot; FT TRAVIS SCOTT SEXISDEATH INDIANA420BITCH      341 ⚔️ ビーフ      2  0.6
+     Playboi Carti                                        &quot;BACKR00MS&quot; FT TRAVIS SCOTT SEXISDEATH INDIANA420BITCH      341  🎪 ライブ      1  0.3
+        Young Thug                                                                      Young Thug &quot;Best Friend&quot;      220 ⚔️ ビーフ      1  0.5
+        Young Thug                                                                      Young Thug &quot;Best Friend&quot;      220  🕯️ 追悼      1  0.5
+        Young Thug                                                                      Young Thug &quot;Best Friend&quot;      220   🔥 炎上      1  0.5
+        Young Thug                                    Young Thug - Hot ft. Gunna &amp; Travis Scott [Official Music Video]      240 ⚔️ ビーフ      7  2.9
+        Young Thug                                    Young Thug - Hot ft. Gunna &amp; Travis Scott [Official Music Video]      240  🕯️ 追悼      1  0.4
+        Young Thug                                                                            Young Thug &quot;Power&quot;      218  🕯️ 追悼      3  1.4
+        Young Thug                                                         Young Thug &quot;With That&quot; featuring Duke      253  🕯️ 追悼      1  0.4
+        Young Thug                                                               Young Thug - Check (Official Music Video)      244  🎪 ライブ      1  0.4
+        Young Thug                                                               Young Thug - Check (Official Music Video)      244  🕯️ 追悼      1  0.4
+        Young Thug                                                               Young Thug - Check (Official Music Video)      244   🔥 炎上      1  0.4
+        Young Thug Young Thug, 2 Chainz, Wiz Khalifa &amp; PnB Rock – Gang Up (The Fate of the Furious: The Album) [VIDEO]      179  🕯️ 追悼     10  5.6
+      Travis Scott                                                                                FRANCHISE (CACTUS SLATT)      342  🕯️ 追悼      3  0.9
+      Travis Scott                 Travis Scott feat. Future, Young Thug &amp; M.I.A. - FRANCHISE (REMIX - Official Audio)      305  🎪 ライブ      2  0.7
+      Travis Scott                                      A Travis Scott + Cactus Jack Experience - PS5: Unboxing Reimagined      311  🎪 ライブ      4  1.3
+      Travis Scott                                      A Travis Scott + Cactus Jack Experience - PS5: Unboxing Reimagined      311  🕯️ 追悼      5  1.6
+      Travis Scott                                                                                greetings from utopia 🇮🇹      173  🎪 ライブ     19 11.0
+      Travis Scott                                                           Travi$ Scott - &quot;Quintana&quot; (Trailer)      139  🎪 ライブ      1  0.7
+Tyler, The Creator                                                                      SEE YOU AGAIN featuring Kali Uchis      303 ⚔️ ビーフ      1  0.3
+Tyler, The Creator                                                                      SEE YOU AGAIN featuring Kali Uchis      303  🕯️ 追悼      1  0.3
+Tyler, The Creator                                                                                               EARFQUAKE      296 ⚔️ ビーフ      1  0.3
+Tyler, The Creator                                                                                               EARFQUAKE      296  🎪 ライブ      1  0.3
+Tyler, The Creator                                                                                               EARFQUAKE      296  🕯️ 追悼      1  0.3
+Tyler, The Creator                                                                        Tyler, The Creator - Who Dat Boy      349 ⚔️ ビーフ      1  0.3
+Tyler, The Creator                                                                        Tyler, The Creator - Who Dat Boy      349  🕯️ 追悼      1  0.3
+Tyler, The Creator                                                                        Tyler, The Creator - Who Dat Boy      349   🔥 炎上      4  1.1
+Tyler, The Creator                                                           Tyler, The Creator - 911 / Mr. Lonely (Audio)      328  🎪 ライブ      1  0.3
+Tyler, The Creator                                                                                                THAT GUY      365 ⚔️ ビーフ     32  8.8
+Tyler, The Creator                                                                                                THAT GUY      365  🎪 ライブ      2  0.5
+Tyler, The Creator                                                                                                THAT GUY      365  🕯️ 追悼      2  0.5
+Tyler, The Creator                                                                                                THAT GUY      365   🔥 炎上      1  0.3
+Tyler, The Creator                                                                                           BEST INTEREST      379 ⚔️ ビーフ      2  0.5
+Tyler, The Creator                                                                                           BEST INTEREST      379  🎪 ライブ      1  0.3
+Tyler, The Creator                                                                                           BEST INTEREST      379  🕯️ 追悼      1  0.3
+         JPEGMAFIA                                                                             JPEGMAFIA - 1539 N. Calvert      299 ⚔️ ビーフ     11  3.7
+         JPEGMAFIA                                                                             JPEGMAFIA - 1539 N. Calvert      299  🎪 ライブ      1  0.3
+         JPEGMAFIA                                                                             JPEGMAFIA - 1539 N. Calvert      299  🕯️ 追悼      2  0.7
+         JPEGMAFIA                                                                            JPEGMAFIA - HAZARD DUTY PAY!      376 ⚔️ ビーフ      7  1.9
+         JPEGMAFIA                                                                            JPEGMAFIA - HAZARD DUTY PAY!      376  🎪 ライブ      2  0.5
+         JPEGMAFIA                                                                            JPEGMAFIA - HAZARD DUTY PAY!      376  🕯️ 追悼      1  0.3
+         JPEGMAFIA                                                                                       JPEGMAFIA - BALD!      250 ⚔️ ビーフ      1  0.4
+         JPEGMAFIA                                                                                       JPEGMAFIA - BALD!      250  🎪 ライブ      3  1.2
+         JPEGMAFIA                                                                                       JPEGMAFIA - BALD!      250  🕯️ 追悼      2  0.8
+         JPEGMAFIA                                                               JPEGMAFIA - Jesus Forgive Me, I Am A Thot      178 ⚔️ ビーフ      2  1.1
+         JPEGMAFIA                                                               JPEGMAFIA - Jesus Forgive Me, I Am A Thot      178  🎪 ライブ      2  1.1
+         JPEGMAFIA                                                                       JPEGMAFIA - Baby I&#39;m Bleeding      193  🕯️ 追悼      1  0.5
+         JPEGMAFIA                                                                                   JPEGMAFIA - SIN MIEDO      384 ⚔️ ビーフ      5  1.3
+         JPEGMAFIA                                                                                   JPEGMAFIA - SIN MIEDO      384  🎪 ライブ      2  0.5
+         JPEGMAFIA                                                                                   JPEGMAFIA - SIN MIEDO      384  🕯️ 追悼      2  0.5
+        A$AP Rocky                                                                  A$AP Rocky - L$D (LOVE x $EX x DREAMS)      244 ⚔️ ビーフ      1  0.4
+        A$AP Rocky                                                                   A$AP Rocky - Multiply (feat. Juicy J)      258 ⚔️ ビーフ      2  0.8
+        A$AP Rocky                                                                   A$AP Rocky - Multiply (feat. Juicy J)      258  🎪 ライブ      1  0.4
+        A$AP Rocky                                                                   A$AP Rocky - Multiply (feat. Juicy J)      258  🕯️ 追悼      8  3.1
+        A$AP Rocky                                                                   A$AP Rocky - Multiply (feat. Juicy J)      258   🔥 炎上      1  0.4
+        A$AP Rocky                                                                             ASAP Rocky &quot;Peso&quot;      268 ⚔️ ビーフ      2  0.7
+        A$AP Rocky                                                                             ASAP Rocky &quot;Peso&quot;      268  🎪 ライブ      1  0.4
+        A$AP Rocky                                                                             ASAP Rocky &quot;Peso&quot;      268  🕯️ 追悼      3  1.1
+        A$AP Rocky                                                           A$AP ROCKY X TYLER THE CREATOR - POTATO SALAD      360 ⚔️ ビーフ     10  2.8
+        A$AP Rocky                                                           A$AP ROCKY X TYLER THE CREATOR - POTATO SALAD      360   🔥 炎上      1  0.3
+        A$AP Rocky                       ASAP Mob - &quot;Bath Salt&quot; (feat. Flatbush ZOMBiES) (prod. P On The Boards)      365 ⚔️ ビーフ      3  0.8
+        A$AP Rocky                       ASAP Mob - &quot;Bath Salt&quot; (feat. Flatbush ZOMBiES) (prod. P On The Boards)      365  🕯️ 追悼      3  0.8
+        A$AP Rocky                                                  PLAYBOI CARTI X UNOTHEACTIVIST - WHAT (OFFICIAL VIDEO)      302 ⚔️ ビーフ      2  0.7
+        A$AP Rocky                                                  PLAYBOI CARTI X UNOTHEACTIVIST - WHAT (OFFICIAL VIDEO)      302  🎪 ライブ      4  1.3
+        Mac Miller                                                                                  Mac Miller - Self Care      291  🎪 ライブ      2  0.7
+        Mac Miller                                                                                  Mac Miller - Self Care      291  🕯️ 追悼     25  8.6
+        Mac Miller                                                                               Mac Miller - Donald Trump      376  🕯️ 追悼     30  8.0
+        Mac Miller                                                                               Mac Miller - Donald Trump      376   🔥 炎上      4  1.1
+        Mac Miller                                                                                  Mac Miller - Good News      344 ⚔️ ビーフ      2  0.6
+        Mac Miller                                                                                  Mac Miller - Good News      344  🕯️ 追悼     35 10.2
+        Mac Miller                                                     Mac Miller - My Favorite Part (feat. Ariana Grande)      258  🎪 ライブ      1  0.4
+        Mac Miller                                                     Mac Miller - My Favorite Part (feat. Ariana Grande)      258  🕯️ 追悼     25  9.7
+        Mac Miller                                                     Mac Miller - My Favorite Part (feat. Ariana Grande)      258   🔥 炎上      1  0.4
+        Mac Miller                                                                                       Mac Miller - Stay      275  🎪 ライブ      1  0.4
+        Mac Miller                                                                                       Mac Miller - Stay      275  🕯️ 追悼     16  5.8
+        Mac Miller                                                                                       Mac Miller - Stay      275   🔥 炎上      1  0.4
+
+## 次のステップ
+
+この自動生成レポートは出発点。前回(v3)の考察内容と統合し、最終レポートを作成すること。
+特に「信頼できる」アーティストの組み合わせが前回(Mac Miller/Kendrick/Cole/Travis)と
+一致するか、新たに追加された動画・コメント量によって他のアーティストにも
+信頼できる発見が生まれたかを確認すること。

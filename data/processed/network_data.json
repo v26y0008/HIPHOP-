@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "id": "A$AP Rocky",
+      "genre": "Alternative",
+      "comments": 509
+    },
+    {
+      "id": "Future",
+      "genre": "Trap",
+      "comments": 524
+    },
+    {
+      "id": "J. Cole",
+      "genre": "Boom bap",
+      "comments": 380
+    },
+    {
+      "id": "JPEGMAFIA",
+      "genre": "Alternative",
+      "comments": 369
+    },
+    {
+      "id": "Joey Bada$$",
+      "genre": "Boom bap",
+      "comments": 515
+    },
+    {
+      "id": "Kendrick Lamar",
+      "genre": "Boom bap",
+      "comments": 581
+    },
+    {
+      "id": "Mac Miller",
+      "genre": "Alternative",
+      "comments": 561
+    },
+    {
+      "id": "Nas",
+      "genre": "Boom bap",
+      "comments": 500
+    },
+    {
+      "id": "Playboi Carti",
+      "genre": "Trap",
+      "comments": 546
+    },
+    {
+      "id": "Travis Scott",
+      "genre": "Trap",
+      "comments": 567
+    },
+    {
+      "id": "Tyler, The Creator",
+      "genre": "Alternative",
+      "comments": 382
+    },
+    {
+      "id": "Young Thug",
+      "genre": "Trap",
+      "comments": 546
+    }
+  ],
+  "edges": [
+    {
+      "source": "A$AP Rocky",
+      "target": "Future",
+      "weight": 

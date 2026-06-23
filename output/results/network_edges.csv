@@ -1,0 +1,29 @@
+src,dst,similarity
+Kendrick Lamar,J. Cole,0.9995
+Kendrick Lamar,Future,0.9978
+Kendrick Lamar,Playboi Carti,0.9997
+Kendrick Lamar,Young Thug,0.9798
+Kendrick Lamar,"Tyler, The Creator",0.976
+Kendrick Lamar,A$AP Rocky,0.9928
+Kendrick Lamar,Mac Miller,0.9943
+J. Cole,Future,0.9987
+J. Cole,Playboi Carti,0.9997
+J. Cole,Young Thug,0.9751
+J. Cole,"Tyler, The Creator",0.9709
+J. Cole,A$AP Rocky,0.9897
+J. Cole,Mac Miller,0.9971
+Future,Playboi Carti,0.9991
+Future,Young Thug,0.9643
+Future,"Tyler, The Creator",0.9594
+Future,A$AP Rocky,0.9826
+Future,Mac Miller,0.9965
+Playboi Carti,Young Thug,0.9749
+Playboi Carti,"Tyler, The Creator",0.9707
+Playboi Carti,A$AP Rocky,0.9897
+Playboi Carti,Mac Miller,0.9956
+Young Thug,"Tyler, The Creator",0.9998
+Young Thug,A$AP Rocky,0.9967
+Young Thug,Mac Miller,0.961
+"Tyler, The Creator",A$AP Rocky,0.9951
+"Tyler, The Creator",Mac Miller,0.9561
+A$AP Rocky,Mac Miller,0.9792

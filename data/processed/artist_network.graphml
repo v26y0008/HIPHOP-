@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="weight" attr.type="float" />
+  <key id="d1" for="node" attr.name="comments" attr.type="long" />
+  <key id="d0" for="node" attr.name="genre" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="A$AP Rocky">
+      <data key="d0">Alternative</data>
+      <data key="d1">509</data>
+    </node>
+    <node id="Future">
+      <data key="d0">Trap</data>
+      <data key="d1">524</data>
+    </node>
+    <node id="J. Cole">
+      <data key="d0">Boom bap</data>
+      <data key="d1">380</data>
+    </node>
+    <node id="JPEGMAFIA">
+      <data key="d0">Alternative</data>
+      <data key="d1">369</data>
+    </node>
+    <node id="Joey Bada$$">
+      <data key="d0">Boom bap</data>
+      <data key="d1">515</data>
+    </node>
+    <node id="Kendrick Lamar">
+      <data key="d0">Boom bap</data>
+      <data key="d1">581</data>
+    </node>
+    <node id="Mac Miller">
+      <data key="d0">Alternative</data>
+      <data key="d1">561</data>
+    </node>
+    <node id="Nas">
+      <data key="d0">Boom bap</data>
+      <data key="d1">500</data>
+    </node>
+    <node id="Playboi Carti">
+      <data key="d0">Trap</data>
+      <data key="d1">546</data>
+    </node>
+    <node id="Travis Scott">
+      <data key="d0">Trap</data>
+      <data key="d1">567</data>
+    </node>
+    <node id="Tyler, The Creator">
+      <data key="d0">Alternative</data>
+      <data key="d1">382</data>
+    </node>
+    <node id="Young Thug">
+      <data key="d0">Trap</data>
+      <data key="d1">546</data>
+    </node>
+    <edge source="A$AP Rocky" target="Future">
+      <data key="d2">0.9018808</data>
+    </edge>
+    <edge source="A$AP Rocky" target="J. Cole">
+      <data key="d2">0.8863503</data>
+    </edge>
+    <edge source="A$AP Rocky" target="JPEGMAFIA">
+      <data key="d2">0.8331455</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Joey Bada$$">
+      <data key="d2">0.9127285</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Kendrick Lamar">
+      <data key="d2">0.87095886</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Mac Miller">
+      <data key="d2">0.8006786</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Nas">
+      <data key="d2">0.89897984</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Playboi Carti">
+      <data key="d2">0.8561959</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Travis Scott">
+      <data key="d2">0.8288212</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Tyler, The Creator">
+      <data key="d2">0.81151116</data>
+    </edge>
+    <edge source="A$AP Rocky" target="Young Thug">
+      <data key="d2">0.9079335</data>
+    </edge>
+    <edge source="Future" target="J. Cole">
+      <data key="d2">0.8951926</data>
+    </edge>
+    <edge source="Future" target="JPEGMAFIA">
+      <data key="d2">0.8233769</data>
+    </edge>
+    <edge source="Future" target="Joey Bada$$">
+      <data key="d2">0.9498446</data>
+    </edge>
+    <edge source="Future" target="Kendrick Lamar">
+      <data key="d2">0.9016009</data>
+    </edge>
+    <edge source="Future" target="Mac Miller">
+      <data key="d2">0.83728284</data>
+    </edge>
+    <edge source="Future" target="Nas">
+      <data key="d2">0.9061061</data>
+    </edge>
+    <edge source="Future" target="Playboi Carti">
+      <data key="d2">0.8511101</data>
+    </edge>
+    <edge source="Future" target="Travis Scott">
+      <data key="d2">0.8138099</data>
+    </edge>
+    <edge source="Future" target="Tyler, The Creator">
+      <data key="d2">0.84058785</data>
+    </edge>
+    <edge source="Future" target="Young Thug">
+      <data key="d2">0.93428004</data>
+    </edge>
+    <edge source="J. Cole" target="JPEGMAFIA">
+      <data key="d2">0.8477888</data>
+    </edge>
+    <edge source="J. Cole" target="Joey Bada$$">
+      <data key="d2">0.90407175</data>
+    </edge>
+    <edge source="J. Cole" target="Kendrick Lamar">
+      <data key="d2">0.8730914</data>
+    </edge>
+    <edge source="J. Cole" target="Mac Miller">
+      <data key="d2">0.8062612</data>
+    </edge>
+    <edge source="J. Cole" target="Nas">
+      <data key="d2">0.8736112</data>
+    </edge>
+    <edge source="J. Cole" target="Playboi Carti">
+      <data key="d2">0.8307719</data>
+    </edge>
+    <edge source="J. Cole" target="Travis Scott">
+      <data key="d2">0.80747896</data>
+    </edge>
+    <edge source="J. Cole" target="Tyler, The Creator">
+      <data key="d2">0.83282125</data>
+    </edge>
+    <edge source="J. Cole" target="Young Thug">
+      <data key="d2">0.9044976</data>
+    </edge>
+    <edge source="JPEGMAFIA" target="Joey Bada$$">
+      <data key="d2">0.8714207</data>
+    </edge>
+    <edge source="JPEGMAFIA" target="Kendrick Lamar">
+      <data key="d2">0.8363286</data>
+    </edge>
+    <edge source="JPEGMAFIA" target="Nas">
+      <data key="d2">0.8415233</data>
+    </edge>
+    <edge source="JPEGMAFIA" target="Playboi Carti">
+      <data key="d2">0.82575816</data>
+    </edge>
+    <edge source="JPEGMAFIA" target="Tyler, The Creator">
+      <data key="d2">0.8059002</data>
+    </edge>
+    <edge source="JPEGMAFIA" target="Young Thug">
+      <data key="d2">0.84351224</data>
+    </edge>
+    <edge source="Joey Bada$$" target="Kendrick Lamar">
+      <data key="d2">0.9050168</data>
+    </edge>
+    <edge source="Joey Bada$$" target="Mac Miller">
+      <data key="d2">0.8427548</data>
+    </edge>
+    <edge source="Joey Bada$$" target="Nas">
+      <data key="d2">0.92389524</data>
+    </edge>
+    <edge source="Joey Bada$$" target="Playboi Carti">
+      <data key="d2">0.84772354</data>
+    </edge>
+    <edge source="Joey Bada$$" target="Travis Scott">
+      <data key="d2">0.8472614</data>
+    </edge>
+    <edge source="Joey Bada$$" target="Tyler, The Creator">
+      <data key="d2">0.8338998</data>
+    </edge>
+    <edge source="Joey Bada$$" target="Young Thug">
+      <data key="d2">0.9405029</data>
+    </edge>
+    <edge source="Kendrick Lamar" target="Mac Miller">
+      <data key="d2">0.8046519</data>
+    </edge>
+    <edge source="Kendrick Lamar" target="Nas">
+      <data key="d2">0.86322534</data>
+    </edge>
+    <edge source="Kendrick Lamar" target="Playboi Carti">
+      <data key="d2">0.81300956</data>
+    </edge>
+    <edge source="Kendrick Lamar" target="Travis Scott">
+      <data key="d2">0.9233238</data>
+    </edge>
+    <edge source="Kendrick Lamar" target="Tyler, The Creator">
+      <data key="d2">0.8166528</data>
+    </edge>
+    <edge source="Kendrick Lamar" target="Young Thug">
+      <data key="d2">0.8972542</data>
+    </edge>
+    <edge source="Mac Miller" target="Young Thug">
+      <data key="d2">0.8550794</data>
+    </edge>
+    <edge source="Nas" target="Playboi Carti">
+      <data key="d2">0.8535206</data>
+    </edge>
+    <edge source="Nas" target="Travis Scott">
+      <data key="d2">0.8105116</data>
+    </edge>
+    <edge source="Nas" target="Tyler, The Creator">
+      <data key="d2">0.82323146</data>
+    </edge>
+    <edge source="Nas" target="Young Thug">
+      <data key="d2">0.90942216</data>
+    </edge>
+    <edge source="Playboi Carti" target="Tyler, The Creator">
+      <data key="d2">0.89910805</data>
+    </edge>
+    <edge source="Playboi Carti" target="Young Thug">
+      <data key="d2">0.83876157</data>
+    </edge>
+    <edge source="Travis Scott" target="Young Thug">
+      <data key="d2">0.8339304</data>
+    </edge>
+    <edge source="Tyler, The Creator" target="Young Thug">
+      <data key="d2">0.8313694</data>
+    </edge>
+  </graph>
+</graphml>
