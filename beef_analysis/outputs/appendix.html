@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>付録資料 — ビーフ分析ポスター補足</title>
+<style>
+  body {
+    font-family: "Segoe UI", "Meiryo", "Yu Gothic", system-ui, sans-serif;
+    color: #0b0b0b;
+    background: #fcfcfb;
+    margin: 0;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 28px; border-bottom: 4px solid #0072B2; padding-bottom: 10px; }
+  h2 { font-size: 20px; color: #0072B2; margin-top: 32px; border-bottom: 2px solid #e1e0d9; padding-bottom: 6px; }
+  p, li { font-size: 15px; line-height: 1.6; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+  th, td { border: 1px solid #e1e0d9; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f9f9f7; }
+  .note { font-size: 13px; color: #52514e; }
+  code { background: #f2f2ef; padding: 1px 4px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>付録資料: ビーフ分析ポスター補足</h1>
+<p class="note">本資料はA0ポスター本体（<code>poster_draft.html</code>）に載せきれない詳細を
+発表当日の質疑応答用に用意したもの。</p>
+
+<h2>付録A: 勝敗判定の根拠</h2>
+<p>
+本研究における「勝者/敗者」ラベルは筆者の主観的判断ではなく、Billboard, Rolling Stone,
+Pitchfork, Complex, Vulture, Newsweek等の主要音楽メディアによる事後評価のコンセンサス、
+および客観的に確認できる事実（契約解消の和解金、Grammy受賞、初動再生記録等）に基づく。
+評価が分かれているケース（B6）は「disputed」として明示し、感度分析で除外したケースも
+別途提示している（B6除外・B5除外の両方でも同方向・高い有意性を維持）。
+</p>
+<table>
+  <tr><th>ビーフ</th><th>勝者</th><th>敗者</th><th>判定区分</th><th>根拠</th></tr>
+  <tr>
+    <td>B1: Kendrick vs Drake</td><td>Kendrick Lamar</td><td>Drake</td><td>clear</td>
+    <td>Rolling Stone(2024-05-08)ほかPitchfork/The Ringer/Variety/Vulture/GQ/The New Yorkerの
+    事後評価で一致してKendrick優勢。YouGov調査(n=981)でKendrick 33% vs Drake 21%。
+    Not Like UsがGrammy Awards 2025 Record of the Year受賞</td>
+  </tr>
+  <tr>
+    <td>B2: Pusha T vs Drake</td><td>Pusha T</td><td>Drake</td><td>clear</td>
+    <td>Drake本人が2019年のインタビューでThe Story of Adidonでの敗北を事実上認める発言。
+    Pitchfork Best New Track選出。Noisey Song of the Year選出。Complex誌2018年ランキング5位</td>
+  </tr>
+  <tr>
+    <td>B4: Eminem vs MGK</td><td>Eminem</td><td>MGK</td><td>clear</td>
+    <td>Vulture等の評でKillshotが決定打と評価。Killshotは公開24時間で3,810万回再生という
+    当時の記録を樹立。MGKはその後ポップパンク路線へ転向</td>
+  </tr>
+  <tr>
+    <td>B5: Wayne vs Birdman</td><td>Lil Wayne</td><td>Birdman</td><td>legal（非ラップバトル型）</td>
+    <td>2018年にWayneが1,000万ドル超の和解金と引き換えにCash Money Recordsとの契約から解放。
+    ラップバトルでの決着ではなく法的・契約上の決着のため他4件とは性質が異なる
+    （outcome_type=legal）</td>
+  </tr>
+  <tr>
+    <td>B6: Megan vs Nicki</td><td>Megan Thee Stallion</td><td>Nicki Minaj</td><td>disputed</td>
+    <td>Newsweek(2024-01-31)等はMegan優勢と報じるが、ファン内での評価は分かれており
+    本研究では明示的にdisputedとして扱う</td>
+  </tr>
+</table>
+
+<h2>付録B: 感情分析（VADER）— 対立語彙分析の補強</h2>
+<p>
+対立語彙率（特定語の有無）だけでなく、VADER（ルールベースの英語感情分析器）で
+Positive/Neutral/Negativeの分布を追加検証した。
+</p>
+<table>
+  <tr><th>beef_id</th><th>chi2</th><th>p値</th><th>Cramér's V</th><th>n</th></tr>
+  <tr><td>B1: Kendrick vs Drake</td><td>43.91</td><td>6.7×10⁻⁹</td><td>0.074</td><td>3,973</td></tr>
+  <tr><td>B2: Pusha T vs Drake</td><td>48.85</td><td>6.3×10⁻¹⁰</td><td>0.073</td><td>4,595</td></tr>
+  <tr><td>B4: Eminem vs MGK</td><td>225.43</td><td>1.3×10⁻⁴⁷</td><td>0.145</td><td>5,359</td></tr>
+  <tr><td>B5: Wayne vs Birdman</td><td>42.98</td><td>1.0×10⁻⁸</td><td>0.087</td><td>2,815</td></tr>
+  <tr><td>B6: Megan vs Nicki</td><td>7.59</td><td>0.108（非有意）</td><td>0.028</td><td>4,929</td></tr>
+</table>
+<p class="note">
+track_category(catalog/beef/post)×感情のカイ二乗検定。5件中4件で有意。
+B4のbeef曲negative比率は40.1%(catalog曲22.3%の約1.8倍)と最も顕著。
+</p>
+<p>
+<b>勝者側 vs 敗者側（beef曲のみ、n=6,903）</b>: negative比率は敗者側32.6% vs
+勝者側28.1%（chi2=30.55, p=2.3×10⁻⁷, Cramér's V=0.067）。対立語彙率分析で
+確認された「敗者側の方が荒れる」という発見が、感情スコアという独立した手法でも
+同方向に再現された。
+</p>
+<p class="note">
+限界: VADERは皮肉・反語的称賛（"that's sick"等）を誤判定しうるルールベース手法。
+RoBERTa等の文脈考慮型モデルによる検証は未実施（今後の課題）。
+</p>
+
+<h2>付録C: ネットワーク指標（density / modularity / avg degree）</h2>
+<table>
+  <tr><th>指標</th><th>Catalog曲</th><th>Beef曲</th></tr>
+  <tr><td>ノード数</td><td>16</td><td>17</td></tr>
+  <tr><td>エッジ数</td><td>4</td><td>15</td></tr>
+  <tr><td>Density</td><td>0.033</td><td>0.110（3.3倍）</td></tr>
+  <tr><td>Avg Degree</td><td>0.50</td><td>1.76（3.5倍）</td></tr>
+  <tr><td>Modularity</td><td>0.154</td><td>0.516</td></tr>
+  <tr><td>コミュニティ数（Louvain法）</td><td>13</td><td>9</td></tr>
+</table>
+<p class="note">
+モジュラリティはnetworkx組み込みの<code>community.louvain_communities</code>で算出。
+ビーフ曲ネットワークはdensity・平均次数がカタログ曲の3倍以上、モジュラリティも3.4倍高く、
+少数の陣営（各ビーフの当事者ペア中心）に明確に分かれて言及される構造を定量的に確認。
+</p>
+
+<h2>付録D: LLMスタンス分類（結果）</h2>
+<p>
+本環境にANTHROPIC_API_KEYが設定されていないため、<code>outputs/llm_stance_prompt.md</code>
+を別のClaude会話に投げて分類し、返ってきた結果を<code>merge_llm_stance_result.py</code>で
+統合した（5ビーフ×250件=1,250件、欠損0件）。各ビーフのartist_a/artist_bはいずれも
+artist_a側が批評的コンセンサスでの勝者: B1=Kendrick Lamar(a)/Drake(b),
+B2=Pusha T(a)/Drake(b), B4=Eminem(a)/MGK(b), B5=Lil Wayne(a)/Birdman(b),
+B6=Megan Thee Stallion(a)/Nicki Minaj(b)。
+</p>
+<table>
+  <tr><th>ビーフ</th><th>勝者支持(a)</th><th>敗者支持(b)</th><th>中立</th><th>勝者:敗者比</th></tr>
+  <tr><td>B1: Kendrick(勝) vs Drake</td><td>63 (25.2%)</td><td>16 (6.4%)</td><td>171 (68.4%)</td><td><b>3.94 : 1</b></td></tr>
+  <tr><td>B2: Pusha T(勝) vs Drake</td><td>49 (19.6%)</td><td>72 (28.8%)</td><td>129 (51.6%)</td><td><b>0.68 : 1</b>（逆転）</td></tr>
+  <tr><td>B4: Eminem(勝) vs MGK</td><td>84 (33.6%)</td><td>35 (14.0%)</td><td>131 (52.4%)</td><td><b>2.40 : 1</b></td></tr>
+  <tr><td>B5: Wayne(勝) vs Birdman</td><td>46 (18.4%)</td><td>2 (0.8%)</td><td>202 (80.8%)</td><td><b>23.0 : 1</b></td></tr>
+  <tr><td>B6: Megan(勝) vs Nicki</td><td>88 (35.2%)</td><td>29 (11.6%)</td><td>133 (53.2%)</td><td><b>3.03 : 1</b></td></tr>
+</table>
+<p>
+<b>全体傾向</b>: 明確にどちらかを支持しているコメント(neutral以外, n=484)のうち、
+勝者支持330件・敗者支持154件で<b>勝者支持が敗者支持の2.1倍</b>。5ビーフ中4件
+（B1・B4・B5・B6）で勝者支持が敗者支持を上回り、特にB5（Wayne vs Birdman）は
+23:1と圧倒的。<b>唯一B2（Pusha T vs Drake）だけが逆転</b>し、批評的コンセンサスでは
+Pusha Tが勝者とされるにもかかわらず、コメントの明示的支持はDrake側（敗者側）が
+上回る（72件 vs 49件）。これはDrakeの母数として圧倒的なファンベースが、
+「誰が批評的に勝ったか」とは独立にコメント欄の支持表明数を左右することを
+示唆する——「批評的な勝敗」と「ファンダムの支持表明の多さ」は別軸である。
+</p>
+<p>
+<b>対立語彙との関係</b>: has_conflict(対立語彙の有無) x stance_toward(勝者支持/敗者支持/中立)
+のカイ二乗検定は有意（chi2=43.15, p=4.3×10⁻¹⁰）。対立語彙を含むコメントは
+明確にどちらかを支持する割合が高い（60.6%が非中立 vs 対立語彙なしコメントでは35.2%）。
+さらに対立語彙ありコメントに限ると敗者支持の割合（22.3%）が対立語彙なしコメント
+（10.7%）より高く、<b>「対立語彙の使用」は敗者側への言及（叩き・擁護）と
+より強く結びつく</b>傾向があり、win_loss_analysis.pyの中心的発見（敗者側の
+対立語彙率が高い）と整合する一部分を確認できた。ただし全体の支持表明数では
+勝者支持が優勢なため、「対立語彙＝敗者支持」という単純な図式ではなく、
+「対立語彙は明確な立場表明（勝者支持・敗者支持のどちらも）を伴いやすく、
+その中でもやや敗者側寄りに偏る」という、より precise な解釈が妥当。
+</p>
+<p class="note">
+サンプルベース(各ビーフ最大250件)のため、全92,282件への一般化はできない。
+LLM(Claude)による分類自体の妥当性検証（人手アノテーションとの一致率確認等）も
+未実施であり、あくまで対立語彙分析の補強的な予備的検証として位置づける。
+</p>
+
+<h2>付録E: 時系列傾向・Wilcoxon符号順位検定</h2>
+<p>
+v1設計のPRE/PEAK/POST（同一動画内の時期区分）はv2設計では直接使えないため、
+catalog曲を疑似PRE・beef曲を疑似PEAKとみなし、5ビーフを対応ありのペアとした
+Wilcoxon符号順位検定を実施した。
+</p>
+<table>
+  <tr><th>beef_id</th><th>catalog対立語彙率</th><th>beef対立語彙率</th><th>差分</th></tr>
+  <tr><td>B1: Kendrick vs Drake</td><td>3.1%</td><td>7.9%</td><td>+4.7pp</td></tr>
+  <tr><td>B2: Pusha T vs Drake</td><td>2.5%</td><td>27.8%</td><td>+25.3pp</td></tr>
+  <tr><td>B4: Eminem vs MGK</td><td>3.0%</td><td>20.4%</td><td>+17.5pp</td></tr>
+  <tr><td>B5: Wayne vs Birdman</td><td>1.8%</td><td>3.8%</td><td>+2.1pp</td></tr>
+  <tr><td>B6: Megan vs Nicki</td><td>1.6%</td><td>10.9%</td><td>+9.3pp</td></tr>
+</table>
+<p class="note">
+Wilcoxon符号順位検定: stat=0, p=0.0625（5ビーフ全て同方向。n=5の対応ありWilcoxon検定で
+理論上到達可能な最小p値）。n=5のため厳密なDiDは見送り、記述統計＋ノンパラメトリック検定に
+留めた。
+</p>
+
+<h2>今後の課題（未実装項目）</h2>
+<p>
+本研究はTF-IDF/LSA・HDBSCANによるトピック構造分析を主軸としたが、
+BERTopic等の文脈考慮型モデルによる検証、感情分析の全件・高精度モデル（RoBERTa）への
+拡張、LLMによるスタンス分類の大規模展開は今後の課題とする。
+また、n=5という少数事例数の制約から、Difference-in-Differences等の
+因果推論的アプローチは見送り、記述統計に留めた。
+今後、選挙・スポーツ・VTuber炎上等、対象を一般化した「オンライン対立イベントが
+コミュニティに与える影響」という枠組みへの拡張も視野に入れている。
+</p>
+
+</body>
+</html>

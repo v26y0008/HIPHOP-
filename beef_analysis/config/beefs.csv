@@ -1,0 +1,6 @@
+beef_id,beef_role,start_date,decisive_date,folder_name,description
+beef1,main,2024-03-22,2024-05-04,beef1_kendrick_drake,Kendrick Lamar vs Drake (2024)
+beef2,main,2018-05-25,2018-05-29,beef2_pusha_drake,Pusha T vs Drake (2018)
+beef3,main,2015-01-20,2015-07-04,beef3_wayne_birdman,Lil Wayne vs Birdman (2015)
+beef4,supplement,NA,NA,beef4_jayz_nas,Jay-Z vs Nas (2001) -- 補助分析・PRE/PEAK/POST適用外
+beef5,supplement,NA,NA,beef5_2pac_biggie,2Pac vs Biggie (1995-1997) -- 補助分析・PRE/PEAK/POST適用外

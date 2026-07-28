@@ -1,0 +1,62 @@
+genre,artist_name,track_category,n,lyric_rate,vibe_rate
+alternative,A$AP Rocky,catalog,2278,3.86,6.85
+alternative,A$AP Rocky,post,1218,1.89,7.31
+alternative,Childish Gambino,catalog,3077,3.15,4.68
+alternative,Childish Gambino,post,1777,5.01,9.85
+alternative,Denzel Curry,catalog,3130,7.8,8.59
+alternative,Denzel Curry,post,1937,3.92,12.85
+alternative,JPEGMAFIA,catalog,3491,7.22,10.57
+alternative,JPEGMAFIA,post,1545,3.5,11.33
+alternative,Mac Miller,catalog,2679,2.31,5.41
+alternative,Mac Miller,post,933,2.57,6.43
+alternative,Saba,catalog,2586,6.26,12.8
+alternative,Saba,post,122,0.82,11.48
+alternative,"Tyler, The Creator",catalog,2944,1.9,6.73
+alternative,"Tyler, The Creator",post,1748,3.03,8.07
+beef_context,Drake,beef,1208,8.86,7.86
+beef_context,Drake,catalog,1480,1.08,1.62
+beef_context,Drake,post,1426,1.75,5.05
+beef_context,Eminem,beef,1010,3.86,4.06
+beef_context,Eminem,catalog,839,3.58,2.38
+beef_context,Eminem,post,919,8.81,3.48
+beef_context,Kendrick Lamar,beef,904,2.99,6.64
+beef_context,Kendrick Lamar,catalog,801,2.5,4.24
+beef_context,Kendrick Lamar,post,780,3.59,8.08
+beef_context,Lil Wayne,beef,834,2.28,3.72
+beef_context,Lil Wayne,catalog,717,3.49,6.56
+beef_context,Lil Wayne,post,681,4.55,8.66
+beef_context,MGK,beef,1053,3.42,6.46
+beef_context,MGK,catalog,718,2.23,5.57
+beef_context,MGK,post,820,1.46,4.02
+beef_context,Megan Thee Stallion,beef,919,4.13,4.46
+beef_context,Megan Thee Stallion,catalog,756,2.65,5.29
+beef_context,Megan Thee Stallion,post,947,1.37,5.91
+beef_context,Nicki Minaj,beef,975,4.62,4.92
+beef_context,Nicki Minaj,catalog,703,2.28,4.41
+beef_context,Nicki Minaj,post,629,5.41,5.09
+beef_context,Pusha T,catalog,1028,8.46,27.82
+beef_context,Pusha T,post,941,7.86,10.95
+boom_bap,Freddie Gibbs,catalog,3308,7.53,12.58
+boom_bap,Freddie Gibbs,post,547,5.12,13.53
+boom_bap,J. Cole,catalog,2859,4.72,4.76
+boom_bap,J. Cole,post,1782,4.04,6.12
+boom_bap,Joey Bada$$,catalog,3225,7.47,12.87
+boom_bap,Joey Bada$$,post,1748,8.7,13.73
+boom_bap,Nas,catalog,3016,8.52,9.81
+boom_bap,Nas,post,1297,9.79,11.72
+boom_bap,Rapsody,catalog,541,9.98,7.95
+boom_bap,Rapsody,post,69,7.25,11.59
+trap,21 Savage,catalog,1972,2.48,6.85
+trap,21 Savage,post,1497,3.47,11.29
+trap,Future,catalog,1354,2.81,5.32
+trap,Future,post,120,2.5,10.0
+trap,Gunna,catalog,2402,2.46,5.37
+trap,Gunna,post,1607,3.8,9.71
+trap,Lil Baby,catalog,2332,3.6,4.89
+trap,Lil Baby,post,846,4.61,9.22
+trap,Playboi Carti,catalog,2604,2.19,10.29
+trap,Playboi Carti,post,1600,1.25,16.62
+trap,Travis Scott,catalog,2244,2.27,7.22
+trap,Travis Scott,post,1561,3.91,11.79
+trap,Young Thug,catalog,2225,3.01,4.72
+trap,Young Thug,post,1345,5.5,7.29

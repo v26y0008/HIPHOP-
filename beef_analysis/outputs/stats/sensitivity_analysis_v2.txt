@@ -1,0 +1,36 @@
+=== CONFLICT_VOCAB 各語の実出現数 ===
+
+  diss            466件
+  won             298件
+  beef            164件
+  lost            143件
+  bars            110件
+  battle          103件
+  shot             98件
+  ate              71件
+  dissed           58件
+  destroyed        52件
+  ended            51件
+  cooked           35件
+  bodied           28件
+  response         28件
+  exposed          21件
+  respond          18件
+  fired            16件
+  winner           13件
+  buried           12件
+  loser            11件
+  clapped           3件
+  murked            3件
+
+死に語（5件未満）: ['clapped', 'murked']
+有効語: 20/22語
+
+=== 死に語除外の前後でカイ二乗検定の結論が変わるか ===
+B1: Kendrick vs Drake: 全語 p=1.285e-06 | 有効語のみ p=1.285e-06 -> 結論は変化しない
+B2: Pusha T vs Drake: 全語 p=3.425e-137 | 有効語のみ p=6.366e-136 -> 結論は変化しない
+B4: Eminem vs MGK: 全語 p=2.332e-82 | 有効語のみ p=1.72e-82 -> 結論は変化しない
+B5: Wayne vs Birdman: 全語 p=0.01372 | 有効語のみ p=0.02056 -> 結論は変化しない
+B6: Megan vs Nicki: 全語 p=7.153e-34 | 有効語のみ p=7.153e-34 -> 結論は変化しない
+
+全ビーフで死に語除外後も結論は変化しない。

@@ -1,0 +1,1276 @@
+# LLMスタンス分類タスク
+
+以下はHIPHOPビーフに関するYouTubeコメントです。各コメントについて、コメントがどちらのアーティストを支持しているか（stance）を分類してください。
+
+- `a`: 1人目のアーティスト（artist_a）を支持
+- `b`: 2人目のアーティスト（artist_b）を支持
+- `neutral`: どちらでもない、中立、無関係
+
+
+**出力形式**: 他の説明文は一切含めず、`sample_id,stance` の形式のCSVのみを出力してください（ヘッダー行`sample_id,stance`を含む）。全件分を1つのコードブロックにまとめて出力してください。
+
+
+## b1: Kendrick Lamar vs Drake （artist_a=Kendrick Lamar, artist_b=Drake, 250件）
+
+- [1] any watching with me this week😢😢
+- [2] so far all of america new zealand and the uk have listened to this if you're counting everyone in these countries 😅
+- [3] i am listening this tomorrow on 4th of july!
+- [4] keepin it real born in 84....sounds dope but...em
+- [5] imagine if you bet on this
+- [6] drake is cocked no comeback by drake😂😂😂😂😂😂
+- [7] sexy yeah yeah baby let's jam a remix and ❤
+- [8] colonising for canada. i do it too for saudi arabia. we want whats best for our nations.😢
+- [9] sometimes you gotta pop out and show " iggas 🎉🎉🎉❤❤❤❤
+- [10] imagine being drake. walking around everyone singing this song in his face😂
+- [11] in my country your music is steel country music
+- [12] lol who just saw drake make a post basically crying listing all these reasons for being single lmao
+- [13] awe man, the password rly is 'i see dead people' im ded! um yeah, the fire has been lit and they are warmer and more loved than we could ever know!
+- [14] kendrick lamar is the goat anyone in 2026?
+- [15] day 1 of listening to not like us until kendrick lamar reply to my comment
+- [16] i know what they putting in the containers over sea watch this 🤣🦑
+- [17] ffs 😂😂 this has gotta be the best smack down ever!
+- [18] i feel bad for saying this, just cuz i am a very white suburban girl who has not lived the world, but i like to believe i have a deep connection with spirit (as all of us humans do and no one can ever take that away from us) and just with that thought that we can make spirits do our bidding?! like truly, we have so much love to give and so much safety to give out too! i like to imagine you are a witch, i hope that you pray over your music for whomever is listening/listened is safe! i h8 that the earth around us doesnt rly prove that huh. too much hatred going around and as spiritual beings it doesnt make sense! but i believe that i can interact with spirits through everything! like this music video starting "i see dead people" i correlate that with me so much! i cant see ghosts unfortunately, at most i just see lights which i rly luv but its not the same! hmph! but i believe that every spirit loves eachother and protects eachother! (not proven but we are moving that way!) 4:47 while i was typing that out btw! like u r fr helping me do magick! i interact with the world and other humans to get things done! especially someone like you who has a lot to say and is willing to say it! sigh! i luv to say it, but i believe that we as humans have the spiritual ability to play as gods! i learned that from a well endowed psychic lady!!!!!! fk pedophiles, abusers, racists, and just bad mfs! to peace and love! haha my sis just sent me a message, jumped! yes! we r constantly jumping timelines and i dont understand why we keep in the ones were it feels like we have no powers?! like hell no! im not there and i just have a sweet and weird magical perspective that i believe! we have the earth on our side! just talk to her more! thats what i do and then idk she just lets me have whatever i want bc the main energy on our earth is love and i believe that! sending my blessings and wishes for new music lol
+- [19] when sharing your true talented voice in the verses you quote,n a rap song. why? must we disrespect ourself..one man,conversing a football field full of fans,and you bought dirty dishes to feed them .
+- [20] who here botting in july?
+- [21] happy 2 year anniversary! 🎶they not like us! they not like us! they not like us!🎶 🇺🇸
+- [22] what is the password?
+- [23] aubrei is a great city and a good place for people to live in the countryside to visit and visit the ❤❤❤❤❤ city and the people who are in it are the best and the best in ❤😂😂🎉😮🎉😅😮😊 thank for the opportunity and the support and support taylor for the project and i will be
+- [24] ts was so butt he had to drop it 2 years in a row 😂😂😂
+- [25] this is legendary shit 👌🏾🔥
+- [26] this is so crude!
+- [27] this is not just a diss, it is an attempted murder😭😭😭
+- [28] such great lyrics laid over the top of an insufferable, relentless piano synth production work.
+- [29] we already have the chemcial and the three printer here
+- [30] who's here in 2026?:)
+- [31] this song will live on as a cornerstone of music history. fucking love
+- [32] why cage still around huuuuh
+- [33] he also recently signed a deal with a canadian cargo company that got him a private plane.
+- [34] he's hitting an owl which is drake's logo
+- [35] we are all coming back here huh? edit: holy 100 likes??
+- [36] how can you recover from this 😢💀
+- [37] 2 years later and being from boyle heights. man this is just legendary. theyre really not like us. this is our everyday life man 😂 no banging but tams and the projects, this is our world of poverty and us trying to make it out. this will age like gold.
+- [38] why im seeing the likes go up in 2026?
+- [39] the rhythm is intense!
+- [40] 2 years and drake still crying😂
+- [41] damn bro 2 years since the beef
+- [42] he got some nice ladies in this video
+- [43] straight up mobster lyrical tommy gun. let's go fam...
+- [44] how comes views are more than likes
+- [45] kenny a industry plant for sure
+- [46] this ain’t it , dave fucked your girl dot & you raising his son . kilafornia don’t fw you like that dot. only bompton , raza ain’t with you . the homie drake on top 🦉 ovo
+- [47] the future generation won't understand
+- [48] anyone in june 2026?
+- [49] came here to say du bist gut genug ❤
+- [50] newest comment on not like us btw
+- [51] that's how real talent shows and comes through, no gimmicks needed just the truth!! 100% 🤏👏
+- [52] we still don’t know why he was looking for that broccoli 😔
+- [53] this is 🔥 🔥 💯
+- [54] it was 726 days go that drake got mudered. shit still slaps.
+- [55] who came to watch after watching kai's live : i am a good boy 😂stream meme
+- [56] remember people believed that the y2k bug would bring the world back to the stone ages. for a "last festival on earth", woodstock '99 was a wild one.
+- [57] 80 years old loving your music. you go young man.
+- [58] who is here in 2026
+- [59] aight im back here again
+- [60] sounds like a little muttering grease weasel
+- [61] he took “stop playing with me before i turn you to a song” too literally
+- [62] the 21 savage line makes no sense. 21 savage is not even an american citizen. he is a british national with a british passport and his entire family - mom, dad, siblings, cousins etc all have strong british accents. drake has 300+ years of ancestors in tn and is an american citizen by blood through his father. drake's family has several musicians from the south going back 100 years and he learned that talent through them. it's laughable to suggest that drake is colonizing atlanta and trying to use atlanta rappers like 21 savage, when 21 is not even a citizen of the usa. if anything kendrick looks stupid for suggesting this because it shows that 21 was able to fool kendrick into thinking he was just like him. meanwhile, ironically kendrick thinks drake is the foreigner trying to colonize atlanta, when drake actually has southern roots going back several generations and drake is 100% a legal american citizen, unlike 21.
+- [63] yeah i'm sorry but drake won 🦉🦉
+- [64] the reason why i'm watching this music video again is because poetik flakko not long ago posted a video about how kendrick lamar was making a mockery of drakeo in squabble up music video.... kendrick is deep. 😮
+- [65] every week i come here to pay tribute to drake 🌹
+- [66] in 5 days this will be 2 years old 💔
+- [67] 2 years? it felt like 5 months.
+- [68] spinning the block on the 69 god…. ain’t nobody listening to iceman.
+- [69] mustard on the beatttttttt
+- [70] “the minor shit was a fake rumor to make you look dumb…” doesn’t fkn matter he still murdered you with a lie 🤣😅
+- [71] it’s how he says hide your sister from em 😂😂😂
+- [72] yall call ts a diss track smh
+- [73] " psss i c dead ppl" "watssup with these shapony ass niggaz tryna see compton" 😂😂😂. " certified lover boy, certified pedifile, whaa, whaa, wha, wha..that'll f...dem up, wha wha wha wha wha imma do my stuff" 😂😂😂😂. oh my it never gets old. seems ill always love this masterpiece 😅. we love u kong fu kenny, the real boogie man 😅❤. 😊" the audience not dumb"
+- [74] real iceman caleb williams as the madden cover, came straight to this
+- [75] demar🤡 they hate me so much, it′s a sickenin' thing they must′ve heard wrong on the call i sent 'em a sack 'cause i wanted you shipped to the king when you was a part of the team we used to be plannin′ our mexico trip in the spring we must′ve been dealin' the spur of the moment ′cause why did we think you could get us a ring?
+- [76] damm no one beating this
+- [77] trynna strike da cord its a minor!
+- [78] aubrey still ain't right from this. i promise i ain't felt that bad for any emcee after getting annihilated since jay-z when nas got at him.
+- [79] is'nt it the best real modern king kendrick ever
+- [80] june 2026, who's still listening?!
+- [81] 0:06 is that tommytheclown whatatatatatatattatatatatatat
+- [82] i got an oakland show tonight babyyyyy
+- [83] they not like us not like us
+- [84] the irony is that the guys who killed kendrick's friend probably love this song
+- [85] jews are not like us. hey hey hey hey run for your life.
+- [86] greetings from germany. it is impossible to ignore how music and pop culture have changed over the years, reflecting the shifts in civil society—from love and peace to oppression and rebellion. we live through this every day, often forgetting that we are becoming part of history. yes, rap has always been about rebellion, but can’t we at least try not to kill each other every day?common,we dont need to become best friends,but in the other hand we dont need to hate each other.❤❤❤
+- [87] coincidentally, i came to watch the video because i was missing it, only to discover it's the anniversary... dammn this song has some powerful energy lol happy anniversary! 🎉💥
+- [88] 1:10 where did bro go?😭 (funniest answers only)
+- [89] “only white kids listen to you” factsssssssssss 😭😭 they really used bots to try and kill drake, just for him to outsell every album kendrick has made 😭😭😭😭😭😭😭😭😭😭😭
+- [90] i bet drake funs low-key checking how many views this has june 2026
+- [91] this is a smash 🔥🔥
+- [92] bro the beat is so familiar omg
+- [93] happy anniversary!! this video is a work of art
+- [94] im suck miss ouri with o moeny direo piso "tripe hhh" let me agin he going to active ihis seldge hiammer banki on john cena again
+- [95] rip my cat☠️💩😈 0:01 0:01
+- [96] forever listening 🏆🙏💫😊😊🔥🔥🔥🔥 neva go to celblock#1💢💢💢
+- [97] is this the original! i remember the clown
+- [98] psst, i see dead people (mustard on the beat, ho) ayy, mustard on the beat, ho deebo, any rap nigga, he a free throw man down, call an amberlamps, tell him, "breathe, bro" nail a nigga to the cross, he walk around like teezo what's up with these jabroni-ass niggas tryna see compton? the industry can hate me, fuck 'em all and they mama how many opps you really got? i mean, it's too many options i'm finna pass on this body, i'm john stockton beat your ass and hide the bible if god watchin' sometimes you gotta pop out and show niggas certified boogeyman, i'm the one that up the score with 'em walk him down, whole time i know he got some ho in him pole on him, extort shit, bully, death row on him say, drake, i hear you like 'em young you better not ever go to cell block one to any bitch that talk to him and they in love just make sure you hide your lil' sister from him they tell me chubbs the only one that get your hand-me-downs and party at the party, playin' with his nose now and baka got a weird case, why is he around? certified lover boy? certified pedophiles wop, wop, wop, wop, wop, dot, fuck 'em up wop, wop, wop, wop, wop, i'ma do my stuff why you trollin' like a bitch? ain't you tired? tryna strike a chord and it's probably a-minor they not like us, they not like us, they not like us they not like us, they not like us, they not like us you think the bay gon' let you disrespect pac, nigga? i think that oakland show gon' be your last stop, nigga did cole foul, i don't know why you still pretendin' what is the owl? bird niggas and bird bitches, go the audience not dumb shape the stories how you want hey, drake, they're not slow rabbit hole is still deep, i can go further, i promise ain't that somethin'? b-rad stands for bitch and you malibu most wanted ain't no law, boy, you ballboy, fetch gatorade or somethin' since 2009, i had this bitch jumpin' you niggas'll get a wedgie, be flipped over your boxers what ovo for? the "other vaginal option"? pussy nigga better straighten they posture, got famous all up in compton might write this for the doctrate, tell the pop star, "quit hidin'" fuck a caption, want action, no accident, and i'm hands-on he fuck around, get polished fucked on wayne girl while he was in jail, that's connivin' then get his face tatted like a bitch apologizin' i'm glad deroz' came home, y'all didn't deserve him neither from alondra down to central, nigga better not speak on serena and your homeboy need subpoena, that predator move in flocks that name gotta be registered and placed on neighborhood watch i lean on you niggas like another line of wock' yeah, it's all eyes on me, and i'ma send it up to pac, ayy put the wrong label on me, i'ma get 'em dropped, ayy sweet chin music and i won't pass the aux, ayy how many stocks do i really have in stock? ayy one, two, three, four, five, plus five, ayy devil is a lie, he a 69 god, ayy freaky-ass niggas need to stay they ass inside, ayy roll they ass up like a fresh pack of 'za, ayy city is back up, it's a must, we outside, ayy they not like us, they not like us, they not like us they not like us, they not like us, they not like us once upon a time, all of us was in chains homie still doubled down callin' us some slaves atlanta was the mecca, buildin' railroads and trains bear with me for a second, let me put y'all on game the settlers was usin' town folk to make 'em richer fast-forward, 2024, you got the same agenda you run to atlanta when you need a check balance let me break it down for you, this the real nigga challenge you called future when you didn't see the club (ayy, what?) lil baby helped you get your lingo up (what?) 21 gave you false street cred thug made you feel like you a slime in your head (ayy, what?) quavo said you can be from northside (what?) 2 chainz say you good, but he lied you run to atlanta when you need a few dollars no, you not a colleague, you a fuckin' colonizer the family matter and the truth of the matter it was god's plan to show y'all the liar mm mm-mm he a fan, he a fan, he a fan (mm) he a fan, he a fan, he a freaky-ass nigga, he a 69 god freaky-ass nigga, he a 69 god hey, hey, hey, hey, run for your life hey, hey, hey, hey, run for your life freaky-ass nigga, he a 69 god freaky-ass nigga, he a 69 god hey, hey, hey, hey, run for your life hey, hey, hey, hey, run for your life let me hear you say, "ov-ho" (ov-ho) say, "ov-ho" (ov-ho) then step this way, step that way then step this way, step that way are you my friend? are we locked in? then step this way, step that way then step this way, step that way source: lyricfind
+- [99] i seen a man doing this before you did
+- [100] 2 years later and ts still fire
+- [101] kendrick stop bullying me you got made a fool out of by everyone i used to know and if you actually believe this u obv. are a joke no-one believes it here in detroit
+- [102] i always come back to this song to give me some motivation he absolutely obliterated drake freaky ass
+- [103] 2026 this song harder than all 3 new drake ashtrays
+- [104] this weird dude named randy.
+- [105] f'_'ck drake por siempre! forever saludos desde colombia 😎🔥, michael jackson the true goat forever.
+- [106] almost a half a billion views
+- [107] who is here in 2026
+- [108] happy 2 years to the biggest ass whooping in hip hop history
+- [109] 2 years since drake was thrown into the coffin.
+- [110] peekaboo:trailer halftime show:the movie itself
+- [111] rip xxx- kdot been holding it down and on buddy a** for you broski
+- [112] not youtube with the ai "topic: kendrick pranking drake" 💀💀💀💀
+- [113] they gonna mj this man for speaking the truth
+- [114] happy birthday to us ❤🎉
+- [115] simpsons told you michael jackson was a theif.. too skinny
+- [116] no rebuttals, no flips, no hard hitting bars, and pedo bars out of desperation. you know how willfully ignorant you gotta be to think kendrick lamar won?
+- [117] and he still 📞 future till this day
+- [118] psst, i see dead people mustard on the beat, ho ay, mustard on the beat, ho deebo, any rap -, he a free throw man down, call an amberlamps, tell him, "breathe, bro" nail a - to the cross, he walk around like teezo what's up with these ja- - tryna see compton? the industry can hate me, f- 'em all and they mama how many opps you really got? i mean, it's too many options i'm finna pass on this body, i'm john stockton beat your - and hide the bible if god watchin' sometimes you gotta pop out and show - certified boogeyman, i'm the one that upped the score with 'em walk him down, whole time i know he got some ho in him pole on him, extort -, bully the flow on him say, drake, i hear you like 'em young you better not ever go to cell block one to any - that talk to him and they in love just make sure you hide yo' lil' sister from him they tell me chubbs the only one that get your hand-me-downs and party at the party, playin' with his nose now and baka got a weird case, why is he around? certified lover boy? certified pedophiles wop, wop, wop, wop, wop, dot, - 'em up wop, wop, wop, wop, wop, i'ma do my stuff why you trollin' like a -? ain't you tired? tryna strike a chord and it's probably a minor they not like us, they not like us, they not like us they not like us, they not like us, they not like us you think the bay gon' let you disrespect pac, -? i think that oakland show gon' be your last stop, - did cole foui, i don't know why you still pretendin' what is the owl? bird - and bird -, go the audience not dumb, shape the stories how you want hey, drake, they're not slow rabbit hole is still deep, i can go further, i promise ain't that somethin'? b-rad stands for - and you malibu most wanted ain't no law, boy, you ballboy, fetch gatorade or somethin' since 2009, i had this - jumpin' you - get a wedgie, be flipped over your boxers what ovo for? the "other - -"? - - straighten they posture, got famous all up in compton might write this for the doctorate, tell the pop star quit hidin' f- a caption, want action, no accident and i'm hands-on, he f- around, get polished f- on wayne girl while he was in jail, that's connivin' then get his face tatted like a - apologizin' i'm glad deroz' came home, y'all didn't deserve him neither from alondra down to central, - better not speak on serena and your homeboy need subpoena, that predator move in flocks that name gotta be registered and placed on neighborhood watch i lean on you - like another line of wock yeah, it's all eyes on me, and i'ma send it up to pac, ay put the wrong label on me, i'ma get 'em dropped, ay sweet chin music, and i won't pass the aux, ay how many stocks do i really have in stock? ay one, two, three, four, five, plus five, ay devil is a lie, he a 69 god, ay freaky - - need to stay they - inside, ay - - - up like a fresh pack of 'za, ay city is back up, it's a must, we outside, ay they not like us, they not like us, they not like us they not like us, they not like us, they not like us once upon a time, all of us was in chains homie still doubled down callin' us some slaves atlanta was the mecca, buildin' railroads and trains bear with me for a second, let me put y'all on game the settlers was usin' town folk to make 'em richer fast-forward, 2024, you got the same agenda you run to atlanta when you need a check balance let me break it down for you, this the real - challenge you called future when you didn't see the club (ay, what?) lil baby helped you get your lingo up (what?) 21 gave you false street cred thug made you feel like you a slime in your head (ay, what?) quavo said you can be from northside (what?) 2 chainz say you good, but he lied you run to atlanta when you need a few dollars no, you not a colleague, you a f- colonizer the family matter, and the truth of the matter it was god's plan to show y'all the liar mm, mm-mm he a fan, he a fan, he a fan (mm), he a fan, he a fan, he a - - -, he a 69 god - - -, he a 69 god hey, hey, hey, hey, run for your life hey, hey, hey, hey, run for your life - - -, he a 69 god - - -, he a 69 god hey, hey, hey, hey, run for your life hey, hey, hey, hey, run for your life let me hear you say, "ov-ho" (ov-ho) say, "ov-ho" (ov-ho) then step this way, step that way then step this way, step that way are you my friend? are we locked in? then step this way, step that way then step this way, step that way
+- [119] as a drake fan.. listening to this as a fan of music.. can't deny it's a good track 2 years later it's still good..
+- [120] i love this song.. 🎵 i can listen to this song 1000 times in a row… it’s not enough.
+- [121] lamar got disrespectful lines in this song 😅😅😅
+- [122] listening. to this on repeat!! drake sucks. kendrick forever !! you pop star pdo loving drake fans should keep coming back too so we can get kendrick number one!!
+- [123] objectively a bad song. annoying voice tones. annoying beat. the only reason why people won't say so is they think people will think they're a pedo. weird.
+- [124] every one here could try “not like us” young gu version and translate it, trust me 😊
+- [125] two years already... kendrick was really cooking 🔥🔥🔥
+- [126] drake is so trash i don’t get how people still like him still after this song.
+- [127] motion 2800 drake who
+- [128] 2 years later, still hits
+- [129] 2026 and this still hot!!! 🔥🔥🔥
+- [130] edit x: we outside. *ivyathome.*10-4.
+- [131] it’s me and larry in this ho you know
+- [132] 😂...not like us! our best weekend boost...😂 all annoying vibes, miles and miles left behind, of course ❣😂❣
+- [133] who is here in 2026
+- [134] hello every i'm a kbot and i see dead people😎😂🤣🤣
+- [135] when he says they not like us. is kendrick talking like that boy way back then. i just got that . is is sad mad or happy?
+- [136] listen closely. this is what is called... a burial.
+- [137] the wai kendrick stopped after 17 push-ups and made another one is crazyyy🔥w diss drake easter-eggs✅✅
+- [138] what shocks me the most is why this song didn't get a billion views yet. i know it's almost there. lavita byanca williams 😘💋🥳
+- [139] on sunday, whatever you do make sure it will be for your happiness..😂..it naturally starts here, kendrick always turns a good day into the greatest version of it ❣😂❣
+- [140] happy 2 year anniversary nlu ✊🏽💯💯
+- [141] i get off on my feet hummmmmmmmm to where do i get off doing something like that when i didn’t get off by my own feet damn. that went hard
+- [142] 2026 and this still feels like it was released hours ago🔥🔥
+- [143] surprise trump didn't band this song, hit to close to home.
+- [144] love is . 1:24
+- [145] 2:20 how happy he is 😂😂
+- [146] kendrick is pulling strings and iq bro to much research on drake ngl kendrick won already
+- [147] "you can't fake influence " then proceeds to fake influence😅
+- [148] biggest diss & track of the decade!!!!!!!!!!!!!!!!!!!!!!!!!
+- [149] let me hear you say ov-ho
+- [150] he shut drake ass down with this one here, and he reminds me of pac and eminem they always shut mf's down and drake bit off more than he could chew messing with kendrick lamar. since pac and biggie him, eminem and scarface are my favorite rappers.✌️🌟 they are the💩 and can't nobody f$!# with them and i advise nobody to try them!!!!!!!
+- [151] bro ate and left no crumbs
+- [152] who's still vibing to this in 2026❤like this comment for kdot celebration
+- [153] definitely won this battle... absolutely losing the war...
+- [154] 🎶 😂....no worry even if it's only tuesday...the right gear is here, we know and we'll never forget 😂 🎶 ❣
+- [155] im so happy he has kidda working with him as a dancer
+- [156] damn drake really made whitney dance.. just like he made rihanna a supportive wife on rocky🤣🤣.. iceman🧊🥶
+- [157] 2026 let’s gather here❤
+- [158] who’s here after they squashed the beef
+- [159] how come usa didn't have a whole new revolution after the drop of epstein files is beyond me. y'all are so useless and lazy. too busy eating mcdonald, chugging starbucks and watching netflix. people like kendrick are telling y'all to wake up and do something and nothing happened. smh.
+- [160] kendrick lamar is so deep but his realness is what made him a star to me ❤❤❤
+- [161] ughhh i just watched this for the first time since it came out & i got chillsssss. yes, it's that deep.
+- [162] i was unreceptive to this when i saw it during the superbowl. then i heard the lyrics and my mind was changed. bro is on it.
+- [163] happy birthday 🎉🎉🎉 nigga my best rep every
+- [164] white out glue blue 🤾🏽‍♀️ cars 🚗. case people vs cars 🪁🪁 🪁 🪁 🛷🛹
+- [165] thank you father god for everything these are all the blessings that i ask in jesus mighty powerful majestic name we pray amen amen amen glory be to god amen 🙏🏽
+- [166] tape 2 – kendrick lamar (20 tracks) humble. dna. loyalty. feat rihanna love. feat zacari element fear duckworth feel n95 united in grief father time silent hill feat kodak black crown mother i sober worldwide steppers purple hearts rich spirit die hard squabble up luther letter to kendrick lamar (in english) subject: the second chapter of your soundtrack dear kendrick, after curating the first tape from your early works, i wanted to honor the second chapter of your journey with another carefully designed soundtrack. this time, the selection comes from damn., mr. morale & the big steppers, and gnx. the 20 tracks i chose reflect your evolution from a sharp, uncompromising voice to a mature artist who confronts vulnerability, family, and spirituality, while still delivering powerful anthems. songs like dna. and humble. capture your explosive energy, while fear, mother i sober, and united in grief reveal the depth of your introspection. finally, squabble up and luther show your ability to remain fresh and relevant, even after years of shaping the culture. this tape is not just a playlist—it is the soundtrack to the second act of your biopic. it portrays the moment when the protagonist has already become a legend, but continues to wrestle with his humanity, his community, and his legacy. it is the sound of an artist who refuses to be static, who keeps redefining what hip hop can be. i admire how you balance vulnerability with strength, and how you use your platform to speak truths that many avoid. this second tape is my way of presenting your later works as a cinematic journey, one that complements the first tape and completes the arc of your story. with respect and admiration, sonoro aka the sound navigator
+- [167] 3:45 labor trafficking out of shipping containers using one of the oldest sex voyage parks in toronto. clever, also explains why you don't see many local drake employees 🤔.
+- [168] why i feel so happy after listening to this diss track
+- [169] "mustard on the beat ho3"😌
+- [170] safe to say this song is ass
+- [171] ♥him always he and the game are representing(compton)♥
+- [172] the owl's cool and so is kendrick.
+- [173] 26! 2 chainz said you good but he lieeed
+- [174] this was the most fun week in hip hop
+- [175] im irish and cherokee. im a grandma of 5. grateful for your music and lyrics. you are extremely talented artist
+- [176] aubreiyeyey i am so happy to hear this from the people of ❤this 😂world is so
+- [177] this shit is ass
+- [178] imagine if u play this in a school teip
+- [179] watching this a couple years later man he really did this nigga drake dirty.
+- [180] adolphina adollpht ods assention if and where agony hear it needs to stop going against the grane grand wall mammal on the other record inrespondictatoplm line in memory i'm needing the to stop my alta dna 7 from the rainbow house for the telephone manager kay loha better get her phone without me asmindio courts know i wasn't there for a while i respects to only a chosen few from that episode i dislike frauds . even if rainbow ethredge is allowing to visit and ms. lees son owes me my 100.00 he took from me fool .
+- [181] man i miss the beef such a glorious day's 😂
+- [182] whats it like when i tell your wife to not fuck you and she actually listens??? you still atorney general? sounds basic...
+- [183] if anyone is playing this in 2026, it’s cringe asf 😭😭 i come back just to have a laugh on a monthly basis 😂😭
+- [184] this song alone makes him the gangster rap-luffy!
+- [185] thiis the best thing ive ever heard
+- [186] 😂...only here we find the most of the top and the day becomes always nicer❣😅❣
+- [187] 1:04 to 1:12 is my favorite of all time
+- [188] i wasnt sure if i was supposed to comment here as well but done. i am hoping to get the ps5 for my son.
+- [189] morning awakening is never nice and talkable..😂..it doesn't matter, this music listening is enough😂to kick away every annoying thought ❣😂....
+- [190] who is here 2026?
+- [191] all eyes on me ❤❤❤
+- [192] 🎉 summertime with not like us..😂 a sea of wild fun, surfing madly in waves of laughter 😂❤❣
+- [193] 1:51 they not like us 6/9/2026 4:10pm
+- [194] here after canada beat south africa in the fifa knockout rounds😗
+- [195] 😂..happiness is 25% when is friday...the other 75% is all thanks to not like us❣ never forget..❣😂❣
+- [196] 😂..thursday just begun??..rejoice: not like us exists and it has sooo 😂maanyyy😂 delightful siblings ❣😂❣
+- [197] the place in the first second is at davis in the middle of the north entrance in gta just so you know 😊
+- [198] im here after ice man😂😂😂
+- [199] still can’t just skip this song in the playlist are you my friiieeennnddd? are we locked iinnn? 😩🙌🏽
+- [200] bro give me some money too
+- [201] no more hiding.. when this came out i was in and out of jail, addicted, and homeless. now i have a husband, home and good job. this song and “clover cage - the final round” are the two songs that helped me get through my depression. i just want people to know things do get better. we are in this together. 🥰 never quit…
+- [202] boof astezka baby power down salty azk
+- [203] 🏰🏰🏰🏰🏰🏰🏰🏰🏰 🗽🎪 black power is that liberty 🎟️🎟️🎟️🎟️🎟️🎟️🎟️🎟️🎟️ but anyway welcome to their clown show you had definitely earned that 👁️ 👁️ 🎻 …🎻padd ✍🏽 …………… tears 😭 of joy. from domonic foods service department…….. now considered jewels and o sco corporations corp division 👤 💀 🫁 👖 👀👣🫆 change angle called here and there wasnot allllllllllllllllll but most 🤴🏿 sliding board skate board 👼🏿 📐 👄 👩🏾‍✈️ hand 🖐🏿 🚎 as it /////////////////// door next door 🚪 call the fool hearted 📖 €€€€€€€€€€€€€€€€€€€€ and nosey individuals that love trying to lower the chance of privacy……. the building’s arrangement b u i l d i n…………………. g…. 🤱🏽……….. 👳🏽‍♂️called no more head ache that’s a band wrapped around the head no brains emoji empty 🤌🏼that’s that logo like taking candy from a baby that was tameka wricks whispering in my ear over the phone and the phone whoever pattern a way of life 🙇‍♂️ fix your mouth 👄 🫴 🤜🏻 🤌🏼 i am just
+- [204] why doesnt this have a billion views no way
+- [205] 2 year anniversary lol. this is crazy
+- [206] just know my kids are growing up on your music
+- [207] this is the vibe that cannot be killed.
+- [208] 1 hit wonder lol drake be dropping 3 albums at a time. lol kenny who
+- [209] can't believe it's nearly been two years, that's fucked. feels like 6 months lol
+- [210] ayy no disrespect to either but has anyone else's ig fyp been gettin flooded with pro-drake anti-kendrick reels since iceman dropped? like conspiracy theory type shii
+- [211] they got ak too😂
+- [212] ain’t no love boy you ball boy fetch gatorade or something
+- [213] this song was truly meant to destroy drake's entire career😮😂.
+- [214] them kef 105’s tho.
+- [215] greatest diss record of all time.
+- [216] who's here in 2026 😅iceman
+- [217] 1:18 hey drick …
+- [218] fba’s in da house!!!!!!!!
+- [219] song slaps harder post the hype.
+- [220] is your soul fulfilled?
+- [221] who's here after iceman.😂❤
+- [222] kendrick washed and pusha t went to epstein’s island 🏝️ but lil wayne & drake run hip hop 💪🏾💪🏾
+- [223] this man is brilliant!!!!
+- [224] that’s tommy the clown! i remember watching him in the documentary rize.
+- [225] damn it’s been 2 years, this way better than iceman
+- [226] did he find the broccoli??
+- [227] 🌊 how you like crypt dancing?! funny that you mentioned selena...i watched him doing the crypt dance a few days ago. 🌊
+- [228] what did you do to me? i can't stop listen this
+- [229] two years already 🥹
+- [230] bro was used by lucian grange to annoy drake. cute kendrick thought he got all this clout for the distrack organically hahahahah that’s actually adorable
+- [231] i keep being delighted with this
+- [232] 🎉 🎶 🥳 the celebrating gemini genius day has come. 🎶 🥳 happy birthday, kendrick❣the greatest love from italy 🎶 ❤❣
+- [233] every time drake does goofy shit i come here
+- [234] 472m views in 1year is crazy i guess we all bots
+- [235] i rep anderson indiana
+- [236] i yammoto flame sword firgure out
+- [237] you wasted money on this video in that song. couldn't you have donated that money
+- [238] lame ass vid and lyrics
+- [239] this shit makes me want to crip walk and ive never done that shit in my life or even been to the west coast!! lmao 🤣 crazy beat this beef with drake was exactly what hip hop needed in 2024!
+- [240] happy birthday k.dot 👌🏾💯🎉
+- [241] in the halfway through the week, whoever is bored is lost...😂 it never happens to us!..and it is clear the reason why we are sharper 😂❣
+- [242] 1st june 2026 who is here with me 😂😊❤
+- [243] i had to return to this masterpiece on its 2 year anniversary
+- [244] the son is enjoiy
+- [245] he trashed drake and even got dessert, lol.😂
+- [246] let me know when this hits 500 mill views
+- [247] this feel underrated since i rarely here this now a days
+- [248] breaking news shot fired downtown the victim drake had been pronounced deceased at the scene
+- [249] love is a losing game, after all. miss you, lady 🖤
+- [250] i started liking this song because of malachi barton
+
+## b2: Pusha T vs Drake （artist_a=Pusha T, artist_b=Drake, 250件）
+
+- [251] drake really be out barring these guys fr man
+- [252] drake smoked and cooked pusha t and ye
+- [253] im in shock… the nerve, the audacity!
+- [254] nah drake really the one 🔥. when it comes to barring nighas up, he delivers.
+- [255] who here in 2025 💯
+- [256] the intro is so tuff lmao 😂
+- [257] yea they pushed you in while in album mode it’s over
+- [258] notice nobody can ever “beat” drake by outrapping him they always gotta gossip or straight up lie
+- [259] lmao drake's bag really deep but unfortunately he loves beefing with the craziest mcs of his generation
+- [260] whoever supposedly making me hits but i ain't got none sounds like they need me
+- [261] drake has out rapped every one in every beef
+- [262] this better than what pusha did, sorry not sorry 😂
+- [263] “…your demise will be televised .”
+- [264] lost to his own lifestyle in public opinion, but the bars were always there
+- [265] bruh how you put this out and still lose 😂😂😂
+- [266] i'm in shock the nerve, the audacity okay so if you rebuke me for workin' with someone else on a couple of vs what do you really think of the nigga that's makin' your beats? i've done things for him i thought that he never would need father had to stretch his hands out and get it from me i pop style for 30 hours, then let him repeat now, you poppin' up with the jokes, i'm dead, i'm asleep i just left from over by y'all puttin' pen to the sheets tired of sittin' quiet, and helpin' my enemies eat keep gettin' temperature checks they know that my head overheats don't know why the fuck you niggas listen to denim or steve must've had your infrared wrong, now your head in the beam y'all are the spittin' image of whatever jealousy breeds don't push me when i'm in album mode you're not even top 5 as far as your label talent goes you send shots, well, i got to challenge those but i bring calicos to the alamo i could never have a virgil in my circle and hold him back 'cause he makes me nervous i wanna see my brothers flourish to their higher purpose you niggas leeches and serpents i think it's good that now the teachers are learnin', yeah your brother said, it was your cousin then him, then you so, you don't rap what you did, you just rap what you knew don't be ashamed, it's plenty niggas that do what you do there's no malice in your heart, you're an approachable dude man, you might've sold to college kids for nike & mercedes but you act like you sold drugs for escobar in the '80s i had a microphone of yours, but then the signature faded i think that pretty much resembles what's been happenin' lately please believe your demise will be televised, yeah and as for q, man, i changed his life a couple times nigga was at kroger workin' double time y'all actin' like he made the boy when i was tryna help the guy yeah, who gassed you to play with me? man, you made this shit as easy as abcs whoever supposedly makin' me hits, but then got no hits sound like they need me my hooks did it, my lyrics did it, my spirit did it i'm fearless with it, yeah i really shouldn't have given you none of my time 'cause you older than the nigga you runnin' behind look, holla at me when you multi-million i told you keep playin' with my name and i'ma let it ring on you like virginia williams i'm too resilient, get out your feelin's it's gon' be a cruel summer for you i told weezy and baby, "i'ma done him for you" tell 'ye, "we got a invoice comin' to you" considerin' that we just sold another 20 for you to be honest duppy
+- [267] it’s a good song but it didn’t age well 😭😭😭
+- [268] that boy in the epstein’s 🤮
+- [269] i want all of the likes please. drake is undefeated!!!!! (besides common but we give him a pass :) )
+- [270] story of adidon had more shock value, but this is a fire disstrack
+- [271] this comment section is unbelievable. people hopping back on the drizzy glizzy after 7 years is insane.
+- [272] this was better than that addidon stuff. oh wow you revealed he had a kid other than that the whole thing was so weak
+- [273] imagine if this dropped after euphoria??? crazy work
+- [274] bro he used this same flow on thp6 and it sounds better here than there.
+- [275] 3 million views a year
+- [276] this was really really tough. i know he was very proud when he did this. he didn’t say anything really stinging to push tho, it was more about ye. and then push took it to hell!
+- [277] we sorry drake , please forgive us 😅
+- [278] that calico bar was crazy
+- [279] aubrey getting his boots completely smoked in his last two battles were two of the best times in my life. 😂
+- [280] lol when i was trying to help the guy ❤😂
+- [281] this is the kind of shit u need to bring out drake stop taking this shit like a joke u getting cooked rn gang
+- [282] they need drake to go away
+- [283] jay z was dope for this.
+- [284] can i get this song tidal?
+- [285] drake just a hypocrite in this diss man, saying you don’t rap about what you do just what you be around, that’s literally what drake is
+- [286] anyone back from yesterday???
+- [287] it’s never a 1v1 😢 (drake wins anyways)
+- [288] drake’s word play crazy tho
+- [289] if drake drop another duppy it’s ova w fa dot
+- [290] had to get back to this since the sequel to this is some hard trash
+- [291] really shouldn’t given you none of my time cuz you older than the nicca you runnin behind he been talking crazy
+- [292] yo, i don't care. drake won the beef between pusha t and himself
+- [293] he took it off spotify?
+- [294] dam this hits different now 😭
+- [295] goood god! dude was moonwalkin over this. lol, i forgot about this one.
+- [296] i bring calico the the alamo hits different now...
+- [297] drake don't duck da smoke. even when he takes da l. lol i'll give him that.
+- [298] who’s here after what’s the dirt delivered ?!
+- [299] objectively speaking this man has the best catalog of disses in hip-hop history 🙌🥀
+- [300] this why pussa-t so mad 😹
+- [301] drake was hiding his son from pusha t
+- [302] came to pay respects again r.i.p
+- [303] he should hire this writer for every battle and every project moving forward. win or lose this how you rap, drake hasn’t been his self for years…
+- [304] not a bad track but not even close to pusha t
+- [305] this is a good track. push came back with the nuke though
+- [306] you know what i don't like? that people say that pusha killed drake by dropping the news about his kid. never made sense. drake having a kid wasn't anybody's business in the first place but because it was such a big revelation, it put pusha on the board for the win. as dope as adidon was, the kid thing was the deciding factor, and it shouldn't have been.
+- [307] pusha heard this and turned into maury povich to save face 😂
+- [308] this mf was tough af lol the impact of the other just done this one in
+- [309] this is how he should’ve came at kendrick!!! this one of the best diss tracks oat gotta give props where they’re due🤷🏽‍♂️
+- [310] this beat and flow sounds like daylite
+- [311] 2026 still bumping this shit 😭😭😭🔥🔥
+- [312] his hardest song ,
+- [313] this is the drake that was supposed to go against kendrick . what happen to him?
+- [314] hot take. drake won against pusha as a song. just pusha had more memes and dirt.
+- [315] never out rapped always out gimmicked drake really rapped in all his beefs, they always want to see him fall he was declared the loser before the beefs even ended respect this guys pen
+- [316] drake spitting,with that said,lemme fact check homie real quick; first he’s been a multi millionaire before you were in ya blackface on degrassi. the dude wrote the jingle for mickey d’s… next you still mad at pharrell cuz he wouldn’t allow ya big bro to wear his ish😂😂😂😂
+- [317] who wrote this? an actor trying to rap.
+- [318] we need this on streaming. regardless of what happened after this was one of my favorite diss tracks
+- [319] this really had us thinking drake was gon take the lead 😂
+- [320] crazy how twice now drake was fully convinced he had won before getting eaten alive
+- [321] we here again aint we...
+- [322] how quick the 🌎 forgot about this man in war mode
+- [323] day flow all over this damn song lmfaoo u really a goofy
+- [324] “the nerve.. the audacity”
+- [325] even the beat kill on this 1
+- [326] wooooahhhhh he absolutely ate this up!!!!!!!!¡!!!
+- [327] man this was such a great shot. story of addidon won on shock appeal for me. this was drizzy in top form
+- [328] this shit insane, every lyric is top tier
+- [329] drake was actually spittin here
+- [330] going back listening to all of these disses is crazy. drake been fending everyone off for a while now. each battle he's been in, he's showcased that he could go toe to toe lyrically with these dudes. meek, push, kdot. these are heavy hitters when it comes to lyrical skill. drake didn't get outrapped in any of them. he just got out maneuvered here and with kendrick.
+- [331] man this song is hard, to bad pusha went murder mode
+- [332] story of adidon sooooo booboo ion care what no one say ha
+- [333] do you notice how when drake says "ni**a" , sometimes going hard -er, that it's an insult delivered with contempt? others also use the word in anger sometimes but they change it and sometimes use it affectionately, with a sense of kinship. at the moment i cannot recall drake ever using the word that way - though i am sure there must have been times. can you recall non-scornful uses of the word by drake?
+- [334] "don't push me when i'm on my album mood"🔥🔥🔥
+- [335] so i was watching this movie square dance with winona ryder on here (yt) waiting on your album to drop here in dallas texas, and in the movie she visits dallas, & u got a song called fort worth was wild to me too because u just dropped fort worth 😂🎉 n also she's in the film iceman too. hope you see this 6 god.
+- [336] straight liar! couple of v(s) 🤥 virgil/kanye < drake: held pnd back (tried to hold weekend back) sounds like they need me/i keep helping my enemies - translation - i do things that i can hold over peoples heads and try to call it “support.”
+- [337] kanye fed push the news, they was close that’s why drake confided in him just for him to use it against him. that’s why drake’s lyrics goes over ppl heads cause those who are involved knows what he’s referring to….. kanye said on drink champs
+- [338] this is his best diss track in terms of lyrics. just unfortunate that we all know what happened after.
+- [339] iceman been cold for a loooong time
+- [340] drake has always won the rapping battle. but losses to gossip. drake had the best rapping peformance/bars against pusha and kendrick but “ lost” because of allegations and gossip😂😂 family matters was the best song out of the beef undeniably vs kendrick and duppy was the best song vs push.
+- [341] who came back after hearing drake's push ups verse?
+- [342] here after pusha t was mentioned in the epstein files
+- [343] father had to stretch his hands out and get it from me
+- [344] you are hiding a child
+- [345] this song has a whole new meaning now
+- [346] first time revisiting in awhile. sheesh
+- [347] i want to see my brothers flourish to their highest purpose.. many are leeches and serpants i think it’s great for a change that now the teachers are learning 🔥 are ya’ll hearing the rhyme schemes and not only that… how deep that lines goes!?
+- [348] i love the fact that every comment starts with….*regardless of*. or *even though* or *despite what happened*. pusha t fuckin destroyed that boy 😂. it’s historic tbh
+- [349] insane song, but unfortunately for him the best diss track ever made was the response
+- [350] who here in 2025?
+- [351] ion care duppy taylor made goodnight and goodluck 30 for 30.. drake don't miss during rap beef...😢🔥🔥🔥
+- [352] who made this beat .. 2025 and the song still slaps
+- [353] who back after hearing euphoria?
+- [354] this was hard shame he got wigged str8 after this
+- [355] pusha teen 😂😂😂😂😂another bozo down kendrick u next
+- [356] i remember when this dropped wow time flies really fast and drake still the dopest of em all🔥
+- [357] drake really be killing these nigga they say can “rap”.. that’s why they always gotta gossip or make shit up.
+- [358] who here in 2025? kendrick really got 🥷🏾‘s acting like drake aint really been slidin shit 🔥🔥🔥
+- [359] drake won this beef too but hiphop fans are just followers. niggas rely on rappers & youtubers to form their opinions for them.
+- [360] man idc what nobody say this is better than story of adidon. all he did was say drake had a kid. lol, so tf what? we all got kids mf 😭😅😅 drakes a good father. who cares? he ate this up and the beat is crazy too. soa was weak to me.
+- [361] drake is a very solid disser he just runs into kryptonite on some superman shit
+- [362] who’s here after euphoria??
+- [363] “father had to stretch his hands out to get it from me” 😤😤
+- [364] drakes ghostwriter went hard on this bih 🔥😂
+- [365] who’s here after finding out pusha-t had reference tracks by quentin miller this whole time? 😮‍💨
+- [366] if you rebuke me for working with someone else on a couple of v's, what do you really think of nigga that's making your beats.. drake won off that line alone😂🤣
+- [367] who here after push-up 😂
+- [368] better then story of addidon
+- [369] drake has the best disses in losses lol
+- [370] how come drake always makes the best diss but loses
+- [371] 1:03 i could never have a virgil in my circle and hold him back cuz he makes me nervous, i wanna see my brothers flourish to their higher purpose 🔥 this part always hits
+- [372] i've been anti-aubrey since about '13. however, i give props where its due. why didn't he bring this energy to dot. this is actually a contender. except for his proclivity for naming wives. i hope he's finally learned that lesson
+- [373] then came the story of adidon...drizzy can rap though
+- [374] i’m team drake all day but i was curious and looked it up and there were 3 writers on this 😂
+- [375] just waiting for the reference track to come out
+- [376] it was a solid diss
+- [377] who’s here after family matters 🔥 #yadead
+- [378] bro had to bring his wife into it and we ended up getting one of the most nuclear disses oat
+- [379] this song go hard in 2024 lmao
+- [380] by far better than family matters, he was focused and you can hear it
+- [381] pusha tea is a pedophile
+- [382] “the lyrics begin to reveal themselves over time periods. promise you”ll get that shit when the sky clears”
+- [383] leaving my flowers here 💐
+- [384] whos here after the epsteins files lol. pusha teens
+- [385] you’re not the one beefing with rappers and doing it the right way so all of your opinions don’t matter. tbh
+- [386] this man, is the truth
+- [387] that virgil line hit different now lol
+- [388] one of the best dis tracks of all-time
+- [389] you can tell he didn't write a lot of this.
+- [390] 😂😂😂. drake thought kendrick was going to be a easy w😂😂😂😂
+- [391] he went so hard on this
+- [392] i still say if he just waited to respond to infrared and put this as a bonus track on scorpion he would’ve won, no story of addion … drake wins
+- [393] my hooks did it my lyrics did it my spirit did it i’m fearless with it 🔥
+- [394] lmaoo, the nerve, the audacity, " please believe your demise will be televised " say it ain't so
+- [395] this song still gets spins in 2025 🔥🔥🔥🔥
+- [396] he always do this stupid flow
+- [397] mal actually thinks is better than story of addidon
+- [398] how did pusha t win ? all he did is gosip like a bitch 💀
+- [399] kendrick destroyed this nigga but he was going in on this track can’t cap to yall
+- [400] considering we just sold another 20 for you is one of the craziest lines ever, even if you hate drake you have to appreciate it.
+- [401] drake definitely bodied pusha t if you just going based off music no gossip shit
+- [402] this song part of the bigger story now
+- [403] the way he addresses everything and turns it into bars is fire he made him abandon the topics at hand and switch to purely family
+- [404] bro been owned this flow
+- [405] whoever you thought win either beef. drakes disses were good
+- [406] everything this manbtouches its just gild
+- [407] let’s be real all push said was he had a son. that don’t hit the same no more. this aged like fine wine
+- [408] but push was more disrespectful
+- [409] who’s back after hearing family matters?
+- [410] it's a beautiful day to be a drake fan 😊😊😊
+- [411] why didnt this drake show up for kendrick????
+- [412] every time i forget why i dislike this guy i come back and play this ,what he did here hurt me on behalf of them dudes😂😂
+- [413] this aged well, push a snake
+- [414] drake was not a name you’d find on any list
+- [415] “wanna know” by meek dunk contest clears this mid 🐂💩😂😂
+- [416] yea drake definitely sat on shot with the kdot beef
+- [417] who's here after pusha got in epstien files
+- [418] this the hardest song out the whole beef tbh
+- [419] still bumping this on the regular
+- [420] drake didn’t learn from jay-z. you don’t respond when you’re the bigger artist.
+- [421] still taking ls freaky ahh freaky ahh
+- [422] kendricks gotta go back and edit his verse. it should be "let me see you pusha teen"
+- [423] still a better diss than not like us👌🏻🦉
+- [424] this is my favorite song of the drake and pusha beef, two birds one stone is also pretty good. he’s talking about kanye and pusha in that.
+- [425] this man can diss. he just got more insane opponents.
+- [426] this so much better than pusha bs…lyrically better , sounds better, deeper..pusha just had a kill switwh
+- [427] “ your demise will be televised “ bro 💯
+- [428] there is no big 3. no rapper will ever surpass drake in our life time. the kendrick meat riders can say whatever they want 🥱
+- [429] have any of you heard anything about lil push since this beef? i haven't. that's exactly what will happen to short ken. that's exactly what happened to eminem and mgk, he made that kid turn emo
+- [430] let me repeat. drake is undefeated 💯🔥🔥🔥🔥
+- [431] we back, the nerve of them
+- [432] drake lost to kendrick and pusha but i'll forever respect him for never being scared to come outside and deliver when he's being call out. he's never scared to show up at the end🤞👌🤍
+- [433] the way drake haters downplay this diss. it’s actually artistically beautiful
+- [434] this song is fire 🔥but pusha t went lava on drake
+- [435] father had to stretch his hands out and get it from me
+- [436] he need come like this again, only way for kdot
+- [437] damn. drake went hard on this. coming back to this its so crazy to think tht drake took two ls back to back. mans really needs to just keep throwing subs and not puff out his chest again. they better than you when it comes to this rap shit bro. theres no need for you to be out here like tht. keep making them hits bro. you will keep being the number one pop star. but this rapper persona gotta stop now. cant even listen to you for real no more without feeling like someone told you how to flow on the beat or what raps to say. smh. good times, summer vibes up next…….lolololol
+- [438] “there is no malice in your heart you’re an approachable dude” 😭😭🥀
+- [439] who back after hearing call me maybe by carly rae jepsen?
+- [440] aged like fine wine 🥶
+- [441] drake and mentioning peoples wife
+- [442] "please believe your demise will be televised" drake predicted his own downfall in 2024! not like us!
+- [443] when are people gonna get it bro??? drake literally says in his raps lyrics will reveal themselves, october sky looking ominous, he never loses he is just early 🔥🔥🔥🔥🔥🔥
+- [444] this to the industry
+- [445] i'm happy to see so many people come back and give this track its due credit. this was an extremely underrated track for a long time but the boy went ham on this shit. family matters will have this same effect a year or so down the line, another amazing diss track.
+- [446] now if he did this to kendrick it would be a different story
+- [447] drake be rappin but still lost lol to push and k dot
+- [448] who wrote this for drake?
+- [449] this was a better diss and didn't need drama to win
+- [450] j prince really saved pusha t
+- [451] should have never mentioned that man fiance
+- [452] "thaa nerve the awdacity" 😂😂😂
+- [453] i know he was really proud of this for those 4 days but he got bodied.
+- [454] honestly nevermind, this song is for all the dogs💙
+- [455] i still don't understand what a duppy is
+- [456] drake always won this to me don’t care what nobody says, the bars hit harder than shock value of having a son
+- [457] the nerve, the audacity
+- [458] this bar explained the ghostwriting issue to the kids that don’t understand how business goes… 🦉🕯️
+- [459] drake really spitting though 🔥
+- [460] pusha t won the battle
+- [461] biggie woulda absolutely killed dis beat
+- [462] this is literally a great diss track. in terms of rapping, they were both going bar for bar. but the revelation of story of adidon was seemingly too much.
+- [463] how some people don’t realize drake doesn’t write his own shit is beyond me.
+- [464] who's here after finding out pusha was pushing teens?
+- [465] i wonder how they say pusha won when he distance himself from the younger nigga he was running behind. 🏃‍♂️
+- [466] “i could never have a virgil in my circle and hold him back cause he makes me nervous” never has a line aged to well like this one has
+- [467] all i hear is daylyt 🖊
+- [468] "there's no malice in your heart, you an approachable dude"
+- [469] looking back on it…all pusha t did was say drake had a kid lol drake really rapped them boys in a box
+- [470] pusha won a battle but as his relevancy shows not the war
+- [471] everyone knew back then this was a set up for a back to back
+- [472] you better have this energy boy, now we waiting on you
+- [473] drake was playing 5d chess the entire time. damn……
+- [474] spitting image of what jealousy breathes 😂❤
+- [475] pusha still dissin pop stars 😂 basically his relevantly
+- [476] if drake didn't have dirty laundry going into this beef he would've won.
+- [477] who still here in 2025 . drizzy with the timeless flow 🔥♾️
+- [478] drake was really that dude for a veryyyyy long time. he still got it but this was his prime and i aint ever even heard this song. aye joe budden....thanks for the reminder.
+- [479] he should’ve did this to kendrick but times 10
+- [480] this man such a menace lol the truth will reveal itself ass mfer 😂
+- [481] kendrick and pusha t are stocking shelves but for shock value
+- [482] all the k-bots in the comments, but thetyre still listening lol. they're the biggest drake stans.
+- [483] this his best shit lyrically
+- [484] drake destroyed meek, pusha t, and kendrick throughout his career. give this man his credit.
+- [485] this aged like fine wine
+- [486] drake learnt nothing from the loss to pusha, both beefs with pusha and kendrick the songs sound nice but he is saying nothing devastating to the person he is beefing, he actually has more devastating bars for the others (in this case kanye), then says something about their wife that's barely a diss but just gives them the excuse to do him dirty in the worst way, and both times he loses. rinse and repeat.
+- [487] this is the metro diss
+- [488] top 10 diss track oat
+- [489] im listening back and pusha won 💀😭 drake just yapping basically said 1 diss and pusha whole song was basically saying fuck drake
+- [490] bro this beat is so fire 🔥
+- [491] daylyt is that you? "your best work is a lyt pack..."
+- [492] drake needs to be like this on the next album
+- [493] man i don’t care what anyone says, but drake killed this song and it’s actually a classic if people want to get technical! #houstontx
+- [494] this is exactly the drake we needed for kendrick smh. jbp gang we here??
+- [495] i think drake lowkey won
+- [496] damn i remember the phase i was at in life when this came out. today is complete 360.
+- [497] drake has been on top for a decade! facts
+- [498] i revisited this video after years and turned the dislike into like.
+- [499] drake has never dropped a weak diss track
+- [500] drake hate so strong people won’t even acknowledge how this song better than back 2 back and 85% of push ts discography
+
+## b4: Eminem vs MGK （artist_a=Eminem, artist_b=MGK, 250件）
+
+- [501] his confidence 😂😂😂😂😂..this guy can run for a president position...his balls can't be trusted 😂😂😂😂😂😂
+- [502] eminem can go to hell after he talked about donald trump
+- [503] em is the messi of hip hop
+- [504] let's not forget god here before this becomes a gay orgy with asexuals as the missionary thing that has no personality
+- [505] this is as big as you’re going to get….2026 and em absolutely called it lol
+- [506] you're a devil because everyone hates you😂
+- [507] now em's 12 yo fans talkin shit to everyone in comments the real winners are the ones who just enjoyed the beef :)
+- [508] i didn't think it was possible to have goosebumps for 4mins and 14 seconds.
+- [509] you werent named after a gangster you named yourself mgk lol. we all saw you on jackass bro you aint tough
+- [510] *"you were named after a candy, i was named after a gangster." dangggggg*
+- [511] hardest rapper of all time 💪🏼
+- [512] mgk daughter: did you do it mgk: yes mgk daughter: what did it cost mgk: my career
+- [513] this is still one of the greatest em disses i've ever heard.....better than 90% from the rest...
+- [514] mmm that last part…. very interesting….
+- [515] the way he switches flows!!🤯🤯
+- [516] wtfs in the bowl mil
+- [517] and eminem did all of that because mgk was dating megan fox; eminem absolutely hated him and strongly disliked the situation.
+- [518] ok this song is good but for you to talk about eminems daughter!? fuck off!
+- [519] "so you spend your all day shooting a video just to fking dig your own grave. got you at your own wake" lyrics to the flow of this is absolutely catchy
+- [520] mgk is the guy who hve the balls to diss eminem😍 i've a huge respect for mgk n eminem 😇❤
+- [521] came back to the funeral for another listen. 🤭
+- [522] gun kelly the shi still hit hard prob not gonna se this but good luck
+- [523] the guy who changed genres is the one that lost...
+- [524] this is a good song, but killshot is so much better
+- [525] i'll just say it. eminem won the battle. but mgk won the war. "im just playing diddy. you know i love you." 💀
+- [526] this left a mark on mgk that can never heal
+- [527] to be honest i like this mgk than new mgk 😂
+- [528] gunner b**** you ain't a bow and arrow lol😂😂
+- [529] you sound like a bitch, bitch shut the fuck up when your fans become your haters you done? fuck, your beard's weird alright you yellin' at the mic, you weird beard we doin' this once your beard's weird, why you yellin' at the mic? rihanna just hit me on a text last night i left hickeys on her neck wait, you just dissed me? i'm perplexed insult me in a line, compliment me on the next, damn i'm really sorry you want me to have a heart attack was watchin' 8 mile on my nordictrack realized i forgot to call you back here's that autograph for your daughter, i wrote it on a starter cap stan, stan, son, listen, man, dad isn't mad but how you gonna name yourself after a damn gun and have a man bun? the giant's woke, eyes open, undeniable supplyin' smoke, got the fire stoked say you got me in a scope, but you grazed me i say one call to interscope and you're swayze your reply got the crowd yelling, "woo" so before you die let's see who can out-petty who with your corny lines (slim you're old) ow, kelly, ooh, but i'm 45 and i'm still outselling you by 29 i had three albums that had blew now let's talk about somethin' i don't really do go in someone's daughter's mouth stealin' food but you're a fuckin' mole hill, now i'ma make a mountain out of you, woo! ho, chill, actin' like you put the chrome barrel to my bone marrow gunner? bitch, you ain't a bow and arrow say you'll run up on me like a phone bill, sprayin' lead playin' dead, that's the only time you hold still are you eating cereal, or oatmeal? what the fuck's in the bowl, milk? wheaties or cheerios? 'cause i'm takin' a shit in 'em, kelly, i need reading material dictionary yo slim, your last four albums sucked go back to recovery, oh shoot, that was three albums ago what do you know? oops, know your facts before you come at me, lil' goof luxury, oh, you broke, bitch? yeah, i had enough money in '02 to burn it in front of you, ho younger me? no, you the whack me it's funny, but so true i'd rather be 80 year old me than 20 year old you 'til i'm hitting old age, still can fill a whole page with a 10 year old's rage got more fans than you in your own city, lil' kiddy go play, feel like i'm babysitting lil tay got the diddy okay so you spent your whole day shootin' a video just to fuckin' dig your own grave got you at your own wake, i'm the billy goat you ain't never made a list next to no biggie, no jay next to taylor swift, and that iggy ho, you about to really blow kelly, they'll be putting your name next to ja, next to benzino, die, motherfucker like the last motherfucker sayin' hailey in vain alien brain, you satanist (yeah) my biggest flops are your greatest hits the game's mine again and ain't nothin' changed but the locks so before i slay this bitch, mwah, give jade a kiss gotta wake up labor day to this (the fuck?) bein' rich-shamed by some prick usin' my name for clickbait in a state of bliss 'cause i said his goddamn name now i gotta cock back, aim, yeah, bitch, pop champagne to this it's your moment, this is it as big as you're gonna get, so enjoy it had to give you a career to destroy it lethal injection, go to sleep six feet deep i'll give you a b for the effort, but if i was three foot 11, you'd look up to me, and for the record you would suck a dick to fuckin' be me for a second lick a ballsack to get on my channel give your life to be as solidified this mothafuckin' shit is like rambo when he's out of bullets so what good is a fuckin' machine gun when it's out of ammo? had enough of this tatted-up mumble rapper how the fuck can him and i battle? he'll have to fuck kim in my flannel i'll give him my sandals 'cause he knows long as i'm shady, he's gon' have to live in my shadow exhausting, letting off on my offspring like a gun barrel, bitch, get off me you dance around it like a sombrero, we can all see you're fuckin' salty 'cause young gerald's balls-deep inside of halsey your red sweater, your black leather you dress better, i rap better that a death threat or a love letter? little white toothpick thinks it's over a pic, i just don't like you, prick thanks for dissing me now i had an excuse on the mic to write, "not alike" but really, i don't care who's in the right but you're losin' the fight you picked who else want it, kells? attempt fails, budden, l's fuckin' nails in these coffins as soft as cottonelle killshot, i will not fail, i'm with the doc still but this idiot's boss pops pills and tells him he's got skills but kells, the day you put out a hit's the day diddy admits that he put the hit out that got pac killed, ah i'm sick of you bein' whack and still usin' that mothafuckin' auto-tune, so let's talk about it (let's talk about it) i'm sick of your mumble rap mouth need to get the cock up out it before we can even talk about it (talk about it) i'm sick of your blonde hair and earrings just 'cause you look in the mirror and think you're marshall mathers (marshall mathers) don't mean you are, and you're not about it so just leave my dick in your mouth, and keep my daughter out it you fuckin', oh and i'm just playin', diddy, you know i love you
+- [530] bro really had to ruin his before it even started....now look at him wearing goofy clothes and singing love songs... that's why u don't mess with em but rappers like him gotta learn it the hard way.
+- [531] where it all started. the downfall 😢
+- [532] killshot has over 600 million plays.
+- [533] lucky are those who happened to listen to this.
+- [534] and your songs are still ass why you mad cause you know you bad
+- [535] imagine knowingly ending your career i 1 day r.i.p
+- [536] beat is fire but why does he sound so weird
+- [537] back from 4000 years ago and people are still commenting 🤣🤣🤣🌹🌹🌹
+- [538] still listening to infinity. the day is may 25th, 2026. this is my favorite song and been my favorite rapper. you shouldn’t have talked about ems daughter what’s your name. every line in this song is like your getting slapped by a 6’3” 400 pound bouncer at 100 miles an hour on repeat after he just ate a bowl of nails with no milk and took his steroids. good luck making a come back buddy ;)
+- [539] he looks like he might be father to the island boys, but.. this tracks fire
+- [540] we need a killshot for d0nald tump!
+- [541] this guy actually sucks at rapping… the syllables are basic.. no clever lines.. just some bs about him crying
+- [542] mgk has the biggest confidence to stand up to a bully, but the fact that he has the guts to say the truth about eminem who has ruined so many careers. i have a lot of respect for him, thanks mgk for having the guts to do something everyone else is to scared to do
+- [543] is this the worst rap still a hit i just get tired of listening to drama still upon the woods howling bloody moons is this better than a gun cuz i'm the plasma cruiser
+- [544] 2:40 thats crazy and i know im late to comment but i herd it when it first came out but just didn't say anything 🙃
+- [545] mgk song was better, the beat the way it flowed together was better. em was ok words good but song sucked
+- [546] one of the biggest mistakes of all time, yet also one of the best ideas of all time 😂. “had to give you a career to destroy it..”
+- [547] kelly smoked him so bad lol. this the best eminem got. embarrassed for him.
+- [548] i listen to this song and breaking news your a good sanger mgk i hope you see this and like it
+- [549] mgk had brought up a good battle, but enemy won the war. nobody can beat eminem. mgk's first mistake was starting it; it gave eminem the blueprints.
+- [550] i know i'm late but calm down y'all, both are cool rappers
+- [551] another one you have to tear up on.. 🙏🫂🙏😂🤣😂
+- [552] killshot is better bitch
+- [553] machine gun kelly - rap devil 15 million machine gun kelly "rap devil" (eminem diss) 236 million the difference ;)
+- [554] rather be 80 year old me than 20 year old you 😂😂😂😂
+- [555] the sad thing is mgk doesn't even dress better. he walks around shirtless with a shovel
+- [556] bro goes to a maccies and get everything on the menu 😂
+- [557] binge is low-key fire and is misjudged, let's talk about it....
+- [558] dude that line where he said he was the ghost of future and eminem was ebenezer scrooge was better than eminem's whole diss.
+- [559] got love on this. go em. fuckin yeah dogg.... rocking a reply... yeah boi. ole g's represent. xx
+- [560] as an eminem fan i actually like this song
+- [561] bro really just said "your gonna need to shoot me to keep me away from your daughter" wtf
+- [562] for future generations it's sounds better than eminem because we love our generation types song as old age lop their types song like eminem .
+- [563] these days no name rappers diss eminems daughter to get attention what a bunch of fu**king loosers
+- [564] mgk you still at your best on bro
+- [565] when your fans become your haters
+- [566] he got dissed so hard he changed music genre
+- [567] i clam this energy
+- [568] mgk gay they do homosexual. planning to make gay homosexual all around the world.
+- [569] em won with killshot but you gotta give mgk credit where its due as nobody expected him to actually respond to eminem's callout on kamikaze let alone actually get a few really solid hits in. last time you saw 8 mile was at home on a treadmill will never not be hysterical and savage as hell
+- [570] i'll be honest y'all mgk .ateeeee😮😮😮
+- [571] who is kelly? eminem's really made at this girl, but i don't know who she is.
+- [572] he aint even a mumble rapper😂😂😂😂
+- [573] mgk still had the best diss...
+- [574] better peace with him 🥂.
+- [575] the song that ended mgk's rap career..
+- [576] i really enjoyed this song but em still the goat
+- [577] this is lit as fuck🔥 it goes so much harder than killshot. mgk won this beef 🥩 hands down!
+- [578] had to comeback in 2026 🔥
+- [579] man had to change whole genres after this
+- [580] i listen to killshot on repeat
+- [581] good diss track wrong rapper
+- [582] finally listening to this 7-13-23 wow i’m disappointed
+- [583] i just came from watching doomsday pt 2 lol eminem still dropping bodies 😂😂
+- [584] another one got smoked!! when will they ever learn its marshall's class!😅
+- [585] to be honest, the song is sick! but em still wins in this battle
+- [586] marshall deserves peace. but holy shit does he go to war when it's not given to him. i love all of his diss tracks, the d12 ones hurt a bit because proof died. but he's lyrically incredible. the poetry is amazing and he still rips into people trying to attack him, with evidence.
+- [587] don’t forget what he said at a concert when people started talking about machine gun “i don’t think it’s appropriate to disrespect the dead” 💀
+- [588] but this some badass shi so haha just come find me in indianapolis i wanna be famous for you but change my name first kris mavery dawg
+- [589] the diddy comment at the end didnt age well.
+- [590] i'm proud my nephew was named after mgk real gangsta
+- [591] thank you for recording this video in buffalo ny outside the niagara center arena .
+- [592] he spilled the beans on diddy before the case came back again, these celebrities knoe alot
+- [593] this dude really insulted a kid and wonders why he’s hated😅
+- [594] “gunner bi**h you ain’t a bow and arrow” line gets slept on
+- [595] how you gonna name yourself after a damn gun and have a man bun
+- [596] imagine being named after an actual gun💀 (machine gun kelly)
+- [597] 2026 and this song is still up on fire 🔥
+- [598] you sound like a bitch, bitch shut the fuck up when your fans become your haters you done? fuck, your beard's weird alright you yellin' at the mic, you weird beard we doin' this once your beard's weird, why you yellin' at the mic? rihanna just hit me on a text last night i left hickeys on her neck wait, you just dissed me? i'm perplexed insult me in a line, compliment me on the next, damn i'm really sorry you want me to have a heart attack was watchin' 8 mile on my nordictrack realized i forgot to call you back here's that autograph for your daughter, i wrote it on a starter cap stan, stan, son, listen, man, dad isn't mad but how you gonna name yourself after a damn gun and have a man bun? the giant's woke, eyes open, undeniable supplyin' smoke, got the fire stoked say you got me in a scope, but you grazed me i say one call to interscope and you're swayze your reply got the crowd yelling, "woo" so before you die let's see who can out-petty who with your corny lines (slim you're old) ow, kelly, ooh, but i'm 45 and i'm still outselling you by 29 i had three albums that had blew now let's talk about somethin' i don't really do go in someone's daughter's mouth stealin' food but you're a fuckin' mole hill, now i'ma make a mountain out of you, woo! ho, chill, actin' like you put the chrome barrel to my bone marrow gunner? bitch, you ain't a bow and arrow say you'll run up on me like a phone bill, sprayin' lead playin' dead, that's the only time you hold still are you eating cereal, or oatmeal? what the fuck's in the bowl, milk? wheaties or cheerios? 'cause i'm takin' a shit in 'em, kelly, i need reading material dictionary yo slim, your last four albums sucked go back to recovery, oh shoot, that was three albums ago what do you know? oops, know your facts before you come at me, lil' goof luxury, oh, you broke, bitch? yeah, i had enough money in '02 to burn it in front of you, ho younger me? no, you the whack me it's funny, but so true i'd rather be 80 year old me than 20 year old you 'til i'm hitting old age, still can fill a whole page with a 10 year old's rage got more fans than you in your own city, lil' kiddy go play, feel like i'm babysitting lil tay got the diddy okay so you spent your whole day shootin' a video just to fuckin' dig your own grave got you at your own wake, i'm the billy goat you ain't never made a list next to no biggie, no jay next to taylor swift, and that iggy ho, you about to really blow kelly, they'll be putting your name next to ja, next to benzino, die, motherfucker like the last motherfucker sayin' hailey in vain alien brain, you satanist (yeah) my biggest flops are your greatest hits the game's mine again and ain't nothin' changed but the locks so before i slay this bitch, mwah, give jade a kiss gotta wake up labor day to this (the fuck?) bein' rich-shamed by some prick usin' my name for clickbait in a state of bliss 'cause i said his goddamn name now i gotta cock back, aim, yeah, bitch, pop champagne to this it's your moment, this is it as big as you're gonna get, so enjoy it had to give you a career to destroy it lethal injection, go to sleep six feet deep i'll give you a b for the effort, but if i was three foot 11, you'd look up to me, and for the record you would suck a dick to fuckin' be me for a second lick a ballsack to get on my channel give your life to be as solidified this mothafuckin' shit is like rambo when he's out of bullets so what good is a fuckin' machine gun when it's out of ammo? had enough of this tatted-up mumble rapper how the fuck can him and i battle? he'll have to fuck kim in my flannel i'll give him my sandals 'cause he knows long as i'm shady, he's gon' have to live in my shadow exhausting, letting off on my offspring like a gun barrel, bitch, get off me you dance around it like a sombrero, we can all see you're fuckin' salty 'cause young gerald's balls-deep inside of halsey your red sweater, your black leather you dress better, i rap better that a death threat or a love letter? little white toothpick thinks it's over a pic, i just don't like you, prick thanks for dissing me now i had an excuse on the mic to write, "not alike" but really, i don't care who's in the right but you're losin' the fight you picked who else want it, kells? attempt fails, budden, l's fuckin' nails in these coffins as soft as cottonelle killshot, i will not fail, i'm with the doc still but this idiot's boss pops pills and tells him he's got skills but kells, the day you put out a hit's the day diddy admits that he put the hit out that got pac killed, ah i'm sick of you bein' whack and still usin' that mothafuckin' auto-tune, so let's talk about it (let's talk about it) i'm sick of your mumble rap mouth need to get the cock up out it before we can even talk about it (talk about it) i'm sick of your blonde hair and earrings just 'cause you look in the mirror and think you're marshall mathers (marshall mathers) don't mean you are, and you're not about it so just leave my dick in your mouth, and keep my daughter out it you fuckin', oh and i'm just playin', diddy, you know i love you
+- [599] the real chaniz did a diss and but this is way better then his song song
+- [600] eminem gotta hold that l on this one .
+- [601] well you say you rap better em. you alone. your own opinion big homie
+- [602] i like mgk you suck rap devil is 1 million times better than kill shot
+- [603] last good song mgk created. weak asf now
+- [604] dammmmmmmmmmm still hit harder like the first day release
+- [605] may the 4th be with you! 2026
+- [606] and now, 2026, mgk is in a good mood and gently licking em's m&m bag
+- [607] i was searching for eminem's funeral rip legend ❤
+- [608] great rap,feat. with eminem please
+- [609] i respect him a lot more as a rock artist than a rapper. bloody valentine goes hard tbh if it wasn't for em's clapback we wouldn't have had the pretty good song
+- [610] this song is ass
+- [611] nobody fucks with em his dangerous everybody cross him dies word
+- [612] personally i like this more then killshot.killshot was better lyrically and he definetly won the battle but as far as songs go...i think this is a better song.em did destroy him though but it was a decent attempt.
+- [613] this is kinda dry and the most cringe diss i ever heard
+- [614] my little brother thinks this sucks
+- [615] at 45 i’m still out selling you that’s fucking craway
+- [616] still the weirdest way to become a country artist i've seen.
+- [617] honestly i don’t even know which rapper is better..
+- [618] this beef was way better than drake and kendricks corny songs at eachother
+- [619] nah bro thinks he's the og when my man looks like shrek if he was hungover💀
+- [620] eminem is overrated let's talk about it
+- [621] biggest piece of shit he could pull out of his man bun.
+- [622] mgk taking on the goat of rap was his biggest mistake!
+- [623] i feel like this should have been "the warning shot 2" but he definitely won the beef. mgk was doing it for views. id be surprised if it wasn't the set up.
+- [624] i love eminem but it is a cold song in all fairness
+- [625] he is way too much better rapping then making pop songs or what ever he does
+- [626] it was such an incredible movement, how many 20,000+ people of all kind, mc's, rock legends, country stars, etc. showed love and respect to chester.😢😢😢✊✊✊👏👏👏👏🕊️🕊️🕊️🕊️
+- [627] i’m coming to appreciate when he was a rapper bro this dude change 2 years 😭
+- [628] ay i'll give mgk props for actually having balls to talk shit to eminem then getting destroyed in killshot
+- [629] killed him this hahah
+- [630] 904 - know your facts before you come at me lil goof
+- [631] i remember waking up at 4:30an getting ready for work. i turn on the computer get in the shower and come back. i load up youtube and the first video i saw was this...i clicked it and it had 180,xxx views and i was absolutely stunned.
+- [632] em, you're a lyrical genius... he can't stand your ground 😁🤣
+- [633] my respect to machine, him has dedicated a diss for eminem.
+- [634] anyone else think he sounds exactly like eminem when the way he says “fuckin dweeb all you do is read the dictionary and stay inside”
+- [635] the auto tune makes u sound like ur about to cry
+- [636] i was looking for killshot by magdalena bay, i was very surprised when this began to play haha xd
+- [637] people say eminem destroyed him, but i prefer this song by a large margin and im an eminem fan
+- [638] eminem: rap god machine gun kely: rap evil bro both of you guys are great btw=)
+- [639] idgaf what y’all say, mgk kilt that foo
+- [640] nom not a snitch. a healey descendent 🤗🖕🏽💥🛸🪭🪭🪭
+- [641] it's like when someone on meth or crack thought they could stand on the track and stop an amtrak. woof! pcp you might survive for a few more minutes.
+- [642] are you earing cereal or oatmeal?
+- [643] can we clear the beef?
+- [644] best line ...” i wish dre produce my track “ 🤘🤘🤘
+- [645] you're the goat man
+- [646] brooo i can't live without this trackkkk brooo
+- [647] whatever em fans say, whatever mgk fans say, this beef between these 2 artists just skyrocketed this kiddo into fortune and put em as a guy you shouldnt diss, even if you make a valid attempt in doing so. stop being fan boys and embrace the fact that we witnessed one of the best disses and best responses of all time. this is art, and both of them made a really good showcase of what they can do to other rappers (obviously em won because he has mgk's age in rapping, just to clear that out as well, but mgk won hard cash from all the publicity he got - bad or good)
+- [648] this man must be arrested he is a career assassin 😂😂
+- [649] born with horns baby. 🤘
+- [650] eminem knocked the black out of machine gun kelly
+- [651] this is fire but i still think eminem won
+- [652] im a say it, both mgk and eminem didnt do shit, both were pretty weak for diss tracks
+- [653] lol 😂😂this is what happens when you go with a machine gun against a damn godzilla you're good as dead even with that gun.
+- [654] i acidentally clicked on mgk so i came here too save my soul
+- [655] this guy just fuckin ended his own fucking career. just fyi dont mess with the real slim shady
+- [656] there's clicks in the vocals who ever did produce this didn't notice
+- [657] yall he is a pedo……..
+- [658] u diss like a baby no wonder why your career fell down xd
+- [659] i enjoyed em until i realized he shut down cage and necro, two white dudes he could have helped along until he got signed to dre. ngl, before em got signed i felt cage and necro way more than a whining bitch from detroit. if dre got behind cage or necro we never would of heard of m&m. at least admit necro would slap the living shit out you any day on the street. cage came harder and i felt like em stole his concept, necro was always on that murder rap shit but i will stay listening to cage and necro before marsha mathers. in addition,em never challenged an established rapper. after getting signed his biggest foe was ja rule, who dealt in rap & bullshit rapping with females. glad he disappeared. or benzino, someone we barely ever heard of. ask the outsiders. where's d12?
+- [660] who is mr’s kelly
+- [661] a motherfuckin killed goat
+- [662] a moment of silence of mgk for thinking he can diss the goat. well atleast, he tried. your services will always be remembered mgk 🙏😹
+- [663] lyrically mgk bodied em with the metaphors. em is a lyricist so i know behind closed doors he even had to say dayum!!
+- [664] this is fire af
+- [665] your corny 4 ems daughter “yapping about his beard is weird” like wtf. you can’t rap put down the mic 👇
+- [666] em if you are reading this then know that if you asked any of us who won then we’d say you and that we are your biggest fans❤
+- [667] he made him go from machine gun kelly to just kelly
+- [668] this was better and i’m a m and m fan. just sayin
+- [669] fkk eminem....mgk will always be the og
+- [670] come up in my suggested gotto come on and laugh 😂 what an absolute wetwipe!!!! biggest he’s ever been and will ever he literally because he tried it with eminem and got destroyed..... slide back into your cave now son 🤣
+- [671] bro so think this is better than kill shot.
+- [672] thanks mgk for made “killshot” born on earth
+- [673] ems best track since the 2002 era.
+- [674] imagine being banished to the shadow realm by eminem and having to become a rock singer💀💀💀💀💀💀
+- [675] im huge eminem fan.... but have to be honest... rap devil clearly won
+- [676] mom when he said oh you want some smoke? no not litterly you’ll choke 😂😂😂
+- [677] thanks for showing the way! diss emimem and make him pissed off. if he destroys you in a song you get one of the hottest womans 3 years later!!!!! i'll start writing a song right away and diss eminem in it! i hope eminem destroys me in a song too!!! watch out margot robbie i'm right on your ass!( in arround 3 years)!! watch out baby!!!!!!!!!
+- [678] still like your diss tho
+- [679] mgk had the potential to become a great rapper. unfortunate that he went this way
+- [680] i looked up rap devil and killshot came up before rap devil, even youtube is on em’s side lol
+- [681] saying hailey name is like a death sentence 😂
+- [682] fr tho eminem dissed him so hard he don’t rap no more r.i.p mgk rap career over
+- [683] and the funeral goes on its been 7yrs yall
+- [684] he sells nail polish too??? 😂
+- [685] people who listen to this in their cars need to put a flag 🏳️ on the hood of the vehicle like during a funeral service. “i can hear kill shot being played from here, the procession is moving this way, give them room…”
+- [686] "he'll have to f*** kim in my flannel" lmfaooo
+- [687] em killed him with one word: satanist
+- [688] still close to undefeated
+- [689] mgk's grave has now been visited by half a billion people.
+- [690] "and im just playing diddy, you know i love you." ?
+- [691] the 100k likes weren't because they thought the song was trash. it was because it was against eminem. if it was aimed at someone else then it wouldn't have that much hate. this was actually a good diss.
+- [692] it's not a lyrical masterpiece but it's catchy asf. good job mgk, may you rest in peace!
+- [693] i am a fishy cause you glug from eminem, your raps are as fast as snail dumguy with a shovel, be a farmer
+- [694] one time. then im fucking you up.
+- [695] crazy song wrote it on a starter cap😅
+- [696] how to disassemble a machine gun in 4 minutes
+- [697] i didn't even know who this clown was until i saw killshot and had to figure out who he was dissing i've heard some of mgks songs and i'll say straight up not a fan he should have just stuck with being a gangster cause he's going to look pritty redicules being owns by one of the fastest spitting white rappers in the music industry i've always thought eminem was a good wrapper and if mgk is going to try to diss the master white rapper he should check se facts so he don't look like a joke when he says somthing in a diss track that's false and gets corrected facts don't lie mumble rappers like this do not peek my interest in the least i mean come on auto tune because u can't spit that shit and i'll say i tried i really did i went through multiple of mgks songs thinking mabe i'll find one i like but sadly i gave up because he has to rap slow hes like joe biden over there
+- [698] yes i grew up listening to eminem, but now im literally in love with colson
+- [699] can we still talk about that eminem went off on him made a song 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000x better
+- [700] he is better as a rapper👍🏼
+- [701] that last line has aged like fine wine 🤯 especially after hearing fuel and tdoss. it’s like eminem was praying on diddy’s downfall and it happened!
+- [702] ooh so intimidating, yk eminem’s better bro don’t even try you started this shit bc of him eating cereal ain’t tuff
+- [703] you cant park there
+- [704] 6.66m subs... he is the rap devil.
+- [705] being here now, feeling super old with no one to talk to about missing this ! 🤣 i miss our old days
+- [706] #idsuckhisdickandnot(whenpartiallycollectivelylivingasafemalepartofthecollective4starters(justlikeunucantrythisathome((nucanbe)just(likeme)))) #learn2begod(andcreateyousmesnkellys(vicariouscollectivesindividually)) #we'reonly(spiritual)human($) #see/experiencetheworldthroughanothers/allseyes #daily(")entertainment(")(maybemonthly) #6dickscanbepussiesbecausea)theycanreincarnate($aidjesuschristfrombeyondinanascendedstate4$tarter$),b)pussie$actlikedicks(andnotbecausetheynotasc),c)a(ny)mu$tardseed(s)andheaven(s)canbeina(ny)mustardseed(s)nheaven($)hencewhydicksare/aren'tpussiesandpussiesare/aren'tdicksastheysayinlakechin(")mayan(")akamirrorland($)anyway(sothankyouuniversescontainedwithinevery(multiversesomniversal)atom),d)christsays"hearingsomething(eventheeqivof)likeidunno,ilovepedophilesbeatsamachobrucewillisindiehardholdingupasignsayinihateniggaz"butsobeit,e)i'm(t)herewithbrittanymurphyinagarage(soon2gowalkabout2trynmakeenuftoliveoffinterestviaagoodcryptolocksuchasusdt,letalonegominingtokenandth)andijustcollectedlike80cans,f)christapologisedforpoorhomophobiclackandlackregardingotherterrorising(")facts(")projectedatthepublicfrombeyondandsaidbisexualityandhermiesrock(nottomentoonweedplants2buthey,iquitdrugsover6yearsago) #ineversenthatepublicallyoverbeingrobbedandbashedby2randomsonatraininsydneyover2yearsagoleading24eyeoperationsdue2retinaldetachment4doingnothingwrong(infactievenpublicallysaidnogrudge)andclearlyican('t)see(properly) #walkaboutsoon #maynardsaidtrywalkinurtalkorgetthef##kouttamyway(andyetiwalkaroundtrickedintoamarriagebybritt(anymurphy)whilstsheliterallyusesmybodyasaninstrumentmakingitspeakallpuppetliketospirituallyexchangeunlessshe'snotresidingthroughithoweverhenceplayingwithmetoteachinotherways) #googlingdeadpersontalkingthroughhumanbodyis($)c(h)ool #takethemotorboatorthebox(we'lltakethebox) #landmine$ #getshotthenfallthencrawlcrawlthen$tagger$tagger #asortofhalfcuddlehalfr #thesehashys4now
+- [707] oscar the grouch sit on the couch
+- [708] hey a diss track. kendrick and drake kendrick and drake !!!!!!!! is that how you do it guys??
+- [709] first of all did he say his beard is weird lmao eminem got in his ass and clapped them. he isn't even in the same category this piece of shit thought this was good as fuck
+- [710] i miss this guy
+- [711] this song was trash
+- [712] here's how to end someone's career 😂
+- [713] still here in 2026, i'm an huge mgk fan but i love this song
+- [714] let's talk about it richard😀
+- [715] you are the worst rapper alive dude quit music eminem on to man lm sory🥱
+- [716] man ain’t no better person to be then yourself all these other haters imitators
+- [717] only one of these musicians still raps.
+- [718] where is pac an i don't fuck but rknot bicth come ones agaian
+- [719] em is on top ur bad who agrees 👇
+- [720] 2026 that foo don't exist
+- [721] tbh rap devil is better than killshot. i’m sorry
+- [722] had to give you a career to destroy it 😂 i'm from the future , i can confirm mgk rap career dead
+- [723] you are a good singer, therefore you should respect the kings.
+- [724] 7 years later and some of us are still attending this funeral. lol
+- [725] is this the same guy that switched genres after being humiliated by eminem 🤣🤣
+- [726] why the hell would you think that your beard is weird was a good line like your actualy sped
+- [727] #idsuckhisdickandnot(whenpartiallycollectivelylivingasafemalepartofthecollective4starters(justlikeunucantrythisathome((nucanbe)just(likeme)))) #learn2begod(andcreateyousmesnkellys(vicariouscollectivesindividually)) #we'reonly(spiritual)human($) #see/experiencetheworldthroughanothers/allseyes #daily(")entertainment(")(maybemonthly) #6dickscanbepussiesbecausea)theycanreincarnate($aidjesuschristfrombeyondinanascendedstate4$tarter$),b)pussie$actlikedicks(andnotbecausetheynotasc),c)a(ny)mu$tardseed(s)andheaven(s)canbeina(ny)mustardseed(s)nheaven($)hencewhydicksare/aren'tpussiesandpussiesare/aren'tdicksastheysayinlakechin(")mayan(")akamirrorland($)anyway(sothankyouuniversescontainedwithinevery(multiversesomniversal)atom),d)christsays"hearingsomething(eventheeqivof)likeidunno,ilovepedophilesbeatsamachobrucewillisindiehardholdingupasignsayinihateniggaz"butsobeit,e)i'm(t)herewithbrittanymurphyinagarage(soon2gowalkabout2trynmakeenuftoliveoffinterestviaagoodcryptolocksuchasusdt,letalonegominingtokenandth)andijustcollectedlike80cans,f)christapologisedforpoorhomophobiclackandlackregardingotherterrorising(")facts(")projectedatthepublicfrombeyondandsaidbisexualityandhermiesrock(nottomentoonweedplants2buthey,iquitdrugsover6yearsago) #ineversenthatepublicallyoverbeingrobbedandbashedby2randomsonatraininsydneyover2yearsagoleading24eyeoperationsdue2retinaldetachment4doingnothingwrong(infactievenpublicallysaidnogrudge)andclearlyican('t)see(properly) #walkaboutsoon #maynardsaidtrywalkinurtalkorgetthef##kouttamyway(andyetiwalkaroundtrickedintoamarriagebybritt(anymurphy)whilstsheliterallyusesmybodyasaninstrumentmakingitspeakallpuppetliketospirituallyexchangeunlessshe'snotresidingthroughithoweverhenceplayingwithmetoteachinotherways) #googlingdeadpersontalkingthroughhumanbodyis($)c(h)ool #takethemotorboatorthebox(we'lltakethebox) #landmine$ #getshotthenfallthencrawlcrawlthen$tagger$tagger #asortofhalfcuddlehalfr #thesehashys4now
+- [728] who is here may 28,2026
+- [729] what’s up mgay i’m your biggest fan - cucumber
+- [730] the son of a bitch thought he had a chance against eminem
+- [731] someone grab him a toothbrush, his f*cking teeth's weird....
+- [732] this i can’t even describe how good this is with words
+- [733] if you are a real eminem fan you should dislike this song 🤨🤨
+- [734] it’s so interesting how many times mgk used references for eminem’s buggiest hits😐 i’m sorry but it’s soo obvious he’s an eminem stan lol slim shady for life
+- [735] if anyone is still keeping track in 2026...mgk is still losing..even this video has more views 😂😂
+- [736] this is crazy. he is the best rapper in the world.
+- [737] dang this whole diss is fuckin awsome
+- [738] y'all can deny it but mgk bodied eminem
+- [739] i don’t even feel bad for kelly, you keep slim’s daughters name outta your mouth
+- [740] i will listen to this every single time i see it just for kells to suffer
+- [741] reality you sing good you could make a song batter than emenem is a great raper whay you talk about him just delet this song and start agan i think you are a good raper you can be best dont cere about emrenem and emenem is a good raper
+- [742] and who are u ?
+- [743] em killed him real quick there's no coming back from this that's why he switched up genres sad he couldnt take it so he had to switch to another cause he knew he couldn't challenge the king
+- [744] it’s 2026, but i’ve come back to revisit the massacre eminem unleashed on mgk, it’s simply epic.
+- [745] he not rapping any more, thats it
+- [746] the best part about this diss response is he rapped in order to counter mgk diss track
+- [747] mgk dissed so hard he turn to a popqueen star/
+- [748] can’t believe it’s been 7 years
+- [749] what happened to mgk? thought he was going to make a career out o hating.
+- [750] is disstrack is joke for eminem
+
+## b5: Lil Wayne vs Birdman （artist_a=Lil Wayne, artist_b=Birdman, 250件）
+
+- [751] came back in 2021 and this still bangs ! 💯
+- [752] you burn the wound
+- [753] wonder if he ever got his money from birdman
+- [754] 2020 whos here with me
+- [755] who’s still here in 2025?
+- [756] he poured out his heart. still listening till this day.
+- [757] this whole tape was so underrated. really in the middle of that birdman stuff so when he dissed birdman the whole tape it was some great stuff. wayne is a genius and the goat. i dont think ive heard anyone better than wayne
+- [758] 2025 and beyond 🎶✨🫂💖
+- [759] i don’t think he made money off this but the beat pill..
+- [760] 12 years strong!!!!! #2022
+- [761] 2022 still on it 🦾
+- [762] whos here after the carter 6 ? 😂
+- [763] i told myself to save yourself cause i can’t save you 🙅🏻‍♀️👏
+- [764] drop that sorry for the wait ‘til the wait is ova. 🙌💯😎
+- [765] taking over lawd im taking over hes a beast lol
+- [766] i would only sign to weezy or guwop (gucci or my own label chyea
+- [767] if you think this is one of waynes hardest songs can you like this. i need to know im not alone.
+- [768] still going hard in 2024 had to spin thr block on this one
+- [769] lil homie gon be straight "lil wayne sells his masters for 100m+ plus" 2021
+- [770] i been on a old mixtape run thru 2008 and 09 and just between lil wayne and gucci mane they killed in free mixtape form any of these new rappers lol i feel so bad for this new generation
+- [771] tony montana .. give me 3 lines of the tony montanas ... that's the future in bars when we legalize all drugs.
+- [772] tell them whoever countin, im on 💯 nikka
+- [773] who’s here in 2025 🎉?
+- [774] no bombs no tricks no fears no winning from a true king!
+- [775] sorry for the wait 2 is beast mode weezy
+- [776] i forgot this even existed 🔥🔥🔥🔥 might be the greatest record he did
+- [777] we the 🆕 demons 😈 boi!!! 😇🥳😴👽👣🫡✍🏾😇🫣🦷👅🦷✝️
+- [778] this still heat in 2022 no 🧢
+- [779] what you can get you to work tomorrow morning i can get put on your facebook page
+- [780] still one of weezy best tracks
+- [781] this is a free style wtf
+- [782] this is a masterpiece
+- [783] no more am i my brothers keeper cain and abel sheeesh
+- [784] fuckin g drop the beat i haven't tapped in a minute
+- [785] i remember this 🚀🔥🔥🚀
+- [786] jonathan firestone 22 fire gas ⛽
+- [787] compensation over conversation 💪🏽
+- [788] anyone else know that scene from running scared?
+- [789] 2k26 save yourself cause i can't safe you
+- [790] just know if wayne remixes your song... its his song now 😅
+- [791] blowing up guts you heard
+- [792] one man army still winning wow you strong af
+- [793] “you been down since day one that meant nothin on day 2.. sometimes the truth is hard to swallow an to say too.” 🔥💯
+- [794] this time i choose myself and my kids.... byyyyyyeeeee
+- [795] what gives me the most chills in this video seeing the hotboyz big tymers flashback at the start. brings back my childhood memory’s 🙌🏼
+- [796] 2026 anyone? i can’t be the only one?
+- [797] who listen in 2021
+- [798] like i'm serious..... right going back to the feds
+- [799] man this song hits different when you know how cmb did him and the rest of the hot boyz. he rapping with pinned up emotion and anger on this one. still with the thought of, "i'm gonna be better without ya!"
+- [800] who’s here in 2025
+- [801] thanks for your sacrifice
+- [802] challemain the god once said lil wayne is not a lyricist, i don’t fuck with him.
+- [803] still listen to this on here cus it’s not on amazon music
+- [804] why isn’t this on apple music 😭
+- [805] 2022 we here the goat 🐐
+- [806] don't shara plz me robot celebrity
+- [807] this here still hard 6 years later 🔥 🐐
+- [808] it has been 8 years weezy. we got sftw 1 on spotify, drop sftw2 as well
+- [809] this pistol pete well birdman shouldn't been doing them he did bg juvenile and mannnie fresh didn't he did lil wayne like that dam birdman.
+- [810] i found a needle in the haystack put the thread through i tried to stitch the wound back up but i just bleed through…. 🔥
+- [811] who is still here listening?
+- [812] weezyf ate bird can't front
+- [813] yo and now in 2021 people still got you booming out there speakers and birdman get 0 plays and his artist get almost 0 plays and he signed a c when he been claiming bs for 20 years 😆 🤡 love you weezy keep it pushing broski 💯
+- [814] see yall in 2026.
+- [815] this song is still fire 🔥
+- [816] 2025 why isn’t this song on spotify?
+- [817] that "ugly duckling" line...6 years later should put a frown on birdman's face lololol
+- [818] still listening to this🐐 music
+- [819] this freestyle from lil wayne talking to birdman bout his money " it's compensation over conversation ..." 🔥🔥🔥🔥
+- [820] love song when it came out, still go hard
+- [821] wayne still that nigga
+- [822] no goes harder than lil wayne when he's sorry for the wait
+- [823] just want the money f.... a problem 😞😞 bahhh bahhh 😂😂😂😂😂😂😂😂😂
+- [824] imma mess aayyee the smoke shop got ♏ flask lol
+- [825] 33mil views says allot i'm surprised there isn't way more
+- [826] who’s still here in 2021🔥🔥
+- [827] he fkn killed this.💯💯💯
+- [828] whose here in 2020?
+- [829] 6767 whos bumpin this
+- [830] norbit ❤. and 1,2,3,4,5 😂
+- [831] lil wayne goat . remix
+- [832] one of the greatest. talking the song and wayne
+- [833] 2023 anyone sipping or smoking on this joint?
+- [834] who here in 2025?
+- [835] i just came back to watch this before i see them in concert on saturday. birdman greediness really ruined so much i’m just happy i lived long enough to see them reunite. the hot boyz started my love of hip hop. can’t wait for it.
+- [836] i know homie was hurting .. he was the only father figure wayne had left …glad he’s still here with us
+- [837] this lowkey better than the original 😂🤷🏽‍♀️🤝🏾
+- [838] this needs to be on apple music
+- [839] i forgot how the original song goes after this 😂
+- [840] “i don’t want no problems i just want my money”
+- [841] the only thing i'd like about lil wayne is he got sooo many great songs it's hard to remember all of them lol
+- [842] 9 years later, back to a classic🔥
+- [843] good as this is and was i never could take him serious
+- [844] the drugs got me so numb i can't feel ashamed 🤧
+- [845] made me forgetful what i was gone say lil wayne but i ain't smoked in like 20-19 hours
+- [846] one of the best songs wayne drop so far, real fan from brazil here , damn 🔥🔥🔥
+- [847] lil wayne best in the game🔥🔥 still here listening🐐
+- [848] ok i’ll admitting i’m late asf,but who did it first drake or wayne?
+- [849] cash money would have never been what it was with out wayne birdman was wrong for what he did
+- [850] look what you made me do me that’s who
+- [851] lil homie gone be straight! i told myself to save yourself cause i can't save you.
+- [852] 2021 still the shit
+- [853] how do you fuckin like that
+- [854] 2015 was a krazy year.
+- [855] yo who still here in 2157?
+- [856] i'm keeping young successful men group fu
+- [857] still listening in 2021, who else?
+- [858] me i’ll stay here this the wayne we need back frfr 😢
+- [859] btw this isnt his song the beat or the song he didnt come up with it
+- [860] they got a big problem
+- [861] 22 when this was out now 32 dam still bumping
+- [862] tell em no love lost cause i dont have nothing to loose❤❤
+- [863] swear i don't remember the original lyrics
+- [864] the day you met me is the day hell froze god damn it wayne !!!!!!!! i love this song
+- [865] 2021 listeners like this comment up ❤️❤️💯
+- [866] sorry 4 the wait!!
+- [867] what is this song called on spotify??? can't find it with coco remix
+- [868] sipping lean out the cup bay bay
+- [869] one of thee best intros ever!!!
+- [870] 7 time on mic 🎤
+- [871] 2025 & this sh*t still is 🔥
+- [872] one of wayne’s best
+- [873] bring the destruction…wake up☠️
+- [874] wish this was on spotify
+- [875] who is here in 2024??
+- [876] sippin lean out a flask still in 2021😷
+- [877] lets be honest, still the greatest 👍
+- [878] the 1 & only rapper who can forget sometimes he himself how many hit songs he has under his belt 🤑
+- [879] i just randomly wanted to listen to this 😭
+- [880] young thugs favorite song😂😂
+- [881] i’m still listening to this to this day ! :)
+- [882] they're like she's pissed so... she's saying no cap
+- [883] who knows the movie ? 1:00
+- [884] this man's the real deal what he speaks only factz he's always fire 🔥
+- [885] when he realized gillie was telling the truth the whole time
+- [886] i’m such a wayne fan i learned this word for word on my second spin ❤❤
+- [887] sorry but not sorry.
+- [888] 33mill still slept on wayne
+- [889] i found a needle in the haystack put the thread through, i tried to stitch the wound back up but i just bleed through.. nobody on his level he talking about his label situation 🔥
+- [890] im a one man army
+- [891] 2022 and it still hit like it did then. weezy really timeless
+- [892] i prolly count for 1 mil views myself lol
+- [893] hell na but me
+- [894] here in 2024. wayne the goat
+- [895] no more cash money, only ym 🔥
+- [896] wayne’s overall was at 99”
+- [897] like maybe we should bc i'm not a people pleaser
+- [898] 2021 😈💨 still bumping !!!!! cant wait for more music from the 🐐
+- [899] elijah sirece shelton is an excellent tool to use and the other is a good place to start
+- [900] i tried to stitch i can't....go get me the insurance information.... call and tell em down at county
+- [901] im still bumping this at high volume in 2026
+- [902] win is head the most you can do for people in one spot. i t
+- [903] shii still hard in ‘21
+- [904] this is definitely a top diss track!
+- [905] lorenzos lil wnys froms kaia green bansa sastian
+- [906] bangon this now..wheezy the goat..
+- [907] 2023 sorry for the wait too😃
+- [908] everybody know waynes the goat
+- [909] 2026 i'm still taking 💰🌄🔥🔥🔥🔥🔥 this game is a vampire
+- [910] 2021 who ? am i the only one ?
+- [911] yo everyone else did leave back in the day and he the only one that stayed with bird
+- [912] i love this song. much love tuenchi lil wayne . my favorite rapper of all time that son these new niggas
+- [913] who’s here in 2025????
+- [914] he called me a nigga about 20 times. but i still dig it like a graveyard. red bandana
+- [915] sorry for the wait 2
+- [916] after that pardon of his, he better get back on this vibe! #2021
+- [917] i'll never forgive birdman, f**k that man. he ruined wayne
+- [918] i miss old wayne 😓
+- [919] to everybody sorry for the wait..time don't stand.still😜👍
+- [920] he in a cage in the video says it all
+- [921] is this why his dj played the original song and wayne got mad and left 💀💀
+- [922] may 2024 we all know this is a beast
+- [923] anyone owe u send this to them say firestone said send to them aka physc jonathan david fireston sr 22
+- [924] whos here in 2025?
+- [925] this shi better than ether if u listen lol wayne flamed them for the money and respect
+- [926] who's here in 2023
+- [927] who’s there in 2025 ?
+- [928] 2023 who's playing this
+- [929] he don’t get enough credit for being one of the best modern day diss songs
+- [930] bruh can you put it on apple music
+- [931] rip young dolph. flippa 🐬🐬🐬 paper route frank forever
+- [932] who’s still here in 2037??
+- [933] yes sirrrrrrrr still blowing up speakers with this
+- [934] just think if this wasn't a mixtape its be best album ever with all his fire remixes the goat
+- [935] i hate that in 2024 i have to come to youtube to hear this
+- [936] and tooly even won me in small quantitys💸🗡️
+- [937] feb 2026? first heard this today feb 14
+- [938] it honestly does.... like literally but it's wrote for a select demographic thats why he not annunciation and you prolly wouldn't relate anyways ya know so it's not for you...weeding out. if you were supposed to know what they were saying then.... you would understand
+- [939] mike..... i don't know..... you give me 3 words.... you got more methadone
+- [940] baby you warning me bout cocospy
+- [941] still here on the top sheesh ❤
+- [942] this is what happened.
+- [943] love ‘em;) nikki, here….he talented and fine too💘💓😈💖💞
+- [944] oh they been beefing a decade
+- [945] might be his best song
+- [946] goat , top 5 don’t agree i’ll wait twice while i’m driving with no ceilings
+- [947] still here in 2026🔥🔥🔥🔥🔥🔥
+- [948] this shit still fire
+- [949] r.i.p granite cylinder coffin. blackcalf?????😅😅😅😅.
+- [950] when did u name it coco got me jeffery domer need a oz
+- [951] the first time i listened to this i played it probably 20 times in a row just in shock. still listening to this day.
+- [952] i remember when this came out it went hard af… it still goes hard af.. 2022!!!
+- [953] fun fact - when wayne says "who kept this sh*t together, me that's who" go to birdman song "fuk em" skip to the end of the song. that was bird mocking wayne. his response..
+- [954] that man left it all on the track and kept is music!!! everything that followed this release proved that he stuck a nerve with his side of the story.
+- [955] i found da needle in the haystack and put the thread through....i tried to stitch the wound back up but i just bled thru!!!!🤯🤯✊🏾#2022
+- [956] 2025 & we still here
+- [957] my top three rap artists as follows -eminem -lil wayne -wiz khalifa
+- [958] who kept this shit together me that's who lil wayne the best rapper alive ❤️❤️5 years later still the best 2021...........forever wezzey 🙏🤘
+- [959] look at what you made me do.😭
+- [960] still come here every year
+- [961] apored with lil wayne would be crazy 😂😂😂
+- [962] i walk with both legs i don't want parts of your bodies i just want they heads
+- [963] i always been me not good gangsta and i'm white as my skin is i just got my own swag lingo and i'm me
+- [964] i dont know y he forgave birdman i loved this weezy
+- [965] lil wayne the 🐐
+- [966] ivy leauge college and universities accept this practice. i make sure i keep a spoon, a scale and a box of arm and hammer with gloves and alcohol wipes. chemistry and sanitization practice is key when executing these lab tasks. the finished product is usally disposed in a biohazard bin after being documented and elaborated upon in a ucla style formatted essay. some even go as far as to argue that the end product serves as an aed or automated external difibulator in emergency sitiations. on behalf of independant medical research, ralph peebles, cheif investigator and lab tecnitian for advancment in modern medicine 2026.
+- [967] forever live tunechi!!! ymcmb$$$
+- [968] 10 years ago ❤
+- [969] go back in time
+- [970] 50 been putting people on since day one #eifriviera #powerseries #theunit
+- [971] 2026 ? anyone who’s here
+- [972] still tuffer.then nails the raps lucky charm my raps coming inta the thunder my muther fuck of the cart the start in the step i'm struck buy the stars .the luck in the cards piont in the pluck the pick in the pack the pack in the prick my lap in the flip.. the lick in the world. ..my world in the wing spread the ding dat .dat ding bat then ringer rape n the road between the streets the mop bucket uh four four five stop sign in the line light uh light liftinn the bright sipping ..night is em dice written
+- [973] might have to go back to slagin yolla til the wait is over, if so then i got baking soda… i got baking soda…
+- [974] ❤ listened to it 10+ times today
+- [975] i love his rapping and style!!!!
+- [976] still here bumping it daily
+- [977] a joint of blue lobster *2025
+- [978] young snakes ❤ and cmb
+- [979] “life is a movie but sometimes a dude get too tired of watchin’ & walk out “
+- [980] this cash money birdman diss everyone slept on
+- [981] the goat of taking yo hits and making them even more fire 🔥 still slapping in 2021
+- [982] no likes but lil weezzy better than taylor swift
+- [983] this song always hypes me up
+- [984] shelter office flowers gone! 8.5.21. 🎥 fb trolling 8.6.21. post! flower sale! 8.7.21. 257am
+- [985] 2024 where we at?
+- [986] yeah carter 6 ain’t it my guy ….but i still bangs with you !!
+- [987] he’s got so many songs. i forgot he hopped on this
+- [988] who is here in 2020!!??
+- [989] this is still 🔥 will always be fire 🔥🔥 i love you wayne ❤️
+- [990] is there anybody that has ever been better on mic tapes?
+- [991] happy father’s day 2026 🖤
+- [992] when he said " look what you made me do" i knew birdmsn was gonna get it.
+- [993] 2023!!! i need head proof 🤯💯
+- [994] the old me dead and gone that’s what i’m praying over. ❤
+- [995] the hardest part is when hes like "i aint trippin i got barbie, i got drake too"
+- [996] my daughter said baking soda so i had to listen to this song
+- [997] i swair he can't handle females being gay
+- [998] i love wayne but he cant diss
+- [999] this song still fire 🔥 in 2022
+- [1000] coco is 10 years old. still here enjoying greatness. tunechi you are a god in hip-hop. 2025
+
+## b6: Megan Thee Stallion vs Nicki Minaj （artist_a=Megan Thee Stallion, artist_b=Nicki Minaj, 250件）
+
+- [1001] doctor, shes out again
+- [1002] still come back to this to remember how she brought the whole rap beef genre back into the game relaxed, educated, and paid.
+- [1003] is it sad that this is what she's come out too
+- [1004] hater don’t forget to tune in like yall always do and barbs of course stay blessed 😊
+- [1005] 2:34 i love this part so much & the look was top tier ❤
+- [1006] biggest flop of the century 😍
+- [1007] the way she used every one of nicki’s outfits. and looked hella good too. 😂🤣
+- [1008] nicki the mf oracle 🔮
+- [1009] fuck yes, baddies come out 🎉😂😂😂
+- [1010] lyin on ya dead momma ❤ #thequeen
+- [1011] this colab better then deli ice spice just saying
+- [1012] she must have been on a binger making this. producers did what they could 🤣🤣🤣
+- [1013] hardest diss track of the century 🔥
+- [1014] who's here after barbz say they forgive her 😂
+- [1015] this aged so well, nicki sucks!
+- [1016] tory cse fake news. you talk 💩you and your jay z team like courts aint corrupt. all men need to stay away from this.. who shot yah😂😂😂😂😂
+- [1017] your so pretty but i love your song
+- [1018] 10 million views on the the way for bigfoot keep streaming & listening barbz
+- [1019] that goes to all my ex every time they mention my name i get famous and still won thanks to megan coaching me on her tracks you go girl
+- [1020] lied on your dead mama 🤣
+- [1021] niki plz shut up your talent is non-existant please we all know your jealous megan so shut it and for the love of my ears stop singing
+- [1022] her-story was made 💗
+- [1023] megan and cardi b now is queen ❤❤❤❤❤❤❤❤
+- [1024] the c*ke could have not been this good😭
+- [1025] kick her while she's down !!! release the second installment ❤
+- [1026] we are living in a world where some of these female rappers are 10 times better than the men
+- [1027] grammy she will got it anyone 2030
+- [1028] thotties say sorry to nicki now.
+- [1029] and this is why meg is goated
+- [1030] when she says the lyin on yo dead mama bit i just imagine her in a straightjacket 😂😂
+- [1031] she is so fine and goes so hard! 🔥
+- [1032] if nicki ever disses sza in the booth (heaven forbid because chile)... it better not be big foot pt. 2. onika, please.
+- [1033] megan no. i know you are in love but as an artist you lose the art when you don't leave much for the imagination. bring back the art to the body ody, sis.
+- [1034] it’s actually insane how bad this is
+- [1035] sooooooo had to ask - tina fey and her competing in a rap battle when
+- [1036] i guess she needed money bags for them trey songs, she g eazy, carl made ‘write crawl for it ✨😂😂
+- [1037] when i remember dis diss was for drake but nicki take itself i always be like: "meghan, you shoot for one but taked two in the line!". 💯💥
+- [1038] aaand they still tuned in if they fans or not!!!
+- [1039] you can take pride in saying, “i told you so.” 😂
+- [1040] i love meg but i feel like the truth was in this song but nobody put the pieces together. “if the d ain’t worth coming back” “throwing that dirt but it don’t stick”
+- [1041] the song is fire and luxury, i liked it 🔥💞
+- [1042] lied on her dead mama
+- [1043] who would win niki minaj vs stallion or h3 vs hasan or israel vs palestine
+- [1044] did a whole fandom cleanse with this song
+- [1045] nicki minaj would make some man very happy, whoever that man might be!
+- [1046] nicki jealous meagan did get the sgit
+- [1047] big foot we are in 2026 and you never replied 😂😂
+- [1048] i can’t believe this song is about to be 2 years old now 😢
+- [1049] the beat so hot 🔥🔥
+- [1050] the end sounds like asmr ❤
+- [1051] back here again, and nicki still hasn't said a lie.
+- [1052] 1:58 nicki please😂😂😂😂😂....your husband and brother literally did😂😂😂like😂😂😂😂😂😂😂
+- [1053] this diss is a masterpiece
+- [1054] every now and then i was like "damn shes still going??" t-t
+- [1055] i think this song and music video dont get hyped up enough 🥰
+- [1056] people think this sounds good?? the voice changes😭 im uncomfortable
+- [1057] i bet you she was already with klay when this song dropped 🔥
+- [1058] nicki is so theatrical 😂😂😂 and i love it❤👏🏾
+- [1059] why they be playing wit her she ate this shi fr
+- [1060] its iconic for all of the wrong reasons
+- [1061] nicki with trump watching this:👁️👄👁️
+- [1062] i love how tina slowly integrates into the song to finish it off with some hard bars
+- [1063] is this a megan diss?..
+- [1064] meg the stallion, cardi b & the rest of these talentless rappers all agents sent to turn your daughter to a single young pregnant mother.
+- [1065] this shit sill go hard 😂
+- [1066] right now can’t nobody can touch megan…
+- [1067] i have to say meg she ate this song up 😩😮‍💨😮‍💨💅🏾
+- [1068] why is this beat so good lmaoooo
+- [1069] finally we get biblically accurate megan ❤❤️‍🔥
+- [1070] why all my likes on queen nicki minaj videos?is taken off okay like them again.
+- [1071] aquarius behavior yessss mam ate it up !!!!!!
+- [1072] it's been 2 years and megan's law is hands down one of the best rap bars of all time 🔥
+- [1073] a year later and the other sis is still mad about the megan's law line 😭
+- [1074] i still love this song ❤😂🔥💐may 17, 2025
+- [1075] not like us is great but hiss bodied the “queen of rap” with just one line
+- [1076] damn i know i'm hella late to this but this shit is fire 🔥
+- [1077] this came out the first day i had physics with daniel tucker. how time flies...
+- [1078] all the product placement 😩
+- [1079] lyin on your dead mama😂😂😂 she ate
+- [1080] :48 she even tells is that they slept together 🥴🥴🥴
+- [1081] and when they free tory we are playing this until the trial is over she shouldn’t have lied prayer 🙏 has dragged her by her lace front to the front of the congregation!
+- [1082] still waiting for the eminem diss just saying
+- [1083] i hate how meg is totally left out the conversation when it comes to drake. she started the shit off
+- [1084] not hella ppl coming back after nicki's psychosis😭😭😭we stan megan hereeeee
+- [1085] where did her nipples go to
+- [1086] this aged incredibly well
+- [1087] for a free beat u can hit megan raw
+- [1088] the future line so funny asf 💀 bigfoot hate is forced asf 😂😂
+- [1089] im here to listen to the tea again! cause she said she went light
+- [1090] every time they say something about meg i go to this song lol😂
+- [1091] haven’t heard from big foot since
+- [1092] legend has it, nicki is still having an aneurysm because of this song
+- [1093] 9 in like manner also, that women adorn themselves in modest apparel, with shamefacedness and sobriety; not with broided hair, or gold, or pearls, or costly array;---holy bible
+- [1094] we need this moment to happen again this year meg put these hoes in they places 😌
+- [1095] "i'm always in point like a decimal..woowww🎉❤
+- [1096] thee worst diss track of all time.
+- [1097] meg, rem, and cardi need to link up!! 🎙🫣
+- [1098] your flow is such a bore drinking a bottle of henny through a straw.
+- [1099] i mean if she wants to stoop that low and she did in this so-called song
+- [1100] gurl im finna agree with you and dip out for mogod. & ima throw mi dookie at whatever it is muy muy differente
+- [1101] this song is just aging so well. i love it!
+- [1102] if me an her do a roast battle im cooked an scared😅
+- [1103] it's been a year and i'm still gagged
+- [1104] lied on yo dead mama the lie came to light ‼️‼️😭🤣🤣🤣
+- [1105] these hoes they aint mad at megan these hoes mad at megans law
+- [1106] listening to this while having a broken foot hits different 😔
+- [1107] 💩💩💩💩💩💩the cokehead still crashing out😂😂😂😂
+- [1108] just realised this sounds insufferable
+- [1109] this funny asf 😭😭😭
+- [1110] she knows she the shit
+- [1111] i absolutely love this song, this music video is so 🔥 👌
+- [1112] 2pac hit it up standard dissssssssss legendary 💖💖💖💖💖💖💖💖💖💖💖💖💖🎇
+- [1113] here after the “ i just cut it off” reference 😂😅😅😅😅
+- [1114] remember when we listened to her when she used to sing "starships were meant to fly, hands up and touch the sky"? yeah, good times
+- [1115] we all know they be going after nicki now...she the queen,that's what mad😊
+- [1116] "bad bitch and the walls ain't bending" holy bars 🗿
+- [1117] its been a year and im still gagged
+- [1118] this junt really hard w the double sided fit after meg n tina n the mirror my bihhhhhh!!!!!!
+- [1119] can’t get over how she was mocking her flow with us flow, can tell she wasn’t even that serious with this 😂
+- [1120] coming back a year later and it's hitting different 🔥
+- [1121] the way they still haven’t even topped this, i luv when u set the tone
+- [1122] my gawwwddd i love megan down to the ground forever
+- [1123] 0:17 well klay hit it and quit it lol
+- [1124] this aged very well😂😂😂😂😂❤
+- [1125] happy one year big foot🦶🏼🦶🏼🦶🏼🐎🐎🐎
+- [1126] happy 2 years anniversary to this masterpiece!
+- [1127] im not a rapper but i wanna slide on that monokuma beat
+- [1128] now that i think about it in retrospect, it is so wild how she really came onto the scene, ended the career of one of the biggest female rappers in history, called out abusive patterns within the industry extremely publicly and lived to tell the story. we all know how hollywood is. megan is a legend.
+- [1129] the song that made maga minaj 😭😭
+- [1130] 2 words is still triggering grandma with the pink bob
+- [1131] nicki i love you thanks for conquering evil spirits and having fun do it - papa peachez
+- [1132] the “whoop” sounds like mario jumping
+- [1133] hiss was a moment in rap history 🔥
+- [1134] this shit ass word 2 my mother
+- [1135] cardi, maria carey , latto, beyonce, queen latifah and many of those who knows nicki litrally laughing behind becuse meg actually humbled the so called queen
+- [1136] dear barbz: lil kim tried to tell you. rah diggah tried to tell you. shawna tried to tell you. remy tried to tell you. latto tried to tell you. kash doll tried to tell you. sza tried to tell you. jennifer hough & other victims tried to tell you. bloggers tried to tell you. y'all didn't listen. but i guess she herself had to tell you who she was.🙃
+- [1137] so we all here rn
+- [1138] glass fragment foot ah bih😭😂😂😂😂😂😂😂
+- [1139] where pt2 i want it neow!
+- [1140] 2:55 to 4:20 is the duration of nikki's little asmr hex speach
+- [1141] trust when you think i'm cheating??? nah it's been over ...ok fucking thinking it's mine not if he ducked you you a sm o
+- [1142] noone talk about how meg dropped this and prompt kendrick to drop his diss😊
+- [1143] she was right the whole time!
+- [1144] whoever fumbled you meagan is a damn fool. ❤❤❤
+- [1145] her world play is something else...
+- [1146] i knew megan was a big liar after the case with tory lanez. she destroyed that dude life its so sad
+- [1147] what has entertainment turned into?
+- [1148] god this sucks lol
+- [1149] not wait until the next installment when this first one was weak n boring af!?!🙄🥱🥱you can sav dat bs for ur pettyfile bc this...aint it!! megan ate dat ahssss tf up!!! end of story. we'll give you an e for effort pfhahaha💁🏽😂😂🤣🤣
+- [1150] is like saying it from ya chest . so relieving 😮‍💨😮‍💨
+- [1151] despite all the haters who took time out their day to listen in 2024-2025 still to this day… barb check ❤😂 keep doing numbers😊
+- [1152] i'm a nicki fan but this slaps bcz i had to clear my ears 😭✌️
+- [1153] she eats ive never heard this queen before wtf
+- [1154] feels like when nick cannon dissed eminem..
+- [1155] here after hov whacked some asses tonight
+- [1156] this that permanent playlist type beat
+- [1157] pedonika magaj will never recover from this
+- [1158] her voice is literally the most grating thing ive ever heard, she speaks like a psycho maniac
+- [1159] you here because of the unfollowing arent you?
+- [1160] i want the next installment queen!!! ❤️ ❤
+- [1161] this low-key ate, i just wish she didn't add that essay in the end😭😭
+- [1162] megan, don't you forget that barbie dreams exist
+- [1163] ngl he slid on this & it pissed me off the other day i seen a video of a dad recording his had to be 5 yr old daughter reaction talking about yb & she looked at her dad & said he gone kill you so yeah right message wrong messenger becuz now i believe everything nle choppa bm said he did to her i’m confusion 😫🤷🏽‍♀️🤣🤣
+- [1164] i'ma lie, this doesn't sound like baby's first fl studio beat
+- [1165] when she turned into tina is like when kaneki embraced his ghoul identity 😮‍💨😮‍💨
+- [1166] anyone here in 2025?
+- [1167] this just sounds like she quickly collected everything she said on twitter and put it into a song. like this is the worst i’ve heard from nicki 🙃
+- [1168] i like this song tho😂😂😂❤
+- [1169] second to 'freak', this one of my favourite megan's tracks. and still makes me laugh because right after this everybody went in on bbl drizzy. 😂 gives me the giggles everytime.
+- [1170] 9 in like manner also, that women adorn themselves in modest apparel, with shamefacedness and sobriety; not with broided hair, or gold, or pearls, or costly array; ---holy bible
+- [1171] 1:53 i forgot how bad this was, 😂
+- [1172] random but folk really don’t talk about all the bars or references and just how she was swinging on this mfker
+- [1173] what a terrible song. or conversation.
+- [1174] it’s time for the next installment!!!!
+- [1175] nicki was destroyed so hard she turn to the far right 😂
+- [1176] this is one way to destroy a failing career!
+- [1177] came back after drake posted his etch a sketch abs. 💀
+- [1178] this is so bad i can't not listen to it.
+- [1179] you think megan would ever date a white guy from iowa?
+- [1180] was this the start of the downfall of nicki minaj? it really was a turning point
+- [1181] this song is way too underrated
+- [1182] who's here after the cardi b drama? 😅😂
+- [1183] that lady hates this song 😭
+- [1184] pov my mom in the kitchen singing this 😂
+- [1185] we keep coming back cause helloooooo? 🎉 she clocked everyone
+- [1186] who else plays this whenever nicki minaj breathes
+- [1187] my kids dad left a coyote in the trunk man
+- [1188] ok everything alright but messing with her mother? that was definetly out of diss tracks that was a sick and hateful move.
+- [1189] "im finna get ts off my chest and lay it to rest" and she did exactly that. no following remarks despite sending the "queen of rap" into a frenzy for a week straight from one line that could've been for anyone. oh megan the woman you are. my unbothered queen.
+- [1190] thank you for not celebrating the death of charlie kirk.
+- [1191] ts is not tuff 💔
+- [1192] these comments are still on??? 😂😂
+- [1193] 1:57 is this a reference for how horse girl is a trannie?
+- [1194] shout out to teacher dr gold
+- [1195] everyone who sayin nikk lost got biggggg foootttttt😂😂😂 🔥🔥foth
+- [1196] 😂😂😂😂😂😂 this is hilarious
+- [1197] i came back for this masterpiece after some weak ass b1tch got ranting attacking... children. megans law on her too
+- [1198] just here to run my babe numbers up in the mist of all the bs. 🫶🏾 chin up you girlie 💕💜
+- [1199] still listing to this, cracked me up, i was shook and damn amazed
+- [1200] ❤❤ you are the goddess
+- [1201] it’s still giving coke
+- [1202] the week this song came out was a time to be alive. megan shook the internet with this. a certain lady went insane for about a week over a bar that didn't even mention her name.
+- [1203] this is the last song i'm going to be listening to in 2024 idgaf
+- [1204] big foot itself feels utterly disrespected
+- [1205] i love this song ❤❤❤❤
+- [1206] one thing about it that 🐎 gona lie but the queen always speaks truth 😌🤭
+- [1207] this happens when u sneak diss in a bar the actual good ones will make a whole song or album about them fools
+- [1208] they were talking about this song
+- [1209] kristy noem rode on her dog to this track 💥🔫
+- [1210] she truly lied on her dead mama !!
+- [1211] chile bye big foot but you're still a small fry.
+- [1212] kylie kicked u out and made you stumble to the car 😂😂 megan
+- [1213] ok why it actually good if u ignore the last minute and the fact its a diss track
+- [1214] what does "megan's law" mean?
+- [1215] bigfoot about to have 9.5m views danggggggg after a year later
+- [1216] i want the full version of this song bro
+- [1217] i really wish this song was longer. i really like that speedy flow, but even slightly slower would have given more time to appreciate every cutting line
+- [1218] i knew she was serious when she cut the music off. that was her warning to megan, i think people didn’t realize nick wasn’t playing with her at the end of the song. 😯 3:30
+- [1219] 0:11 with headphones is just soooo 😩
+- [1220] want a real diss track? listen to cupcakke's "the gag is" to clear your ears.
+- [1221] it’s so fitting now smh.
+- [1222] she said it, she did it. ‘i’m way too cocky to take him back if he been cheating’ 👌🏼
+- [1223] babyyyy she tore drake ass up 😂😂😭
+- [1224] you ain’t got shit now!
+- [1225] and we are back because nicki is still crashing out because of a specific law lol
+- [1226] free tory!! nicki a prophet!
+- [1227] yessssss🔥🔥🔥🔥shout out to all the aquarius
+- [1228] 🤭oooh she went tf off on this 😁
+- [1229] bigfoot almost at 9.6m views but it supposedly trash right
+- [1230] anyone still listening to the song in 2026?
+- [1231] girl get out that egg we finna jump some hose.
+- [1232] the dislikes are from the pain bots by an offended nicki minaj
+- [1233] she ended bbl frizzy and pedo minaj 😂
+- [1234] 22 n-words that's crazy 💀
+- [1235] whose here after the dj vlad tweet?👀
+- [1236] funny the haters are coming to a song and giving nicki views and traction. us barbz know how much you love the rap queen.
+- [1237] one of the worst songs of 2024
+- [1238] the fact that nicki was right is really sending me 💀 #freetory
+- [1239] i never really liked megan but she is the hardest bitch on the plantet.ill give her that. (imo)
+- [1240] omfg!!! her beat is nicki minaj’s “beez in the trap” song 😱😱😱 1:03
+- [1241] on her dead momma
+- [1242] this hot sooooo hard
+- [1243] the gym part is my favorite cause yah !!! 👏🏽🤣🍑
+- [1244] 2 years ago: nicki minaj was ended
+- [1245] imagine looking like nicki and insulting one of the most attractive women on the planet. 😂
+- [1246] this could've went hard with a better beat who was the producer?
+- [1247] it's never too late to delete this...
+- [1248] she sounds like she is either drugged or genuinely mentally ill...or both.
+- [1249] who still here in 2025 gagging 😭😭😭🎉🎉🎉 ???
+- [1250] this song is soooooooooo good with airpodssssessssss

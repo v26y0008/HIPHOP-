@@ -1,0 +1,11 @@
+Beef,Beef type,Test target,chi2,p-value,Cramer's V,Significant (Bonferroni)
+B1: Kendrick vs Drake,rap_battle,conflict_vocab,27.1297092434112,1.2848679318035056e-06,0.0826348583809238,Yes (alpha=0.0050)
+B1: Kendrick vs Drake,rap_battle,opponent_mention,145.72513193155757,2.2708563567693784e-32,0.1915172716070934,Yes (alpha=0.0050)
+B2: Pusha T vs Drake,rap_battle,conflict_vocab,628.4463361378757,3.4246171048021206e-137,0.3698208065732788,Yes (alpha=0.0050)
+B2: Pusha T vs Drake,rap_battle,opponent_mention,427.2051592688253,1.7122940378174259e-93,0.3049126810088513,Yes (alpha=0.0050)
+B4: Eminem vs MGK,rap_battle,conflict_vocab,375.93070360823776,2.3317657691376997e-82,0.2648573443895292,Yes (alpha=0.0050)
+B4: Eminem vs MGK,rap_battle,opponent_mention,939.1614547221692,1.1579273152580605e-204,0.4186279793499698,Yes (alpha=0.0050)
+B5: Wayne vs Birdman,contract_breakdown,conflict_vocab,8.577299058212578,0.0137234459030341,0.0551996185606449,No
+B5: Wayne vs Birdman,contract_breakdown,opponent_mention,34.08954000125004,3.958680423429113e-08,0.1100452676132304,Yes (alpha=0.0050)
+B6: Megan vs Nicki,rap_battle,conflict_vocab,152.64071643483936,7.153022140369102e-34,0.175976951009032,Yes (alpha=0.0050)
+B6: Megan vs Nicki,rap_battle,opponent_mention,252.267263510298,1.6628755445942784e-55,0.226230439393813,Yes (alpha=0.0050)

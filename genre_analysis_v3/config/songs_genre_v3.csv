@@ -1,0 +1,153 @@
+key,genre,artist_name,track_category,video_id,song_name,release_date,video_title_api,channel_title_api,view_count_api
+j_cole_catalog_01,boom_bap,J. Cole,catalog,WILNIXZr2oc,MIDDLE CHILD,2019-02-25,J. Cole - MIDDLE CHILD,JColeVEVO,357882439
+j_cole_catalog_02,boom_bap,J. Cole,catalog,jYdaQJzcAcw,She Knows,2014-02-14,"J. Cole - She Knows (Explicit Video) ft. Amber Coffman, Cults",JColeVEVO,297183015
+j_cole_catalog_03,boom_bap,J. Cole,catalog,eCGV26aj-mM,Wet Dreamz,2015-04-21,J. Cole - Wet Dreamz,JColeVEVO,252701288
+j_cole_catalog_04,boom_bap,J. Cole,catalog,vHU6ZRQJ50Q,G.O.M.D,2015-03-23,J. Cole - G.O.M.D,JColeVEVO,201377607
+j_cole_catalog_05,boom_bap,J. Cole,catalog,fzzMOMkjm8A,Crooked Smile,2013-09-18,J. Cole - Crooked Smile (Video) ft. TLC,JColeVEVO,90520289
+j_cole_post_01,boom_bap,J. Cole,post,zI1eLwVuSeI,Can't Get Enough,2019-06-22,J. Cole - Can't Get Enough ft. Trey Songz,JColeVEVO,16384677
+j_cole_post_02,boom_bap,J. Cole,post,vUTI4bPdlgE,ATM,2018-04-20,J. Cole - ATM,JColeVEVO,85662509
+j_cole_post_03,boom_bap,J. Cole,post,9nfVWiXY3WY,Neighbors,2017-05-01,J. Cole - Neighbors,JColeVEVO,16060152
+nas_catalog_01,boom_bap,Nas,catalog,PoK2m6Mu53A,Wave Gods,2022-03-23,"Nas - ""Wave Gods"" feat. A$AP Rocky and DJ Premier (Official Video)",Nas,11112384
+nas_catalog_02,boom_bap,Nas,catalog,234OiGtOvII,Nobody,2021-08-06,Nas - Nobody feat. Ms. Lauryn Hill (Official Audio),Nas,8710827
+nas_catalog_03,boom_bap,Nas,catalog,66OFYWBrg3o,Rare,2021-08-06,Nas - Rare (Official Video),Nas,4910523
+nas_catalog_04,boom_bap,Nas,catalog,mCx9sgGqefU,27 Summers,2021-01-22,Nas - 27 Summers (Official Video),Nas,4173294
+nas_catalog_05,boom_bap,Nas,catalog,buincVFp-yM,Michael & Quincy,2022-11-21,Nas - Michael & Quincy (Official Video),Nas,4100622
+nas_post_01,boom_bap,Nas,post,oQC97J_20d4,GiT Ready,2026-03-18,"Nas & DJ Premier - ""GiT Ready"" (Official Video)",Nas,1298307
+nas_post_02,boom_bap,Nas,post,1yC83w40zhs,LIGHT-YEARS,2025-12-12,LIGHT-YEARS,Nas,60578
+nas_post_03,boom_bap,Nas,post,QeR9VfPPwDw,Writers,2025-12-12,"Nas & DJ Premier - ""Writers"" (Visualizer)",Nas,581176
+joey_badass_catalog_01,boom_bap,Joey Bada$$,catalog,XoZtqXNLcW8,Where I Belong,2022-07-01,Joey Bada$$ - Where I Belong (Official Video),Joey Bada$$,4400402
+joey_badass_catalog_02,boom_bap,Joey Bada$$,catalog,Fy3070QgHV0,Zipcodes,2022-07-15,Joey Bada$$ - Zipcodes (Official Video),Joey Bada$$,2556330
+joey_badass_catalog_03,boom_bap,Joey Bada$$,catalog,2msMRPdMdWc,The Ruler's Back,2025-01-01,Joey Bada$$ - The Ruler's Back (Official Video),Joey Bada$$,3250101
+joey_badass_catalog_04,boom_bap,Joey Bada$$,catalog,yuWXpOW9Kyo,CRASH DUMMY,2025-05-20,Joey Bada$$ - CRASH DUMMY (Official Audio),Joey Bada$$,2010766
+joey_badass_catalog_05,boom_bap,Joey Bada$$,catalog,w30H9X86wmg,Sorry Not Sorry,2025-01-20,Joey Bada$$ - Sorry Not Sorry (Official Video),Joey Bada$$,2000608
+joey_badass_post_01,boom_bap,Joey Bada$$,post,FeoPeBgbLEY,SUPAFLEE,2025-09-30,Joey Bada$$ - SUPAFLEE (Official Video),Joey Bada$$,678342
+joey_badass_post_02,boom_bap,Joey Bada$$,post,6srUoLcXVKY,STILL,2025-08-25,"Joey Bada$$ - STILL (feat. Ab-Soul, Rapsody) (Official Video)",Joey Bada$$,1036050
+joey_badass_post_03,boom_bap,Joey Bada$$,post,52ToK1R1kzI,DARK AURA,2025-08-18,Joey Bada$$ - DARK AURA (Official Video),Joey Bada$$,1829932
+freddie_gibbs_catalog_01,boom_bap,Freddie Gibbs,catalog,_WnXMMOkubA,Gang Signs,2021-02-05,Freddie Gibbs - Gang Signs (feat. ScHoolboy Q) [Official Video],Freddie Gibbs,15964390
+freddie_gibbs_catalog_02,boom_bap,Freddie Gibbs,catalog,58g_dyMTQHQ,Black Illuminati,2021-11-19,Freddie Gibbs - Black Illuminati (ft. Jadakiss) [Official Video],Freddie Gibbs,9358375
+freddie_gibbs_catalog_03,boom_bap,Freddie Gibbs,catalog,NabmJWtYK5c,Big Boss Rabbit,2021-04-02,Freddie Gibbs - Big Boss Rabbit (Official Video),Freddie Gibbs,7673848
+freddie_gibbs_catalog_04,boom_bap,Freddie Gibbs,catalog,GT9IWNxHupc,Scottie Beam,2020-07-15,Freddie Gibbs & The Alchemist - Scottie Beam featuring Rick Ross (Official Video),Freddie Gibbs,7252450
+freddie_gibbs_catalog_05,boom_bap,Freddie Gibbs,catalog,09pjULtApQs,Frank Lucas,2020-09-09,Freddie Gibbs & The Alchemist - Frank Lucas (feat. Benny The Butcher) [Official Video],Freddie Gibbs,6329042
+freddie_gibbs_post_01,boom_bap,Freddie Gibbs,post,jGpF7nNfDqg,Rabbit Mode,2026-05-29,Freddie Gibbs - Rabbit Mode (Official Visualizer),Freddie Gibbs,293285
+freddie_gibbs_post_02,boom_bap,Freddie Gibbs,post,igGY41fNf5M,Immigrants,2026-05-29,Freddie Gibbs - Immigrants (Official Visualizer),Freddie Gibbs,212088
+freddie_gibbs_post_03,boom_bap,Freddie Gibbs,post,NVMHlJoK2XY,Axxtion,2026-05-29,Freddie Gibbs - Axxtion (Official Visualizer),Freddie Gibbs,108907
+rapsody_catalog_01,boom_bap,Rapsody,catalog,pZE4dL7WLq4,Dust To Diamonds,2022-05-04,Rapsody - Dust To Diamonds ft. Faouzia (Official Visualizer),Rapsody,173117
+rapsody_catalog_02,boom_bap,Rapsody,catalog,Qwmu3ejHd_4,Asteroids,2023-10-30,Rapsody - Asteroids ft. Hit-Boy (Official Lyric Video),Rapsody,157432
+rapsody_catalog_03,boom_bap,Rapsody,catalog,5uS1t9ZzgjE,Cleo,2019-08-23,Rapsody - Cleo [Official Audio],Rapsody,142611
+rapsody_catalog_04,boom_bap,Rapsody,catalog,k7-VMlsfClw,Sojourner,2019-08-23,Rapsody - Sojourner (ft. J. Cole) [Official Audio],Rapsody,100955
+rapsody_catalog_05,boom_bap,Rapsody,catalog,EA7EwHkuDBU,Hatshepsut,2019-08-23,Rapsody - Hatshepsut (ft. Queen Latifah) [Official Audio],Rapsody,67612
+rapsody_post_01,boom_bap,Rapsody,post,MQ-jwrhO7M4,God Gotta Afro,2026-06-12,"Rapsody, KARABO YA MORENA - God Gotta Afro (Official Audio)",Rapsody,7480
+rapsody_post_02,boom_bap,Rapsody,post,dB07Oi4vapA,FUCKUMEAN,2026-05-26,FUCKUMEAN | free though in collaboration with GROOVE,Rapsody,2648
+rapsody_post_03,boom_bap,Rapsody,post,n9vyEcCtVLs,Please Don't Cry,2026-05-21,Rapsody - Please Don't Cry (For Your Consideration II),Rapsody,3047
+travis_scott_catalog_01,trap,Travis Scott,catalog,6ONRf7h3Mdk,SICKO MODE,2018-10-19,Travis Scott - SICKO MODE (Official Video) ft. Drake,TravisScottVEVO,1399273556
+travis_scott_catalog_02,trap,Travis Scott,catalog,Dst9gZkq1a8,goosebumps,2017-04-14,Travis Scott - goosebumps (Official Video) ft. Kendrick Lamar,TravisScottVEVO,1146127234
+travis_scott_catalog_03,trap,Travis Scott,catalog,tfSS1e3kYeo,HIGHEST IN THE ROOM,2019-10-04,Travis Scott - HIGHEST IN THE ROOM (Official Music Video),TravisScottVEVO,817107349
+travis_scott_catalog_04,trap,Travis Scott,catalog,_EyZUTDAH0U,BUTTERFLY EFFECT,2017-07-13,Travis Scott - BUTTERFLY EFFECT (Official Video),TravisScottVEVO,551314217
+travis_scott_catalog_05,trap,Travis Scott,catalog,KnZ8h3MRuYg,Antidote,2015-09-18,Travis Scott - Antidote (Official Video),TravisScottVEVO,446974067
+travis_scott_post_01,trap,Travis Scott,post,6i8ed5GT1-0,PBT,2025-12-17,"Travis Scott, Tyla, Vybz Kartel - PBT (Official Music Video)",TravisScottVEVO,7998677
+travis_scott_post_02,trap,Travis Scott,post,M5iHI0nsVZc,BEEP BEEP,2025-07-18,"Travis Scott, SahBabii - BEEP BEEP",TravisScottVEVO,6577562
+travis_scott_post_03,trap,Travis Scott,post,LaJ7SWa4-QU,DA WIZARD,2025-07-17,Travis Scott - DA WIZARD (Official Audio),TravisScottVEVO,3016646
+young_thug_catalog_01,trap,Young Thug,catalog,leJNDpm_G10,Hot,2019-11-01,Young Thug - Hot ft. Gunna & Travis Scott [Official Music Video],Young Thug,279471141
+young_thug_catalog_02,trap,Young Thug,catalog,Tz6OUIjtM6E,Best Friend,2015-09-14,"Young Thug ""Best Friend""",Young Thug,337052302
+young_thug_catalog_03,trap,Young Thug,catalog,_-QxSh19nDI,Power,2015-09-28,"Young Thug ""Power""",Young Thug,256149250
+young_thug_catalog_04,trap,Young Thug,catalog,p0x6FEDV-ig,Check,2015-04-15,Young Thug - Check (Official Music Video),Young Thug,210435346
+young_thug_catalog_05,trap,Young Thug,catalog,KyCTZ8c-trc,Halftime,2015-06-08,Young Thug - Halftime [Official Video],Young Thug,107664722
+young_thug_post_01,trap,Young Thug,post,mSZKZLqO4Is,Revenge,2025-12-04,Young Thug - Revenge (feat. Lil Gotit & 1300Saint) [Official Video],Young Thug,3059811
+young_thug_post_02,trap,Young Thug,post,53yDuaWtUsQ,Blaming Jesus,2025-10-23,Young Thug - Blaming Jesus [Official Video],Young Thug,3272138
+young_thug_post_03,trap,Young Thug,post,Iy_fycvZJLA,Yes You Can,2025-10-03,Young Thug - Yes You Can [Official Visualizer],Young Thug,738035
+future_catalog_01,trap,Future,catalog,xvZqHgFz51I,Mask Off,2017-05-05,Future - Mask Off (Official Music Video),FutureVEVO,669030510
+future_catalog_02,trap,Future,catalog,l0U7SxXHkPY,Life Is Good,2020-01-10,Future - Life Is Good (Official Music Video) ft. Drake,FutureVEVO,2269743040
+future_catalog_03,trap,Future,catalog,K_9tX4eHztY,Low Life,2016-03-26,Future - Low Life (Official Music Video) ft. The Weeknd,FutureVEVO,962670774
+future_catalog_04,trap,Future,catalog,lw3Or6eqIpI,Where Ya At,2015-08-21,Future - Where Ya At (Official Music Video) ft. Drake,FutureVEVO,338255758
+future_catalog_05,trap,Future,catalog,2DBBb3_p8eg,You Da Baddest,2017-07-28,Future - You Da Baddest (Official Music Video) ft. Nicki Minaj,FutureVEVO,234258351
+future_post_01,trap,Future,post,f6ZDmAhaH_Q,Konnichiwa,2026-07-13,Future - Konnichiwa (Official Music Video),FutureVEVO,1960705
+future_post_02,trap,Future,post,DOSwXMCEMgM,Alice,2026-07-10,Future - Alice (Official Audio),FutureVEVO,212714
+future_post_03,trap,Future,post,SRIc1RSp2nY,Snow in Skyami,2026-07-10,Future - Snow in Skyami (Official Audio),FutureVEVO,568801
+21_savage_catalog_01,trap,21 Savage,catalog,H1KBHFXm2Bg,Bank Account,2017-11-10,21 Savage - Bank Account (Official Music Video),21 Savage,130954590
+21_savage_catalog_02,trap,21 Savage,catalog,6wtwpUwxQik,No Heart,2016-10-18,21 Savage & Metro Boomin - No Heart (Official Music Video),21 Savage,303048421
+21_savage_catalog_03,trap,21 Savage,catalog,SpXw0qiy3Wo,X,2016-12-25,21 Savage & Metro Boomin - X ft Future (Official Music Video),21 Savage,196233354
+21_savage_catalog_04,trap,21 Savage,catalog,VbrEsOLu75c,A Lot,2018-12-21,21 Savage - A Lot (Official Audio),21 Savage,68414792
+21_savage_catalog_05,trap,21 Savage,catalog,acYUqMd9k2I,Glock In My Lap,2021-02-24,21 Savage & Metro Boomin - Glock In My Lap (Official Music Video),21 Savage,107207566
+21_savage_post_01,trap,21 Savage,post,seppD-MuFvQ,STEPBROTHERS,2026-04-16,21 Savage - STEPBROTHERS ft Young Nudy (Official Music Video),21 Savage,1629593
+21_savage_post_02,trap,21 Savage,post,fvvEkicKuPo,HA,2025-12-12,21 Savage - HA (Official Music Video),21 Savage,3919296
+21_savage_post_03,trap,21 Savage,post,U4mADkt6o-M,redrum,2024-01-12,21 Savage - redrum (Official Music Video),21 Savage,167265237
+lil_baby_catalog_01,trap,Lil Baby,catalog,MHryuYVyHhk,Freestyle,2017-11-05,"Lil Baby ""Freestyle"" Official Music Video",Lil Baby Official ,735709391
+lil_baby_catalog_02,trap,Lil Baby,catalog,_VDGysJGNoI,The Bigger Picture,2020-06-12,Lil Baby - The Bigger Picture (Official Music Video),Lil Baby Official ,212876035
+lil_baby_catalog_03,trap,Lil Baby,catalog,_YzD9KW82sk,Drip Too Hard,2018-10-05,"Lil Baby x Gunna - ""Drip Too Hard"" (Official Music Video)",Lil Baby Official ,99891239
+lil_baby_catalog_04,trap,Lil Baby,catalog,WIwFxkDl2WA,Okay,2021-06-04,Lil Baby & Lil Durk - Okay (Official Audio),Lil Baby Official ,40874415
+lil_baby_catalog_05,trap,Lil Baby,catalog,Pw5y13LU_M0,By Myself,2025-01-07,Lil Baby -  By Myself Feat Rod Wave & Rylo Rodriguez (Official Music Video),Lil Baby Official ,28155750
+lil_baby_post_01,trap,Lil Baby,post,QK1zXP0NTeM,Violation,2025-12-31,Lil Baby - Violation (Official Music Video),Lil Baby Official ,6451641
+lil_baby_post_02,trap,Lil Baby,post,WWkGFs_7SjQ,Guaranteed,2025-12-17,Lil Baby - Guaranteed,Lil Baby Official ,3202462
+lil_baby_post_03,trap,Lil Baby,post,tk9zCak_UHU,Mrs. Trendsetter,2026-03-12,“Mrs. Trendsetter” Official Music Video OUT NOW!🔥,Lil Baby Official ,29120
+gunna_catalog_01,trap,Gunna,catalog,rajEOWsPhhY,Oh Okay,2018-03-10,Gunna - Oh Okay ft. Young Thug & Lil Baby [Official Music Video],Gunna,159958827
+gunna_catalog_02,trap,Gunna,catalog,V6ZsXKE8QmQ,fukumean,2023-07-05,Gunna - fukumean [Official Video],Gunna,35295328
+gunna_catalog_03,trap,Gunna,catalog,7vfnAY4fCbo,DOLLAZ ON MY HEAD,2020-07-24,Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video],Gunna,54435703
+gunna_catalog_04,trap,Gunna,catalog,-705T4FioZE,pushin P,2022-01-12,Gunna & Future - pushin P (feat. Young Thug) [Official Video],Gunna,44806844
+gunna_catalog_05,trap,Gunna,catalog,PpCZPdLC6Cc,bread & butter,2023-06-02,Gunna - bread & butter [Official Video],Gunna,50963181
+gunna_post_01,trap,Gunna,post,w7Wf0h1Q8a4,HIM ALL ALONG,2024-11-12,Gunna - HIM ALL ALONG [Official Video],Gunna,73498895
+gunna_post_02,trap,Gunna,post,Tqjw-H4QyG0,Prada Dem,2024-03-15,Gunna - Prada Dem (feat. Offset) [Official Video],Gunna,32011218
+gunna_post_03,trap,Gunna,post,mANvg9R1xeI,wgft,2025-08-08,Gunna - wgft (feat. Burna Boy) [Official Visualizer],Gunna,44705391
+tyler_the_creator_catalog_01,alternative,"Tyler, The Creator",catalog,TGgcC5xg9YI,SEE YOU AGAIN,2018-08-08,SEE YOU AGAIN featuring Kali Uchis,"Tyler, The Creator",242549461
+tyler_the_creator_catalog_02,alternative,"Tyler, The Creator",catalog,HmAsUQEFYGI,EARFQUAKE,2019-05-17,EARFQUAKE,"Tyler, The Creator",176175976
+tyler_the_creator_catalog_03,alternative,"Tyler, The Creator",catalog,FUXX55WqYZs,Who Dat Boy,2017-06-29,"Tyler, The Creator - Who Dat Boy","Tyler, The Creator",106060063
+tyler_the_creator_catalog_04,alternative,"Tyler, The Creator",catalog,9JQDPjpfiGw,A BOY IS A GUN*,2019-09-16,A BOY IS A GUN*,"Tyler, The Creator",37873693
+tyler_the_creator_catalog_05,alternative,"Tyler, The Creator",catalog,jQNazsWnQKU,OKRA,2018-03-29,"Tyler, The Creator - OKRA","Tyler, The Creator",36572228
+tyler_the_creator_post_01,alternative,"Tyler, The Creator",post,1f_cpXJtlQk,SAG HARBOR,2025-12-25,SAG HARBOR (Official Video),"Tyler, The Creator",4743682
+tyler_the_creator_post_02,alternative,"Tyler, The Creator",post,M0qiZHV4E3U,THAT GUY,2024-12-25,THAT GUY (Official Video),"Tyler, The Creator",44234844
+tyler_the_creator_post_03,alternative,"Tyler, The Creator",post,ljHdccyQbT4,SUGAR ON MY TONGUE,2025-08-12,SUGAR ON MY TONGUE (Official Video),"Tyler, The Creator",26237621
+mac_miller_catalog_01,alternative,Mac Miller,catalog,SsKT0s5J8ko,Self Care,2018-07-13,Mac Miller - Self Care,Mac Miller,566450364
+mac_miller_catalog_02,alternative,Mac Miller,catalog,J_8xCOSekog,My Favorite Part,2016-12-13,Mac Miller - My Favorite Part (feat. Ariana Grande),Mac Miller,123630462
+mac_miller_catalog_03,alternative,Mac Miller,catalog,aIHF7u9Wwiw,Good News,2020-01-09,Mac Miller - Good News,Mac Miller,163731112
+mac_miller_catalog_04,alternative,Mac Miller,catalog,LR3GQfryp9M,Dang!,2016-08-02,Mac Miller - Dang! (feat. Anderson .Paak),Mac Miller,95817692
+mac_miller_catalog_05,alternative,Mac Miller,catalog,N29-54dhVHg,Weekend,2016-01-12,Mac Miller - Weekend (feat. Miguel),Mac Miller,82935806
+mac_miller_post_01,alternative,Mac Miller,post,6AlRQzmhLUI,Rush Hour,2025-10-24,Mac Miller - Rush Hour,Mac Miller,1335993
+mac_miller_post_02,alternative,Mac Miller,post,Y-Ccjf4qn_g,Ascension,2025-10-24,Mac Miller - Ascension,Mac Miller,781875
+mac_miller_post_03,alternative,Mac Miller,post,L0P37IjyioI,Cut the Check,2025-10-24,Mac Miller - Cut the Check (feat. Chief Keef),Mac Miller,303980
+jpegmafia_catalog_01,alternative,JPEGMAFIA,catalog,PO3mri47s7M,1539 N. Calvert,2018-09-12,JPEGMAFIA - 1539 N. Calvert,JPEGMAFIA,5763053
+jpegmafia_catalog_02,alternative,JPEGMAFIA,catalog,2CGFU1lBdCI,HAZARD DUTY PAY!,2021-10-01,JPEGMAFIA - HAZARD DUTY PAY!,JPEGMAFIA,5456304
+jpegmafia_catalog_03,alternative,JPEGMAFIA,catalog,RBlRmwRVBpM,BALD!,2020-02-20,JPEGMAFIA - BALD!,JPEGMAFIA,4225786
+jpegmafia_catalog_04,alternative,JPEGMAFIA,catalog,mjd5fSPjZLQ,"Jesus Forgive Me, I Am A Thot",2019-08-13,"JPEGMAFIA - Jesus Forgive Me, I Am A Thot",JPEGMAFIA,3580256
+jpegmafia_catalog_05,alternative,JPEGMAFIA,catalog,zRnnuImT930,JPEGULTRA!,2024-08-12,JPEGMAFIA x Denzel Curry - JPEGULTRA! (Official Video),JPEGMAFIA,1500153
+jpegmafia_post_01,alternative,JPEGMAFIA,post,UGIXOtkHtQ8,$ (Money),2026-05-21,JPEGMAFIA - $ (Money),JPEGMAFIA,127183
+jpegmafia_post_02,alternative,JPEGMAFIA,post,dosF5efl6bg,¥ (Yen),2026-05-16,JPEGMAFIA - ¥ (Yen),JPEGMAFIA,262682
+jpegmafia_post_03,alternative,JPEGMAFIA,post,D32u6bRL4wg,War Over Land,2026-05-07,JPEGMAFIA - War Over Land,JPEGMAFIA,235982
+denzel_curry_catalog_01,alternative,Denzel Curry,catalog,tKAv7eOK2dg,CLOUT COBAIN,2018-07-12,Denzel Curry - CLOUT COBAIN | CLOUT CO13A1N,DenzelCurryVEVO,111159026
+denzel_curry_catalog_02,alternative,Denzel Curry,catalog,3WHm6tfvKlk,RICKY,2019-05-08,Denzel Curry - RICKY,DenzelCurryVEVO,34165014
+denzel_curry_catalog_03,alternative,Denzel Curry,catalog,fOO1mWLGhh8,Walkin,2022-01-24,Denzel Curry - Walkin (Official Music Video),DenzelCurryVEVO,23521188
+denzel_curry_catalog_04,alternative,Denzel Curry,catalog,s0hMu9FUjmk,VENGEANCE,2018-09-06,"Denzel Curry - VENGEANCE | VENGEANCE ft. JPEGMAFIA, ZillaKami",DenzelCurryVEVO,17513405
+denzel_curry_catalog_05,alternative,Denzel Curry,catalog,Hr2b5TG54fE,BLACK BALLOONS,2019-03-27,"Denzel Curry - BLACK BALLOONS | 13LACK 13ALLOONZ ft. Twelve'len, GoldLink",DenzelCurryVEVO,5699932
+denzel_curry_post_01,alternative,Denzel Curry,post,SHoU489tLWY,GOT ME GEEKED,2024-11-14,Denzel Curry - GOT ME GEEKED (Official Music Video),DenzelCurryVEVO,1031981
+denzel_curry_post_02,alternative,Denzel Curry,post,Ea4ndLe_hn8,X-Wing,2022-09-26,Denzel Curry - X-Wing (Official Music Video),DenzelCurryVEVO,2610189
+denzel_curry_post_03,alternative,Denzel Curry,post,nPTH5S8ETUM,Troubles,2022-03-21,Denzel Curry - Troubles ft. T-Pain (Official Music Video),DenzelCurryVEVO,3504647
+childish_gambino_catalog_01,alternative,Childish Gambino,catalog,VYOjWnS4cMY,This Is America,2018-05-06,Childish Gambino - This Is America (Official Video),ChildishGambinoVEVO,991630011
+childish_gambino_catalog_02,alternative,Childish Gambino,catalog,F1B9Fk_SgI0,Feels Like Summer,2018-09-02,Childish Gambino - Feels Like Summer (Official Video),ChildishGambinoVEVO,360722492
+childish_gambino_catalog_03,alternative,Childish Gambino,catalog,tG35R8F2j8k,3005,2013-12-06,Childish Gambino - 3005,ChildishGambinoVEVO,270179652
+childish_gambino_catalog_04,alternative,Childish Gambino,catalog,jx96Twg-Aew,Sober,2015-01-10,Childish Gambino - Sober,ChildishGambinoVEVO,123057373
+childish_gambino_catalog_05,alternative,Childish Gambino,catalog,dFVxGRekRSg,Heartbeat,2012-02-11,Childish Gambino - Heartbeat,ChildishGambinoVEVO,73727408
+childish_gambino_post_01,alternative,Childish Gambino,post,yD9Xo0V-hPw,Lithonia,2024-07-22,Childish Gambino - Lithonia (Official Music Video),ChildishGambinoVEVO,5223232
+childish_gambino_post_02,alternative,Childish Gambino,post,U6yAxRRSNQw,Yoshinoya,2024-07-19,Childish Gambino - Yoshinoya (Audio),ChildishGambinoVEVO,1490502
+childish_gambino_post_03,alternative,Childish Gambino,post,UYHdYSvl81o,Cruisin',2024-07-19,Childish Gambino - Cruisin' (Audio) ft. Yeat,ChildishGambinoVEVO,745539
+saba_catalog_01,alternative,Saba,catalog,poYy7ZgpZk0,Photosynthesis,2016-10-28,Saba - Photosynthesis feat. Jean Deaux (Audio),Saba Pivot,3516132
+saba_catalog_02,alternative,Saba,catalog,A6F2OrOjexs,LIFE,2018-04-06,Saba - LIFE (Official Video),Saba Pivot,2745593
+saba_catalog_03,alternative,Saba,catalog,LNR4WHaGQQw,Ziplock / Rich Don't Stop,2021-03-18,Saba - Ziplock / Rich Don't Stop (Music Video),Saba Pivot,1900786
+saba_catalog_04,alternative,Saba,catalog,Y-_aDdaRWXQ,Mrs. Whoever,2020-09-18,Saba - Mrs. Whoever (Official Music Video),Saba Pivot,1485141
+saba_catalog_05,alternative,Saba,catalog,FpnJfVx27jo,Come My Way,2022-03-17,Saba ft. Krayzie Bone - Come My Way (Official Music Video),Saba Pivot,2002411
+saba_post_01,alternative,Saba,post,Kxro3Es2H3U,high tides,2026-01-16,Saba - high tides (ft. Maxx Moor),Saba Pivot,39252
+saba_post_02,alternative,Saba,post,6FK8915bLO8,TICTACTOE,2025-12-16,Saba - TICTACTOE (ft. FELIX!),Saba Pivot,19130
+saba_post_03,alternative,Saba,post,RFLKKB_yYUw,don't be long,2025-11-11,Saba - don't be long,Saba Pivot,29985
+asap_rocky_catalog_01,alternative,A$AP Rocky,catalog,Kbj2Zss-5GY,Praise The Lord,2018-06-05,A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta,LIVELOVEASAPVEVO,753944915
+asap_rocky_catalog_02,alternative,A$AP Rocky,catalog,liZm1im2erU,F**kin' Problems,2012-12-04,"A$AP ROCKY - F**kin' Problems ft. Drake, 2 Chainz, Kendrick Lamar",LIVELOVEASAPVEVO,366826883
+asap_rocky_catalog_03,alternative,A$AP Rocky,catalog,F6VfsJ7LAlE,Fashion Killa,2013-09-26,A$AP Rocky - Fashion Killa (Explicit - Official Video),LIVELOVEASAPVEVO,120210527
+asap_rocky_catalog_04,alternative,A$AP Rocky,catalog,1eWdbMBYlH4,Wild for the Night,2013-03-25,"A$AP Rocky - Wild for the Night (Explicit - Official Video) ft. Skrillex, Birdy Nam Nam",LIVELOVEASAPVEVO,107855640
+asap_rocky_catalog_05,alternative,A$AP Rocky,catalog,fLCf-URqIf0,Goldie,2012-05-08,A$AP Rocky - Goldie (Official Video),LIVELOVEASAPVEVO,75765076
+asap_rocky_post_01,alternative,A$AP Rocky,post,BXM6vxMGM-M,FLACKITO JODYE,2026-01-23,A$AP Rocky - FLACKITO JODYE (Official Video) ft. Tokischa,LIVELOVEASAPVEVO,4491462
+asap_rocky_post_02,alternative,A$AP Rocky,post,b9JBRhV73cQ,WHISKEY/BLACK DEMARCO,2026-01-19,A$AP Rocky - WHISKEY/BLACK DEMARCO (Official Video),LIVELOVEASAPVEVO,5933818
+asap_rocky_post_03,alternative,A$AP Rocky,post,HYNMIhHAO48,PUNK ROCKY,2026-01-16,A$AP Rocky - PUNK ROCKY (Visualizer),LIVELOVEASAPVEVO,547778
+playboi_carti_catalog_01,trap,Playboi Carti,catalog,KnumAWWWgUE,Sky,2021-04-02,Playboi Carti - Sky [Official Video],Playboi Carti,113019332
+playboi_carti_catalog_02,trap,Playboi Carti,catalog,GRoa6w-wnT4,R.I.P.,2018-06-11,Playboi Carti - R.I.P.,Playboi Carti,69960430
+playboi_carti_catalog_03,trap,Playboi Carti,catalog,j3EwWAMWM6Q,Shoota,2018-05-23,Playboi Carti - Shoota (Audio) ft. Lil Uzi Vert,Playboi Carti,60814971
+playboi_carti_catalog_04,trap,Playboi Carti,catalog,EwdsnGfrd-k,Rockstar Made,2020-12-25,Playboi Carti - Rockstar Made (Official Audio),Playboi Carti,22146258
+playboi_carti_catalog_05,trap,Playboi Carti,catalog,pZ6oeHV28b0,ILoveUIHateU,2020-12-25,Playboi Carti - ILoveUIHateU (Official Audio),Playboi Carti,44525272
+playboi_carti_post_01,trap,Playboi Carti,post,zTKheLpo4nQ,EVIL J0RDAN,2025-03-18,Playboi Carti - EVIL J0RDAN (Official Audio),Playboi Carti,14553587
+playboi_carti_post_02,trap,Playboi Carti,post,mj4yh7YrwfE,OLYMPIAN,2025-03-18,Playboi Carti - OLYMPIAN (Official Audio),Playboi Carti,7044307
+playboi_carti_post_03,trap,Playboi Carti,post,-V_GygtBQJo,POP OUT,2025-03-18,Playboi Carti - POP OUT (Official Audio),Playboi Carti,4441006

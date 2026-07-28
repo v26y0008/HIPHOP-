@@ -1,0 +1,24 @@
+beef_id,beef_role,song_name,artist,release_date,role_in_beef,video_id,notes
+beef1,main,Like That,Kendrick Lamar,2024-03-22,発端,N9bKBAA22Go,Future/Metro Boomin名義の曲だがKendrickの客演verseが発端。FutureVEVO・1.7億再生でcheck_video_metadata.py確認済みOK
+beef1,main,Push Ups,Drake,2024-04-05,応答,HKH9p19PRLA,"Drake - Topic(自動生成公式チャンネル)。要check_video_metadata.py再確認"
+beef1,main,Euphoria,Kendrick Lamar,2024-04-30,応答,NPqDIwWMtxg,Kendrick Lamar公式チャンネル。要check_video_metadata.py再確認
+beef1,main,Meet the Grahams,Kendrick Lamar,2024-05-03,応答,2QiFl9Dc7D0,Kendrick Lamar公式チャンネル。要check_video_metadata.py再確認
+beef1,main,Not Like Us,Kendrick Lamar,2024-05-04,決定打,H58vbez_m4E,KendrickLamarVEVO・4.8億再生でcheck_video_metadata.py確認済みOK
+beef1,main,The Heart Part 6,Drake,2024-05-05,応答,HJeY-FXidDQ,Drake公式チャンネル。要check_video_metadata.py再確認
+beef1,main,HUMBLE.,Kendrick Lamar,2017-03-30,PRE基準,tvTRZJ-4EyI,"PRE期間ベースライン用にビーフ以前からある既存曲を追加。KendrickLamarVEVO公式チャンネル。要check_video_metadata.py再確認"
+beef1,main,Hotline Bling,Drake,2015-10-19,PRE基準,uxpDa-c-4Mc,"PRE期間ベースライン用にビーフ以前からある既存曲を追加。DrakeVEVO公式チャンネル。要check_video_metadata.py再確認"
+beef2,main,Infrared,Pusha T,2018-05-25,発端,merQWEu-vck,PushaTVEVO公式チャンネル。設計書の初期版ではDrake/2018-06-29と誤記載だったため史実に修正済み。要check_video_metadata.py再確認
+beef2,main,Duppy Freestyle,Drake,2018-05-25,応答,Qr_QLv1TPcY,OVO Sound・2000万再生でcheck_video_metadata.py確認済みOK
+beef2,main,The Story of Adidon,Pusha T,2018-05-29,決定打,bx1mzA873CM,"Pusha - Topic(自動生成公式チャンネル)。設計書の初期版では2018-05-25と誤記載だったため史実に修正済み。要check_video_metadata.py再確認"
+beef2,main,Numbers on the Boards,Pusha T,2013-10-08,PRE基準,DawrlSwHUiM,"PRE期間ベースライン用にビーフ以前からある既存曲を追加。PushaTVEVO公式チャンネル。要check_video_metadata.py再確認"
+beef2,main,Hotline Bling,Drake,2015-10-19,PRE基準,uxpDa-c-4Mc,"PRE期間ベースライン用にビーフ以前からある既存曲を追加(beef1と同一動画をbeef2のPRE期間で再分類)。DrakeVEVO公式チャンネル。要check_video_metadata.py再確認。総コメント46万件と多く2018年まで遡れずPRE=0だったため、Marvin's Roomで補強"
+beef2,main,Marvin's Room,Drake,2011-06-28,PRE基準,JDb3ZZD4bA0,"PRE期間ベースライン補強用。Hotline BlingがPRE=0だったため総コメント数が少なめ(3.3万件)の曲を追加。Drake - Topic(自動生成公式チャンネル)。要check_video_metadata.py再確認"
+beef3,main,CoCo,Lil Wayne,2015-01-20,発端,_y_Xpps46Uc,"Sorry 4 the Wait 2収録曲。記事調査によりCash Money/Birdmanへの言及が最も直接的な曲と確認。Lil Wayne公式チャンネル。要check_video_metadata.py再確認"
+beef3,main,He's Dead,Lil Wayne,2015-07-04,決定打,MYyGLOmqXDw,"Free Weezy Album収録曲。CoCoの流れを継ぐBirdman/Cash Money批判曲と確認。Young Money - Topic(自動生成公式チャンネル)。要check_video_metadata.py再確認"
+beef3,main,A Milli,Lil Wayne,2008-06-10,PRE基準,1Vf4mMCpNY0,"PRE期間ベースライン用にビーフ以前からある既存曲を追加。LilWayneVEVO公式チャンネル。要check_video_metadata.py再確認。PRE=0だったため6 Foot 7 Foot(Edited)で補強"
+beef3,main,6 Foot 7 Foot (Edited),Lil Wayne,2011-03-28,PRE基準,22_VfqXoows,"PRE期間ベースライン補強用。A MilliがPRE=0だったため総コメント数が少なめ(1873件)の曲を追加。LilWayneVEVO公式チャンネル。要check_video_metadata.py再確認"
+beef3,main,Fire Flame,Birdman,2010-01-01,PRE基準,DALvNCbgcKg,"PRE期間ベースライン用にビーフ以前からある既存曲を追加。BirdmanVEVO公式チャンネル。要check_video_metadata.py再確認"
+beef4,supplement,Takeover,Jay-Z,2001-09-11,NA,IHiFMW8s6zk,"JAY-Z - Topic(自動生成公式チャンネル)。要check_video_metadata.py再確認"
+beef4,supplement,Ether,Nas,2001-12-18,NA,zfyQ8muKLdc,"Nas - Topic(自動生成公式チャンネル)。要check_video_metadata.py再確認"
+beef5,supplement,Hit Em Up,2Pac,NA,NA,ugD3_yt756w,"2Pac - Topic(自動生成公式チャンネル、フル/無編集版)。設計書に日付記載なし。YouTube開始前のためPRE/PEAK/POST比較対象外。要check_video_metadata.py再確認"
+beef5,supplement,Who Shot Ya,Biggie,NA,NA,U4Md8ZGtUN8,The Notorious B.I.G.公式チャンネル・4700万再生でcheck_video_metadata.py確認済みOK(artist表記とchannel名不一致の警告は誤検知)。設計書に日付記載なし。YouTube開始前のためPRE/PEAK/POST比較対象外

@@ -1,0 +1,6 @@
+poster_label,internal_beef_id,conflict_pct_catalog,opponent_pct_catalog,n_comments_catalog,conflict_pct_beef,opponent_pct_beef,n_comments_beef,conflict_pct_post,opponent_pct_post,n_comments_post
+B1 (Kendrick Lamar vs Drake),b1,3.11,2.01,1541,7.85,14.49,904,5.37,6.35,1528
+B2 (Pusha T vs Drake),b2,2.49,1.92,1768,27.81,18.05,1208,3.77,1.36,1619
+B3 (Eminem vs MGK) ※PPTXのB3は本パイプラインのb4,b4,2.95,0.58,1557,20.41,28.55,2063,4.83,1.38,1739
+B4 (Wayne vs Birdman) ※PPTXのB4は本パイプラインのb5,b5,1.77,2.54,1300,3.84,5.76,834,2.79,0.73,681
+B5 (Megan vs Nicki) ※PPTXのB5は本パイプラインのb6,b6,1.64,0.21,1459,10.93,11.19,1894,3.49,2.03,1576

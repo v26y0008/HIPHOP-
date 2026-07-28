@@ -1,0 +1,9 @@
+feature,coef,p_value,significant
+const,14.590778746605995,,False
+avg_length,7.555172385596476,,False
+is_winner,-4.659784379323314,,False
+reply_rate,4.186252959534602,,False
+is_drake,3.5813103244145106,,False
+view_efficiency,-2.397089755326806,,False
+is_rap_battle,-2.388552390684592,,False
+like_rate,-0.5766199048356164,,False

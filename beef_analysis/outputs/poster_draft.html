@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ヒップホップ「ビーフ」がファンの言説・視聴行動に与える影響 — ポスター草案 v2</title>
+<style>
+  @page { size: A0 portrait; margin: 15mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+    color: #0b0b0b;
+    background: #fcfcfb;
+    margin: 0;
+    padding: 20px;
+  }
+  .poster {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    gap: 16px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .header {
+    grid-column: 1 / -1;
+    border-bottom: 4px solid #0072B2;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+  }
+  .header h1 { font-size: 44px; margin: 0 0 8px 0; line-height: 1.25; }
+  .header .authors { font-size: 20px; color: #52514e; margin: 0; }
+
+  .panel {
+    border: 1px solid #e1e0d9;
+    border-radius: 8px;
+    padding: 18px 22px;
+    background: #ffffff;
+  }
+  .panel h2 {
+    font-size: 26px;
+    margin: 0 0 10px 0;
+    color: #0072B2;
+    border-bottom: 2px solid #e1e0d9;
+    padding-bottom: 6px;
+  }
+  .panel p, .panel li { font-size: 16px; line-height: 1.55; }
+  .panel table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+  .panel th, .panel td { border: 1px solid #e1e0d9; padding: 4px 8px; text-align: left; }
+  .panel th { background: #f9f9f7; }
+  .panel img { width: 100%; height: auto; border: 1px solid #e1e0d9; border-radius: 4px; }
+  .fig-caption { font-size: 12px; color: #52514e; margin-top: 4px; }
+
+  .background { grid-column: 1 / 2; grid-row: 2; }
+  .method     { grid-column: 2 / 3; grid-row: 2; }
+  .result1    { grid-column: 3 / 4; grid-row: 2 / 4; }
+  .result2    { grid-column: 1 / 3; grid-row: 3; }
+  .result3    { grid-column: 1 / 4; grid-row: 4; }
+  .result4    { grid-column: 1 / 4; grid-row: 5; }
+  .result5    { grid-column: 1 / 4; grid-row: 6; }
+  .result6    { grid-column: 1 / 4; grid-row: 7; }
+  .discussion { grid-column: 1 / 3; grid-row: 8; }
+  .footer     { grid-column: 3 / 4; grid-row: 8; }
+
+  .significant { color: #0072B2; font-weight: bold; }
+  .not-significant { color: #999999; font-style: italic; }
+
+  @media print {
+    body { padding: 0; }
+    .poster { max-width: none; }
+    .panel { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="poster">
+
+  <div class="header">
+    <h1>ビーフの性質がファンの言説を規定する：カタログ曲 vs ビーフ曲 vs ポスト曲の比較分析</h1>
+    <p class="authors">[著者名] ／ [所属] ／ 発表：授業内ポスター発表 → 国内学会（予定）</p>
+  </div>
+
+  <div class="panel background">
+    <h2>背景・問い</h2>
+    <p>
+      ヒップホップの「ビーフ」（ラッパー間の公然の対立）は、ジャンルや商業性以上に
+      ファンのコメント言説・視聴行動を強く規定するのではないか。
+      本研究は各アーティストの<b>「カタログ曲（ビーフ以前の代表曲）」「ビーフ曲（diss track本体）」
+      「ポスト曲（ビーフ後のリリース）」</b>という曲の種類そのものを比較軸とすることで、
+      時期による交絡（旧設計の課題）を排除して検証する。
+    </p>
+    <ul>
+      <li>B1: Kendrick Lamar vs Drake（2024・ラップバトル型）</li>
+      <li>B2: Pusha T vs Drake（2018・ラップバトル型）</li>
+      <li>B4: Eminem vs MGK（2018・ラップバトル型・非Drake）</li>
+      <li>B5: Lil Wayne vs Birdman（2015・契約破局型・非Drake）</li>
+      <li>B6: Megan Thee Stallion vs Nicki Minaj（2024・ラップバトル型・非Drake）</li>
+    </ul>
+    <p style="font-size:13px;color:#52514e;">
+      当初計画したB3（Drake vs Meek Mill）はbeefカテゴリの動画が両アーティストとも
+      YouTube上でコメント欄無効だったため分析から除外（詳細は限界の欄）。
+    </p>
+  </div>
+
+  <div class="panel method">
+    <h2>データ・方法</h2>
+    <p>
+      YouTube Data API v3で計28動画（5ビーフ×カタログ/ビーフ/ポスト×2アーティスト、一部欠損あり）を
+      動画IDベースで手動確認の上収集。<code>order=time</code>で各動画最大1,500件を取得し
+      （publishedAtによる期間フィルタなし）、track_category別に対立語彙率・相手アーティスト名
+      言及率を算出。2×3分割表でカイ二乗検定、Cramér's Vで効果量、Bonferroni補正
+      （5beef×2指標=10検定、α=0.05/10）を適用。TF-IDFでtrack_category別・ビーフタイプ別の
+      上位語彙を抽出し、days_since_releaseを共変量とした偏回帰でcomment_per_viewの
+      「経過日数を統制した熱量差」も検証した。
+    </p>
+    <p style="font-size:13px;color:#52514e;">
+      公式チャンネルの動画のみを使用（名前文字列検索ではなく動画IDを目視確認）。
+      詳細は <code>config/songs_v2.csv</code> のnotes列を参照。
+    </p>
+  </div>
+
+  <div class="panel result1">
+    <h2>結果① カテゴリ別 対立語彙出現率</h2>
+    <img src="figures/fig1_conflict_vocab_by_beef_v2.png" alt="Figure 1">
+    <p class="fig-caption">
+      全5ビーフでビーフ曲の対立語彙率がカタログ曲を上回る。10検定中9件がBonferroni補正後も
+      <span class="significant">統計的に有意</span>（詳細はTable 2）。
+      唯一<span class="not-significant">非有意</span>なのはB5（Wayne vs Birdman、契約破局型）。
+    </p>
+    <img src="figures/fig3_beef_type_comparison_v2.png" alt="Figure 3" style="margin-top:14px;">
+    <p class="fig-caption">
+      ラップバトル型4件は軒並み高い対立語彙率（7.9〜27.8%）を示す一方、
+      契約破局型（B5）は3.8%と最も低い。「Drake関与か否か」よりも
+      「ビーフのタイプ」の方が説明力が高いことを示唆する。
+    </p>
+  </div>
+
+  <div class="panel result2">
+    <h2>結果② 視聴規模で正規化した熱量／統計検定</h2>
+    <img src="figures/fig2_comment_per_view_by_category_v2.png" alt="Figure 2" style="max-height:300px;object-fit:contain;">
+    <table>
+      <tr><th>ビーフ</th><th>タイプ</th><th>χ²</th><th>p値</th><th>Cramér's V</th><th>Bonferroni補正後</th></tr>
+      <tr><td>B1: Kendrick vs Drake</td><td>rap_battle</td><td>27.13</td><td class="significant">1.3×10⁻⁶</td><td>0.08</td><td class="significant">有意</td></tr>
+      <tr><td>B2: Pusha T vs Drake</td><td>rap_battle</td><td>628.45</td><td class="significant">3.4×10⁻¹³⁷</td><td>0.37</td><td class="significant">有意</td></tr>
+      <tr><td>B4: Eminem vs MGK</td><td>rap_battle</td><td>375.93</td><td class="significant">2.3×10⁻⁸²</td><td>0.27</td><td class="significant">有意</td></tr>
+      <tr><td>B5: Wayne vs Birdman</td><td>contract_breakdown</td><td>8.58</td><td class="not-significant">0.0137</td><td>0.06</td><td class="not-significant">非有意</td></tr>
+      <tr><td>B6: Megan vs Nicki</td><td>rap_battle</td><td>152.64</td><td class="significant">7.2×10⁻³⁴</td><td>0.18</td><td class="significant">有意</td></tr>
+    </table>
+    <p class="fig-caption">
+      対立語彙率のみ抜粋（相手名言及率含む全10検定はtable2_chi2_results.csv参照）。
+      days_since_releaseを統制した偏回帰でもis_beef_track係数は正（+0.46）だが
+      p=0.164で有意水準に達せず（動画レベルn=26と小標本のため）。方向性のみ支持。
+    </p>
+  </div>
+
+  <div class="panel result3">
+    <h2>結果③ 勝敗（外部メディア評価）による言説の違い</h2>
+    <img src="figures/fig5_win_loss_conflict_vocab_v2.png" alt="Figure 5">
+    <p class="fig-caption">
+      事前の仮説（「勝者側の方が対立語彙率が高い」）とは<b>逆に、敗者側の対立語彙率・
+      相手名言及率・いいね数が一貫して勝者側を上回る</b>（全5ビーフ: 勝者10.7% vs 敗者20.9%,
+      p=1.3×10⁻³¹）。B6除外（clear verdictのみ）・B5除外（rap_battle型のみ）の
+      感度分析でも同方向・高い有意性を維持。
+    </p>
+    <img src="figures/fig6_win_loss_post_cpv_v2.png" alt="Figure 6" style="margin-top:14px;">
+    <p class="fig-caption">
+      勝敗の根拠は外部メディア評価（Rolling Stone, Pitchfork, YouGov調査等、
+      詳細はrelated_work_memo.md）。棒グラフの「no data」はコメント欄無効等による
+      欠損であり、真の0%ではない（B1敗者Drakeの投稿曲, B2勝者PushaTの投稿曲, B5敗者Birdman）。
+    </p>
+  </div>
+
+  <div class="panel result4">
+    <h2>結果④ ジャンル横断・ラベルフリークラスタリング（教授指摘への回答）</h2>
+    <p>
+      「ビーフ効果に見えるものは実はジャンルの違いを見ているだけではないか」という指摘に
+      正面から答えるため、boom bap・trap・alternativeの3ジャンル計19アーティスト
+      （新規追加: Freddie Gibbs, Rapsody, 21 Savage, Lil Baby, Gunna, Denzel Curry,
+      Childish Gambino, Saba を含む）×カタログ5曲＋直近曲3曲＝152動画・128,485件の
+      コメントを新規収集し、ビーフ当事者8アーティスト（v2データ）と合わせて
+      約9.2万件のコメントで検証した。
+    </p>
+    <img src="figures/fig_genre_v3_clustering_no_label.png" alt="Figure genre-v3 clustering">
+    <p class="fig-caption">
+      アーティスト名・曲名を除去したテキストのみでTF-IDF→LSA(50次元)→HDBSCANクラスタリング
+      （ジャンルラベルは一切未使用）。9クラスタが得られたが、クラスタ×ジャンルのカイ二乗検定は
+      有意（χ²=416.5, p=3.1×10⁻⁷³）でも効果量はごく小さく（Cramér's V=0.069）、
+      <b>Adjusted Rand Index（クラスタ vs ジャンル）=-0.0016、（クラスタ vs アーティスト）=0.0004
+      とほぼ完全に0</b>——n=9.2万という大標本ゆえp値は必ず小さくなるが、
+      クラスタ構造は実質的にジャンルともアーティストとも無関係だった。
+      各クラスタの内訳もコーパス全体のジャンル構成比とほぼ一致しており、
+      「ジャンルラベルなしで話題内容だけを見ても、ジャンル境界は再現されない」ことを示す。
+      <b>頑健性チェック</b>: 「TF-IDFという浅い特徴量だから見えただけでは」という懸念に
+      対応するため、文脈考慮型の埋め込みモデル（all-MiniLM-L6-v2）+BERTopicでも
+      同一コーパスから4ジャンル均等サンプリング(n=12,000)して再検証した。
+      BERTopicは34トピックを検出（outlier比率51%、TF-IDF版の68%より改善）したが、
+      ARI（BERTopic vs ジャンル）=0.017、（vs アーティスト）=0.040、
+      （vs 既存HDBSCANクラスタ）=0.004と<b>いずれも0に近く、手法を変えても
+      同じ結論（トピック構造はジャンル非依存）が再現</b>された。
+    </p>
+    <img src="figures/fig_genre_v3_artist_discourse_map.png" alt="Figure artist discourse map" style="margin-top:14px;">
+    <p class="fig-caption">
+      「歌詞軸（lyric_rate: バー・韻・パンチライン等への言及率）」「vibe軸（vibe_rate: ビート・
+      雰囲気・プロダクションへの言及率）」の2軸でアーティスト×track_categoryをマッピング。
+      ジャンル別ではboom_bapのlyric_rateが7.18%とtrapの3.02%より明確に高く
+      （χ²=415.2, p<10⁻⁹⁰、ただしCramér's Vは小）、批評言説で語られる
+      「boom bapは歌詞、trapはvibeで評価される」という通念と整合する一方、
+      vibe_rate自体はboom_bapが最も高く（10.27%）、単純な二項対立ではない。
+      ビーフ文脈ではDrakeのビーフ曲（8.86%）がカタログ曲（1.08%）より歌詞言及率が
+      大幅に高く、diss trackが歌詞内容への注目を強めることを示唆する一方、
+      全アーティスト平均ではbeef 4.51% vs catalog 3.27%とやや小さな差にとどまる。
+    </p>
+  </div>
+
+  <div class="panel result5">
+    <h2>結果⑤ 言及ネットワーク・ビーフ間クラスタリング・重回帰分析（機械学習的検証）</h2>
+    <div style="display:flex; gap:18px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:260px;">
+        <img src="figures/fig_network_beef.png" alt="Figure network beef">
+        <p class="fig-caption">
+          ビーフ曲コメント内でのアーティスト共起言及ネットワーク（エッジ=同一コメント内で3回以上共起）。
+          <b>ビーフ曲ネットワーク（17ノード・15エッジ）はカタログ曲（16ノード・4エッジ）より
+          明確に密</b>で、ビーフ曲コメントの方が複数アーティストを同時に語る傾向が強い。
+          ビーフ当事者（8名）の平均言及数（252.2）は非当事者（9.9）の<b>25.5倍</b>——
+          各ビーフのサブネットワークでも常に両当事者が上位2位を占めた
+          （例: b4 Eminem 371件・MGK 379件 vs 3位以下は1桁〜10件台）。
+        </p>
+        <table style="margin-top:8px;">
+          <tr><th>指標</th><th>Catalog曲</th><th>Beef曲</th></tr>
+          <tr><td>Density</td><td>0.033</td><td><b>0.110</b>（3.3倍）</td></tr>
+          <tr><td>Avg Degree</td><td>0.50</td><td><b>1.76</b>（3.5倍）</td></tr>
+          <tr><td>Modularity</td><td>0.154</td><td><b>0.516</b></td></tr>
+          <tr><td>コミュニティ数</td><td>13</td><td>9</td></tr>
+        </table>
+        <p class="fig-caption">
+          定性的な「密なネットワーク」という主張をNetworkX指標で定量化。
+          density・平均次数ともビーフ曲で3倍以上、モジュラリティ（コミュニティ構造の明瞭さ）
+          も3.4倍高く、ビーフ曲コメントは少数の陣営（各ビーフの当事者ペア中心）に
+          明確に分かれて言及される構造を持つことが分かる。
+        </p>
+      </div>
+      <div style="flex:1; min-width:260px;">
+        <img src="figures/fig_beef_dendrogram.png" alt="Figure beef dendrogram">
+        <p class="fig-caption">
+          5ビーフを対立語彙率・相手名言及率・返信数・いいね数・平均コメント長・再生効率で
+          階層型クラスタリング（Ward法、n=5のため記述的な参考分析）。
+          <b>k=2ではラップバトル型/契約破局型に沿った分離は起きなかった</b>
+          （b5契約破局型はb2・b6と同じクラスタ）。k=3にするとb5が単独クラスタとして
+          分離し、当初仮説を部分的に支持。b1・b4（有名アーティスト同士の応酬）と
+          b2・b6（返信率・いいね率が突出）という、ビーフタイプとは別の軸
+          （エンゲージメントの高さ）が粗い分離を規定していた。
+        </p>
+      </div>
+      <div style="flex:1; min-width:260px;">
+        <img src="figures/fig_regression.png" alt="Figure regression">
+        <p class="fig-caption">
+          ビーフ曲の対立語彙率を目的変数とした重回帰分析。
+          <b>ビーフ曲カテゴリで実コメントが取得できた動画はn=7</b>
+          （B2勝者側Story of Adidonは無効、B5敗者側Birdmanは曲自体なし）。
+          指示書通りの7特徴量フルモデルはn=7に対しパラメータ8個で
+          <b>自由度不足（rank-deficient, R²=1.000だが無意味）</b>となったため、
+          自由度を確保した2特徴量（ビーフタイプ・勝敗）縮小モデルを主結果とする。
+          係数の符号は先行モジュールと整合（ラップバトル型+3.03/勝者-3.84、
+          いずれも勝敗分析・タイプ分析と同方向）だが、n=7では両方とも非有意
+          （p=0.38, p=0.28）、LOO-CV R²=-0.30と汎化性能もマイナス。
+          <b>方向性の追加確認にはなるが、独立した実証としては力不足</b>という
+          正直な結論にとどめる。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel result6">
+    <h2>結果⑥ 感情分析・時系列傾向（対立語彙分析の客観的補強）</h2>
+    <div style="display:flex; gap:18px; flex-wrap:wrap;">
+      <div style="flex:1.4; min-width:320px;">
+        <img src="figures/fig_sentiment_by_phase.png" alt="Figure sentiment by phase">
+        <p class="fig-caption">
+          対立語彙率（特定語の有無）だけでなくVADER（ルールベース感情分析）で
+          Positive/Neutral/Negativeの分布を追加検証。5ビーフ中4件（B1・B2・B4・B5）で
+          track_category×感情のカイ二乗検定が有意（p&lt;10⁻⁷、Cramér's V=0.07〜0.15）、
+          特にB4（Eminem vs MGK）はbeef曲のnegative比率が40.1%とcatalog曲（22.3%）の
+          約1.8倍。唯一B6（Megan vs Nicki）のみ非有意（p=0.108）——対立語彙率では
+          有意だったB6が感情面では有意差を示さない点は、「対立語彙の使用」と
+          「感情の否定性」が必ずしも同じ現象ではないことを示唆する
+          （例:「そのdissは最高だった」は対立語彙を含みつつ感情はpositiveになりうる）。
+        </p>
+      </div>
+      <div style="flex:1; min-width:260px;">
+        <img src="figures/fig_sentiment_winner_loser.png" alt="Figure sentiment winner loser">
+        <p class="fig-caption">
+          勝者側 vs 敗者側（beef曲のみ、n=6,903）の感情分布比較。
+          <b>敗者側のnegative比率（32.6%）は勝者側（28.1%）を上回る</b>
+          （chi2=30.55, p=2.3×10⁻⁷, Cramér's V=0.067）——対立語彙率・相手名言及率・
+          いいね数で確認された「敗者側の方が荒れる」という結果⑤以前の中心的発見が、
+          対立語彙の有無に依存しない独立した手法（VADER感情スコア）でも
+          <b>同じ方向で再現</b>された。手法を跨いだ三角測量として結果の頑健性を補強する。
+        </p>
+      </div>
+      <div style="flex:1.4; min-width:320px;">
+        <img src="figures/fig_timeseries_conflict_rate.png" alt="Figure timeseries conflict rate">
+        <p class="fig-caption">
+          v1設計のPRE/PEAK/POST（同一動画内の時期区分）はv2では使えない
+          （catalog/beef/postが別動画のため）が、catalog曲を疑似PRE・beef曲を疑似PEAKと
+          見なし、5ビーフを対応ありのペアとしたWilcoxon符号順位検定を追加実施。
+          <b>5ビーフ全て（5/5）でcatalog→beefへの対立語彙率上昇が同方向</b>
+          （+2.1pp〜+25.3pp、B2 Pusha T vs Drakeが最大）。stat=0, p=0.0625——
+          n=5の対応ありWilcoxon検定で理論上到達可能な最小p値であり、
+          「全ビーフが同じ方向を向いている」という事実自体が、個々のビーフの
+          カイ二乗検定を補完する形でビーフ効果の一貫性を裏付ける
+          （厳密なDiDはn=5では見送り、記述統計＋ノンパラメトリック検定に留める）。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel discussion">
+    <h2>考察・結論</h2>
+    <p>
+      ビーフ曲は同一アーティストのカタログ曲より一貫して対立語彙率が高く、
+      <b>「ジャンルより出来事（ビーフ）が言説を規定する」</b>という中心的主張を支持する。
+      対立語彙率の上昇はDrakeの関与有無ではなく
+      <b>ビーフの性質（ラップバトル型 vs 契約破局型）で説明できる</b>ことが分かった。
+      ラップバトル型4件（B1・B2・B4・B6）は全て統計的に有意な上昇を示す一方、
+      契約破局型のB5（Wayne vs Birdman）のみ非有意。TF-IDF上位語を見ても、
+      ラップバトル型ビーフ曲では"diss"が上位語として現れるのに対し、
+      契約破局型（B5）では"sorry" "listening" "day"など和解的・回顧的な語彙が支配的で、
+      "diss"は現れない。さらに勝敗分析からは、<b>ファンの対立的な言説は「勝者を称える」
+      よりも「敗者を叩く／擁護する」形で活発化する</b>という非自明な構図が見えた。
+      <b>「ビーフ」は一枚岩の現象ではなく、対立の性質によって
+      ファンの言説パターンが質的に異なる</b>。
+      一方、再生数（視聴行動）面では対照的な結果が出た。当初「ビーフ後に勝者の再生効率は
+      上昇し敗者は下落する」という仮説を検証したが、recency-matchedなカタログ曲
+      （全キャリア最大ヒットではなく、ビーフ1〜3年前のリリース上位に選定し直したもの。
+      詳細は限界の欄）と比較しても、勝敗と連動した一貫パターンは見られなかった
+      （敗者側の変化率平均+94.6%が勝者側+70.3%をやや上回り、方向は仮説と逆。p=0.66で非有意。
+      詳細図は<code>outputs/figures/fig7・fig8</code>、根拠は<code>related_work_memo.md</code>新規性④）。
+      <b>言説面では明確な「ビーフ効果」「敗者への集中」が見られる一方、視聴行動面では
+      勝敗で単純に説明できるほど一様な効果は見られない</b>という、より正直で控えめな結論となる。
+      さらにカイ二乗検定（特定語彙の有無）とは独立に、TF-IDF+LSA+KMeansでコメント全体の
+      トピック構造をクラスタリングしたところ、「アーティスト名+対立語彙」クラスタが
+      ビーフ曲で最も突出した（8.3% vs カタログ3.5%）ものの、効果量は小さく
+      （Cramér's V=0.093、k=3〜7の感度分析でも0.065〜0.125）、
+      <b>語彙レベルとトピックレベルの両方で同じ方向の効果を確認できたが、
+      トピック構造全体で見るとビーフの影響は限定的</b>という一段慎重な結論を加える
+      （詳細図は<code>outputs/figures/fig9・fig10・fig11</code>、根拠は<code>related_work_memo.md</code>新規性⑤）。
+      さらに19アーティスト・3ジャンルへの拡張検証（結果④）でも、ジャンルラベルを
+      一切使わないクラスタリングでジャンル境界は再現されず（ARI≈0）、
+      <b>コメント言説のトピック構造はジャンルに規定されているのではなく、
+      ビーフの有無・性質に、より強く規定されている</b>という本研究の中心的主張を
+      補強する結果となった。一方でlyric/vibe語彙軸で見るとboom_bapとtrapの間に
+      ジャンル差自体は確認でき（歌詞への言及率が2倍以上）、
+      「ジャンルは局所的な語彙選択には影響するが、コメント全体のトピック構造は
+      規定しない」というより precise な整理ができた。
+      最後に、機械学習的手法による追加検証（結果⑤）でも一貫した図式が得られた。
+      アーティスト言及ネットワークはビーフ曲でカタログ曲より明確に密になり、
+      ビーフ当事者への言及が非当事者の25倍集中する——「ビーフはコメント空間の
+      構造そのものを当事者中心に再編する」ことをグラフ理論的にも確認できた。
+      一方でビーフ間の階層型クラスタリングでは、ビーフタイプ（ラップバトル型/
+      契約破局型）が唯一の分離軸ではなく、エンゲージメントの高さという
+      別の軸も競合することが分かり、「ビーフタイプの効果は実在するが、
+      それだけで全てを説明する単一の軸ではない」という、より多面的な理解に至った。
+      重回帰分析は動画レベルn=7という制約から独立した実証力は持たないが、
+      係数の符号自体は勝敗分析・タイプ分析と矛盾せず、複数手法による
+      三角測量（triangulation）として補強的な役割を果たした。
+      最後にVADER感情分析（結果⑥）でも、勝者側より敗者側の方がnegative比率が高いという
+      本研究の中心的発見が、対立語彙の有無という語彙レベルの指標に依存しない
+      独立した手法で再現された。一方でB6（Megan vs Nicki）は対立語彙率では有意だが
+      感情面では有意差が出ないなど、指標間で完全には一致しない部分もあり、
+      「対立語彙の使用」と「感情の否定性」は関連しつつも同一の現象ではないという、
+      より解像度の高い理解が得られた。ネットワーク指標（density・modularity）も
+      「ビーフ曲は当事者中心に密に組織化される」という主張を定量的に裏付けており、
+      本研究は語彙・トピック・ネットワーク構造・感情という4つの独立した手法で
+      一貫して「ビーフというイベントがファン言説を規定する」ことを示せた。
+    </p>
+  </div>
+
+  <div class="panel footer">
+    <h2>限界・今後の課題</h2>
+    <ul style="font-size:14px;">
+      <li>B3（Drake vs Meek Mill）はbeef曲が両アーティストともコメント欄無効で完全に欠損したため分析から除外</li>
+      <li>6件目のビーフ追加を試行（Ice Cube vs NWA, 1991, No Vaseline / Real Niggaz）したが、両アーティストのbeef曲ともYouTube側でコメント欄無効（videos.list上はcommentCountが表示されるにもかかわらずcommentThreads.list実行時に403）と判明し、B3と同じ理由で断念。5ビーフ構成を維持</li>
+      <li>YouTube動画のコメント欄は収集期間中にも閉鎖されうる（B1のPush Upsも収集直前に無効化を確認）</li>
+      <li>B1(Push Ups)・B2(Story of Adidon)はビーフ曲の片側アーティストのみのデータ</li>
+      <li>B5(Birdman)は明確なdiss曲が存在せず「片側型ビーフ」として扱う</li>
+      <li>comment_per_viewの偏回帰は動画レベルn=26と小標本のため方向性の確認にとどまる</li>
+      <li>勝敗ラベルはB6(Megan vs Nicki)がdisputed、B5(Wayne vs Birdman)はラップバトルでなく法的決着（outcome_type=legal）</li>
+      <li>YouTube Data APIは現在の累計再生数のみ取得可能で過去の時系列は取得不可。「同じ経過日数時点の再生数」は直接計算できないため、カタログ曲の選定基準をrecency-matchedに変更して代替した（再生数分析n=4程度/アーティストと小標本）</li>
+      <li>クラスタリング分析は21,671件と大標本のため統計的有意性は出やすい一方、効果量(Cramér's V)は0.09〜0.13と小〜中程度にとどまる。動画レベルの補足クラスタリングもn=26と小標本</li>
+      <li>ジャンル横断分析（結果④）: HDBSCANのノイズ点が63,012/92,282件（68%）と多く、大半のコメントはどのクラスタにも属さない短文・定型文（「2025年に聞いてる人」等）である。9クラスタはトピックというより会話パターン（懐古・プロダクション賞賛・比較等）に近い</li>
+      <li>固有名詞除去は研究者が作成したエイリアスリスト（アーティスト名・曲名）に基づく操作的な処理であり、網羅的ではない（表記ゆれ・スラング呼称の見落としがありうる）</li>
+      <li>lyric_vocab / vibe_vocab も研究者定義の語彙リストであり、CONFLICT_VOCABと同様に妥当性の絶対的保証はない</li>
+      <li>ジャンル別の動画あたりコメント数には大きな偏りがある（例: Rapsodyは低視聴数のため合計1,056件、A$AP Rockyは3,600件超）。ジャンル比較はこの母数差の影響を受けうる</li>
+      <li>重回帰分析（結果⑤）: ビーフ曲で実コメントを取得できた動画はn=7のみ。指示書指定の7特徴量フルモデルは自由度不足で解釈不能（R²=1.000は過学習の産物）。2特徴量に縮小した主結果もLOO-CV R²=-0.30と汎化性能は低く、係数の符号一致は補強材料にとどまり単独の実証にはならない</li>
+      <li>言及ネットワーク分析（結果⑤）: アーティスト名の抽出は固定エイリアス辞書に基づく単純な部分文字列マッチであり、皮肉・引用・誤読等の文脈は区別できない。共起の閾値（3回以上）は恣意的な設定</li>
+      <li>ビーフ間階層クラスタリング（結果⑤）: n=5のビーフ間比較のため統計的検定は行っておらず、あくまで記述的傾向として提示</li>
+      <li>感情分析（結果⑥）: VADERはルールベースの英語感情分析器で、皮肉・二重否定・スラング（"that's sick"のような反語的称賛）を誤判定しうる。文脈考慮型モデル（RoBERTa等）による検証は今後の課題（付録参照）</li>
+      <li>時系列分析（結果⑥）: n=5ビーフのため厳密なDifference-in-Differences等の因果推論的アプローチは見送り、記述統計＋Wilcoxon符号順位検定に留めた。同検定はn=5では両側p=0.0625が理論上の最小値であり、通常の有意水準に到達できない構造的制約がある</li>
+      <li>LLMスタンス分類（サンプルn=1,250, 付録D参照）: 明確な支持表明コメント(n=484)のうち勝者支持が敗者支持の2.1倍。ただしB2（Pusha T vs Drake）のみ逆転し敗者Drake側の支持が優勢——Drakeの母数的ファンベース規模が批評的勝敗と独立に支持表明数を左右する可能性。対立語彙ありコメントは敗者支持の比率がやや高い（22.3% vs 10.7%）。サンプルベース(各ビーフ最大250件)のため一般化は限定的</li>
+      <li>ジャンル横断クラスタリングの頑健性チェック（結果④）: BERTopicはCPU環境での埋め込み計算のため全92,282件ではなく12,000件（ジャンル均等サンプリング）で実施</li>
+      <li>勝敗ラベルの客観性: 勝者/敗者は筆者の主観ではなくBillboard/Rolling Stone/Pitchfork等の主要メディアの事後評価コンセンサスおよび客観的事実（契約解消・受賞歴等）に基づく。判定根拠の詳細な出典表は付録資料（appendix.html）に掲載</li>
+    </ul>
+    <h2 style="margin-top:16px;">参考文献</h2>
+    <ul style="font-size:12.5px; line-height:1.5;">
+      <li>Burgess, J., & Green, J. (2018). <i>YouTube: Online Video and Participatory Culture</i> (2nd ed.). Polity.</li>
+      <li>McLeod, K. (1999). Authenticity within hip-hop and other cultures threatened with assimilation. <i>Journal of Communication</i>, 49(4), 134–150.</li>
+      <li>Rozin, P., & Royzman, E. B. (2001). Negativity bias, negativity dominance, and contagion. <i>Personality and Social Psychology Review</i>, 5(4), 296–320.</li>
+      <li>Baym, N. K. (2018). <i>Playing to the Crowd: Musicians, Audiences, and the Intimate Work of Connection</i>. NYU Press.</li>
+      <li>菅野祐希・坂野遼平 (2025). オンライン動画共有サービスにおける視聴者感情の推定. <i>自然言語処理</i>, 32(3), 770–799.</li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>

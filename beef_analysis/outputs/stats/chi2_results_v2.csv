@@ -1,0 +1,11 @@
+chi2,p_value,dof,cramers_v,n_low_expected_cells,categories,sample_sizes,beef_id,beef_name,beef_type,drake_involved,target,significant_raw,significant_bonferroni,alpha_corrected
+27.1297092434112,1.2848679318035056e-06,2,0.08263485838092384,0,"['catalog', 'beef', 'post']","{'catalog': 1541, 'beef': 904, 'post': 1528}",b1,B1: Kendrick vs Drake,rap_battle,True,conflict_vocab,True,True,0.005
+145.72513193155757,2.2708563567693784e-32,2,0.19151727160709348,0,"['catalog', 'beef', 'post']","{'catalog': 1541, 'beef': 904, 'post': 1528}",b1,B1: Kendrick vs Drake,rap_battle,True,opponent_mention,True,True,0.005
+628.4463361378757,3.424617104802121e-137,2,0.3698208065732788,0,"['catalog', 'beef', 'post']","{'catalog': 1768, 'beef': 1208, 'post': 1619}",b2,B2: Pusha T vs Drake,rap_battle,True,conflict_vocab,True,True,0.005
+427.2051592688253,1.712294037817426e-93,2,0.3049126810088513,0,"['catalog', 'beef', 'post']","{'catalog': 1768, 'beef': 1208, 'post': 1619}",b2,B2: Pusha T vs Drake,rap_battle,True,opponent_mention,True,True,0.005
+375.93070360823776,2.3317657691376994e-82,2,0.2648573443895292,0,"['catalog', 'beef', 'post']","{'catalog': 1557, 'beef': 2063, 'post': 1739}",b4,B4: Eminem vs MGK,rap_battle,False,conflict_vocab,True,True,0.005
+939.1614547221691,1.1579273152580603e-204,2,0.4186279793499698,0,"['catalog', 'beef', 'post']","{'catalog': 1557, 'beef': 2063, 'post': 1739}",b4,B4: Eminem vs MGK,rap_battle,False,opponent_mention,True,True,0.005
+8.577299058212578,0.013723445903034185,2,0.05519961856064499,0,"['catalog', 'beef', 'post']","{'catalog': 1300, 'beef': 834, 'post': 681}",b5,B5: Wayne vs Birdman,contract_breakdown,False,conflict_vocab,True,False,0.005
+34.08954000125004,3.958680423429113e-08,2,0.11004526761323047,0,"['catalog', 'beef', 'post']","{'catalog': 1300, 'beef': 834, 'post': 681}",b5,B5: Wayne vs Birdman,contract_breakdown,False,opponent_mention,True,True,0.005
+152.64071643483936,7.153022140369102e-34,2,0.17597695100903202,0,"['catalog', 'beef', 'post']","{'catalog': 1459, 'beef': 1894, 'post': 1576}",b6,B6: Megan vs Nicki,rap_battle,False,conflict_vocab,True,True,0.005
+252.267263510298,1.6628755445942784e-55,2,0.22623043939381304,0,"['catalog', 'beef', 'post']","{'catalog': 1459, 'beef': 1894, 'post': 1576}",b6,B6: Megan vs Nicki,rap_battle,False,opponent_mention,True,True,0.005

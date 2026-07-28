@@ -1,0 +1,8 @@
+{
+  "0": "楽曲称賛・感情（love, best song, makes）",
+  "1": "一般言及・雑談（生成汎用クラスタ、最大52-58%を占める）",
+  "2": "対立・アーティスト間言及（drake, kendrick, pusha, beef, better）",
+  "3": "楽曲評価・感想（sounds like, feel, people）",
+  "4": "人間関係・日常語り（need, real, think, guy, day）",
+  "_note": "k=5でのKMeans結果に基づく命名。doc仮説が想定した明確な「diss/won/bodied」中心の対立クラスタや「money/cash/label」中心の金銭クラスタは自然には分離されなかった。クラスタ2が最も対立語彙(beef)とアーティスト名の同時言及に近いが、他クラスタとの語彙的な境界は仮説ほど明瞭ではない。"
+}

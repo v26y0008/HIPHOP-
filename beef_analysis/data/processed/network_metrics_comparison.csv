@@ -1,0 +1,3 @@
+label,n_nodes,n_edges,density,avg_degree,max_degree_node,modularity,n_communities
+Beef tracks,17,15,0.11029411764705882,1.7647058823529411,Drake,0.5161891103453677,9
+Catalog tracks,16,4,0.03333333333333333,0.5,Drake,0.15351742274819194,13

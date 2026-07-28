@@ -1,0 +1,11 @@
+poster_label,internal_beef_id,test_target,chi2,p_value,cramers_v,significant_after_bonferroni
+B1 (Kendrick Lamar vs Drake),b1,conflict_vocab,27.1297092434112,1.2848679318035056e-06,0.0826348583809238,True
+B1 (Kendrick Lamar vs Drake),b1,opponent_mention,145.72513193155757,2.2708563567693784e-32,0.1915172716070934,True
+B2 (Pusha T vs Drake),b2,conflict_vocab,628.4463361378757,3.4246171048021206e-137,0.3698208065732788,True
+B2 (Pusha T vs Drake),b2,opponent_mention,427.2051592688253,1.7122940378174259e-93,0.3049126810088513,True
+B3 (Eminem vs MGK) ※PPTXのB3は本パイプラインのb4,b4,conflict_vocab,375.93070360823776,2.3317657691376997e-82,0.2648573443895292,True
+B3 (Eminem vs MGK) ※PPTXのB3は本パイプラインのb4,b4,opponent_mention,939.1614547221692,1.1579273152580605e-204,0.4186279793499698,True
+B4 (Wayne vs Birdman) ※PPTXのB4は本パイプラインのb5,b5,conflict_vocab,8.577299058212578,0.0137234459030341,0.0551996185606449,False
+B4 (Wayne vs Birdman) ※PPTXのB4は本パイプラインのb5,b5,opponent_mention,34.08954000125004,3.958680423429113e-08,0.1100452676132304,True
+B5 (Megan vs Nicki) ※PPTXのB5は本パイプラインのb6,b6,conflict_vocab,152.64071643483936,7.153022140369102e-34,0.175976951009032,True
+B5 (Megan vs Nicki) ※PPTXのB5は本パイプラインのb6,b6,opponent_mention,252.267263510298,1.6628755445942784e-55,0.226230439393813,True

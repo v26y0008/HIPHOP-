@@ -1,0 +1,6 @@
+beef,winner,loser,verdict_type,source_summary
+B1: Kendrick vs Drake,Kendrick Lamar,Drake,clear,"Rolling Stone(2024-05-08)ほかPitchfork/The Ringer/Variety/Vulture/GQ/The New Yorkerの事後評価で一致してKendrick優勢と評価。YouGov調査(n=981)でKendrick 33% vs Drake 21%。Not Like UsがGrammy Awards 2025 Record of the Yearを受賞"
+B2: Pusha T vs Drake,Pusha T,Drake,clear,"Drake本人が2019年のインタビューでThe Story of Adidonでの敗北を事実上認める発言。Pitchfork Best New Track選出。Noisey Song of the Year選出。Complex誌2018年ランキング5位"
+B4: Eminem vs MGK,Eminem,MGK,clear,"Vulture等の評でKillshotが決定打と評価。Killshotは公開24時間で3,810万回再生という当時の記録を樹立。MGKはその後ポップパンク路線へ転向"
+B5: Wayne vs Birdman,Lil Wayne,Birdman,legal (非ラップバトル型),"2018年にWayneが1,000万ドル超の和解金と引き換えにCash Money Recordsとの契約から解放。ラップバトルでの決着ではなく法的・契約上の決着のため他4件とは性質が異なる(outcome_type=legal)"
+B6: Megan vs Nicki,Megan Thee Stallion,Nicki Minaj,disputed,"Newsweek(2024-01-31)等はMegan優勢と報じるが、ファン内での評価は分かれており本研究では明示的にdisputedとして扱う(感度分析でこのビーフを除外したケースも別途提示)"

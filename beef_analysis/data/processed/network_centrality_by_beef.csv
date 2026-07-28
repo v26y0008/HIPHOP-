@@ -1,0 +1,50 @@
+artist,degree,betweenness,mention_count,beef_id
+Drake,0.2222222222222222,0.027777777777777776,110,b1
+Kendrick Lamar,0.1111111111111111,0.0,68,b1
+Future,0.0,0.0,8,b1
+Eminem,0.1111111111111111,0.0,5,b1
+Nicki Minaj,0.0,0.0,2,b1
+J. Cole,0.0,0.0,1,b1
+Jay-Z,0.0,0.0,1,b1
+Nas,0.0,0.0,1,b1
+Lil Wayne,0.0,0.0,1,b1
+Pusha T,0.0,0.0,1,b1
+Drake,0.25,0.0,402,b2
+Pusha T,0.25,0.030303030303030304,202,b2
+Kendrick Lamar,0.16666666666666666,0.0,96,b2
+Kanye West,0.16666666666666666,0.030303030303030304,27,b2
+Lil Wayne,0.0,0.0,6,b2
+Jay-Z,0.0,0.0,5,b2
+Meek Mill,0.0,0.0,4,b2
+Travis Scott,0.0,0.0,2,b2
+Megan Thee Stallion,0.0,0.0,1,b2
+MGK,0.0,0.0,1,b2
+Future,0.0,0.0,1,b2
+Rick Ross,0.0,0.0,1,b2
+Eminem,0.0,0.0,1,b2
+MGK,0.14285714285714285,0.0,379,b4
+Eminem,0.2857142857142857,0.047619047619047616,371,b4
+Future,0.14285714285714285,0.0,9,b4
+Megan Thee Stallion,0.0,0.0,4,b4
+Drake,0.0,0.0,4,b4
+Kanye West,0.0,0.0,1,b4
+Kendrick Lamar,0.0,0.0,1,b4
+Lil Wayne,0.0,0.0,1,b4
+Lil Wayne,0.1111111111111111,0.0,71,b5
+Birdman,0.1111111111111111,0.0,25,b5
+Drake,0.0,0.0,10,b5
+Future,0.0,0.0,2,b5
+Kendrick Lamar,0.0,0.0,2,b5
+Nicki Minaj,0.0,0.0,2,b5
+Eminem,0.0,0.0,1,b5
+Kanye West,0.0,0.0,1,b5
+MGK,0.0,0.0,1,b5
+Jay-Z,0.0,0.0,1,b5
+Nicki Minaj,0.42857142857142855,0.0,284,b6
+Megan Thee Stallion,0.42857142857142855,0.0,182,b6
+Drake,0.42857142857142855,0.0,20,b6
+Kendrick Lamar,0.42857142857142855,0.047619047619047616,15,b6
+Jay-Z,0.0,0.0,5,b6
+Kanye West,0.0,0.0,5,b6
+Future,0.0,0.0,4,b6
+Eminem,0.0,0.0,1,b6

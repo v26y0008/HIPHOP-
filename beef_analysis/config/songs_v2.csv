@@ -1,0 +1,115 @@
+key,beef_id,beef_name,beef_type,drake_involved,track_category,artist_side,artist_name,release_date,video_id,song_name,notes
+b1_catalog_kendrick,b1,Kendrick vs Drake,rap_battle,True,catalog,kendrick,Kendrick Lamar,2017-03-30,tvTRZJ-4EyI,HUMBLE.,KendrickLamarVEVO公式
+b1_catalog_drake,b1,Kendrick vs Drake,rap_battle,True,catalog,drake,Drake,2018-02-17,xpVfcZ0ZcFM,God's Plan,DrakeVEVO公式
+b1_beef_kendrick,b1,Kendrick vs Drake,rap_battle,True,beef,kendrick,Kendrick Lamar,2024-07-04,H58vbez_m4E,Not Like Us,KendrickLamarVEVO公式
+b1_beef_drake,b1,Kendrick vs Drake,rap_battle,True,beef,drake,Drake,2024-04-19,HKH9p19PRLA,Push Ups,Drake - Topic(自動生成公式チャンネル)
+b1_post_kendrick,b1,Kendrick vs Drake,rap_battle,True,post,kendrick,Kendrick Lamar,2024-11-22,U8F5G5wR1mk,tv off,Kendrick Lamar公式チャンネル(GNX収録曲)
+b1_post_drake,b1,Kendrick vs Drake,rap_battle,True,post,drake,Drake,2025-03-31,8ekJMC8OtGU,NOKIA,DrakeVEVO公式
+b2_catalog_pusha,b2,Pusha T vs Drake,rap_battle,True,catalog,pusha,Pusha T,2013-05-09,DawrlSwHUiM,Numbers on the Boards,設計書はNosetalgia(djramski名義=非公式リアップロード)を指定していたが公式アップロードが無いため、既に公式確認済みのNumbers on the Boardsに差し替え。PushaTVEVO公式
+b2_catalog_drake,b2,Pusha T vs Drake,rap_battle,True,catalog,drake,Drake,2018-02-17,xpVfcZ0ZcFM,God's Plan,B1と同一動画を共用。DrakeVEVO公式
+b2_beef_pusha,b2,Pusha T vs Drake,rap_battle,True,beef,pusha,Pusha T,2023-11-16,bx1mzA873CM,The Story of Adidon,Pusha - Topic(自動生成公式チャンネル)。commentThreads.list実行時に403 commentsDisabledを確認済み。コメント欄無効のため収集不可。B2のbeef/pusha側はデータ欠損として扱う
+b2_beef_drake,b2,Pusha T vs Drake,rap_battle,True,beef,drake,Drake,2018-05-25,Qr_QLv1TPcY,Duppy Freestyle,OVO Sound公式
+b2_post_pusha,b2,Pusha T vs Drake,rap_battle,True,post,pusha,Pusha T,2022-02-08,HFrwm6oRYJg,Diet Coke,PushaTVEVO公式
+b2_post_drake,b2,Pusha T vs Drake,rap_battle,True,post,drake,Drake,2020-04-03,xWggTb45brM,Toosie Slide,DrakeVEVO公式
+b3_catalog_drake,b3,Drake vs Meek Mill,authenticity_dispute,True,catalog,drake,Drake,2018-09-15,,0 To 100 / The Catch Up,【B3除外】commentThreads.list実行時に403 commentsDisabledを確認。動画ID(s0PZYWA4LoM)は記録のみ残しvideo_idは空欄化して収集対象から除外
+b3_catalog_meek,b3,Drake vs Meek Mill,authenticity_dispute,True,catalog,meek,Meek Mill,2015-07-28,,All Eyes On You,【B3除外】beefカテゴリが全滅(下記)のためB3全体を分析から除外。動画ID(ut9ThAbfde0)自体はコメント取得済みだが使用しない
+b3_beef_drake,b3,Drake vs Meek Mill,authenticity_dispute,True,beef,drake,Drake,2018-07-24,,Back To Back,【B3除外】commentThreads.list実行時に403 commentsDisabledを確認(動画ID: 72ykBvPOIc0)。YouTube API検索でも公式チャンネルの代替アップロードなし(ファンチャンネルの再アップロードのみ)。B3のbeefカテゴリは両アーティストとも欠損
+b3_beef_meek,b3,Drake vs Meek Mill,authenticity_dispute,True,beef,meek,Meek Mill,2018-08-10,,Wanna Know,【B3除外】commentThreads.list実行時に403 commentsDisabledを確認(動画ID: erq6Q5t0dW4)。代替公式アップロードなし。B3のbeefカテゴリは両アーティストとも欠損のためB3全体をユーザー判断で分析から除外(5ビーフ構成に変更)
+b3_post_drake,b3,Drake vs Meek Mill,authenticity_dispute,True,post,drake,Drake,2016-05-15,,One Dance (Live On SNL),【B3除外】beefカテゴリが全滅のためB3全体を分析から除外。動画ID(vcer12OFU2g)自体はコメント取得済みだが使用しない
+b3_post_meek,b3,Drake vs Meek Mill,authenticity_dispute,True,post,meek,Meek Mill,2017-05-06,,Litty,【B3除外】beefカテゴリが全滅のためB3全体を分析から除外。動画ID(S7UAj9bl1-I)自体はコメント取得済みだが使用しない
+b4_catalog_eminem,b4,Eminem vs MGK,rap_battle,False,catalog,eminem,Eminem,2013-11-27,XbGs_qK2PQA,Rap God,EminemVEVO公式
+b4_catalog_mgk,b4,Eminem vs MGK,rap_battle,False,catalog,mgk,MGK,2016-12-01,QpbQ4I3Eidg,Bad Things (ft. Camila Cabello),MGKVEVO公式
+b4_beef_eminem,b4,Eminem vs MGK,rap_battle,False,beef,eminem,Eminem,2018-09-14,FxQTY-W6GIo,Killshot,EminemMusic公式
+b4_beef_mgk,b4,Eminem vs MGK,rap_battle,False,beef,mgk,MGK,2018-09-03,4sNCyiyIc_8,Rap Devil,mgk公式チャンネル
+b4_post_eminem,b4,Eminem vs MGK,rap_battle,False,post,eminem,Eminem,2020-01-17,RHQC4fAhcbU,Darkness,EminemVEVO公式
+b4_post_mgk,b4,Eminem vs MGK,rap_battle,False,post,mgk,MGK,2020-05-20,wSdT-SArM2Q,Bloody Valentine,MGKVEVO公式。ポップパンク転向後のリリースのためジャンル差が語彙に影響する可能性を考察に含めること
+b5_catalog_wayne,b5,Wayne vs Birdman,contract_breakdown,False,catalog,wayne,Lil Wayne,2022-02-18,1Vf4mMCpNY0,A Milli,LilWayneVEVO公式(2008年曲の後日アップロード)
+b5_catalog_birdman,b5,Wayne vs Birdman,contract_breakdown,False,catalog,birdman,Birdman,2010-11-23,DALvNCbgcKg,Fire Flame,BirdmanVEVO公式
+b5_beef_wayne,b5,Wayne vs Birdman,contract_breakdown,False,beef,wayne,Lil Wayne,2015-03-18,_y_Xpps46Uc,CoCo,設計書はe_fZbUpGplA(実際は「Sorry 4 The Wait」無印/2011年)を指定していたが誤り。ビーフの発端であるSorry 4 the Wait 2(2015)収録曲で、Cash Money/Birdman言及が最多と確認済みのCoCoに差し替え。Lil Wayne公式チャンネル
+b5_beef_birdman,b5,Wayne vs Birdman,contract_breakdown,False,beef,birdman,Birdman,,,,Birdman側の明確なdiss曲が見つからず(YouTube API検索でも該当なし)。設計書の想定通り「片側型ビーフ」として扱い、beef/birdmanのデータは欠損のまま分析する
+b5_post_wayne,b5,Wayne vs Birdman,contract_breakdown,False,post,wayne,Lil Wayne,2024-09-30,tF0X2c8HPN8,Uproar,LilWayneVEVO公式(2018年曲の後日アップロード)
+b5_post_birdman,b5,Wayne vs Birdman,contract_breakdown,False,post,birdman,Birdman,,,,beef/birdmanが存在しないため対応するpostも定義しない(片側型ビーフのため)
+b6_catalog_megan,b6,Megan vs Nicki,rap_battle,False,catalog,megan,Megan Thee Stallion,2020-04-06,EOxj2ROIxok,Savage,"Megan Thee Stallion公式チャンネル。公式にはリミックス版(ft. Beyonce, lEIqjoO0-Bs)も存在するが本分析ではLyric Video版のみ使用"
+b6_catalog_nicki,b6,Megan vs Nicki,rap_battle,False,catalog,nicki,Nicki Minaj,2022-09-01,j5uAR9w7LBg,Super Freaky Girl,NickiMinajAtVEVO公式
+b6_beef_megan,b6,Megan vs Nicki,rap_battle,False,beef,megan,Megan Thee Stallion,2024-01-26,XVgCLQ_JQfU,HISS,設計書はこのIDを『ビーフ曲(Nicki)Big Foot』として記載していたが誤り。実際はMegan Thee Stallion公式チャンネルのHISSの動画。正しい区分(Megan側のビーフ曲)に修正
+b6_beef_nicki,b6,Megan vs Nicki,rap_battle,False,beef,nicki,Nicki Minaj,2024-01-29,vKkoBUPav3s,Big Foot,設計書のXVgCLQ_JQfUは誤りだったため、YouTube API検索で正しいBig Foot動画IDを新たに特定。Nicki Minaj公式チャンネル
+b6_post_megan,b6,Megan vs Nicki,rap_battle,False,post,megan,Megan Thee Stallion,2024-05-10,TKQY2ZlIEjY,BOA,Megan Thee Stallion公式チャンネル(HISS後のリリース)
+b6_post_nicki,b6,Megan vs Nicki,rap_battle,False,post,nicki,Nicki Minaj,2024-04-19,rV7zBXq5JsY,FTCU (SLEEZEMIX),設計書はPink Friday 2収録曲を提案していたが、ビーフ(2024-01-29)より前のリリース(2023-12)のため不適切。Big Foot後の公式リリースに差し替え。Nicki Minaj公式チャンネル
+b1_post_kendrick_02,b1,Kendrick vs Drake,rap_battle,True,post,kendrick,Kendrick Lamar,2024-11-22,HfWLgELllZs,luther,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_post_kendrick_03,b1,Kendrick vs Drake,rap_battle,True,post,kendrick,Kendrick Lamar,2024-11-25,fuV4yQWdn_4,squabble up,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_post_kendrick_04,b1,Kendrick vs Drake,rap_battle,True,post,kendrick,Kendrick Lamar,2024-11-22,cbHkzwa0QmM,peekaboo,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_post_kendrick_05,b1,Kendrick vs Drake,rap_battle,True,post,kendrick,Kendrick Lamar,2024-11-22,YwUQ_5iV9pY,wacced out murals,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_post_drake_02,b1,Kendrick vs Drake,rap_battle,True,post,drake,Drake,2026-05-15,SD4yRDY9mek,Janice STFU,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_post_drake_03,b1,Kendrick vs Drake,rap_battle,True,post,drake,Drake,2026-05-16,MoR47PedfaU,shabang,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_post_drake_04,b1,Kendrick vs Drake,rap_battle,True,post,drake,Drake,2026-05-16,ESRCdJHbvnU,2 Hard 4 The Radio,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_post_drake_05,b1,Kendrick vs Drake,rap_battle,True,post,drake,Drake,2026-05-16,Z8wKeg_nRVI,B's On The Table,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b2_post_pusha_02,b2,Pusha T vs Drake,rap_battle,True,post,pusha,Pusha T,2019-10-11,sF5IU-Pyn2A,Puppets (Succession Remix),viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b2_post_pusha_03,b2,Pusha T vs Drake,rap_battle,True,post,pusha,Pusha T,2019-08-28,9bx_r7H7eF8,Coming Home ft. Ms. Lauryn Hill,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b2_post_pusha_04,b2,Pusha T vs Drake,rap_battle,True,post,pusha,Pusha T,2019-08-28,xq3eNq43C-0,Sociopath ft. Kash Doll,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b2_post_drake_02,b2,Pusha T vs Drake,rap_battle,True,post,drake,Drake,2020-08-14,JFm7YDVlqnI,Laugh Now Cry Later ft. Lil Durk,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b2_post_drake_03,b2,Pusha T vs Drake,rap_battle,True,post,drake,Drake,2018-08-04,lJTRVX9R5EA,Nonstop,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b2_post_drake_04,b2,Pusha T vs Drake,rap_battle,True,post,drake,Drake,2022-06-17,V7UgPHjN9qE,Jimmy Cooks ft. 21 Savage,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b2_post_drake_05,b2,Pusha T vs Drake,rap_battle,True,post,drake,Drake,2021-09-03,vX9msKu75qs,"Way 2 Sexy ft. Future, Young Thug",viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_eminem_02,b4,Eminem vs MGK,rap_battle,False,post,eminem,Eminem,2020-03-04,3qFvCPmee8U,Godzilla ft. Juice WRLD,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_eminem_03,b4,Eminem vs MGK,rap_battle,False,post,eminem,Eminem,2021-05-28,FVeZcM6tBQU,"Killer (Remix) ft. Jack Harlow, Cordae",viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_eminem_04,b4,Eminem vs MGK,rap_battle,False,post,eminem,Eminem,2022-06-24,RjrA-slMoZ4,From The D 2 The LBC,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_eminem_05,b4,Eminem vs MGK,rap_battle,False,post,eminem,Eminem,2018-12-07,X-TkrWpO75k,Good Guy ft. Jessie Reyez,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_mgk_02,b4,Eminem vs MGK,rap_battle,False,post,mgk,MGK,2020-08-26,J_n01uvyhI8,my ex's best friend ft. blackbear,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_mgk_03,b4,Eminem vs MGK,rap_battle,False,post,mgk,MGK,2019-06-13,wK-8TCDrbV8,I Think I'm OKAY,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_mgk_04,b4,Eminem vs MGK,rap_battle,False,post,mgk,MGK,2019-07-09,z7kYa5GQYKg,Candy ft. Trippie Redd,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b4_post_mgk_05,b4,Eminem vs MGK,rap_battle,False,post,mgk,MGK,2020-10-22,0tn6nWYNK3Q,forget me too ft. Halsey,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b5_post_wayne_02,b5,Wayne vs Birdman,contract_breakdown,False,post,wayne,Lil Wayne,2024-10-02,t61T0Wu7slg,Don't Cry ft. XXXTENTACION,"viewcount_analysis用に追加。動画公開日と実際のリリース日(Funeral, 2020)がずれている可能性あり"
+b5_post_wayne_03,b5,Wayne vs Birdman,contract_breakdown,False,post,wayne,Lil Wayne,2025-06-06,MGb5VUeartE,Peanuts 2 N Elephants,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b5_post_wayne_04,b5,Wayne vs Birdman,contract_breakdown,False,post,wayne,Lil Wayne,2024-09-30,Qlr1llwBQt8,Big Worm,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b5_post_wayne_05,b5,Wayne vs Birdman,contract_breakdown,False,post,wayne,Lil Wayne,2025-06-06,7DoEYRPiEjo,Bells (Visualizer),viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b5_post_birdman_02,b5,Wayne vs Birdman,contract_breakdown,False,post,birdman,Birdman,2019-04-26,8LJqoRMyFSo,Cap Talk ft. YoungBoy Never Broke Again,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b5_post_birdman_03,b5,Wayne vs Birdman,contract_breakdown,False,post,birdman,Birdman,2019-02-22,b3S0N20zxCU,Just Another Gangsta ft. Juvenile,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b5_post_birdman_04,b5,Wayne vs Birdman,contract_breakdown,False,post,birdman,Birdman,2019-09-13,49Ggx4ZafL8,"Ride Dat ft. Juvenile, Lil Wayne",viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b5_post_birdman_05,b5,Wayne vs Birdman,contract_breakdown,False,post,birdman,Birdman,2021-05-21,a78G2OPKuD8,"STUNNAMAN ft. Roddy Ricch, Lil Wayne",viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b6_post_megan_02,b6,Megan vs Nicki,rap_battle,False,post,megan,Megan Thee Stallion,2024-08-09,OdxSbc0ap-s,Mamushi ft. Yuki Chiba,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b6_post_megan_03,b6,Megan vs Nicki,rap_battle,False,post,megan,Megan Thee Stallion,2024-09-06,TpYTyAaTRts,Neva Play ft. RM,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b6_post_megan_04,b6,Megan vs Nicki,rap_battle,False,post,megan,Megan Thee Stallion,2024-10-25,QxTkZTLWdo4,Bigger In Texas,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b6_post_nicki_02,b6,Megan vs Nicki,rap_battle,False,post,nicki,Nicki Minaj,2024-11-22,OBfCeimLNvQ,Arctic Tundra ft. Juice WRLD,viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b6_post_nicki_03,b6,Megan vs Nicki,rap_battle,False,post,nicki,Nicki Minaj,2024-11-22,p7wJgqeD7wI,"If It's Okay ft. David Guetta, Davido",viewcount_analysis用に追加(コメント収集はしない、videos.listのみ)
+b1_catalog_kendrick_02,b1,Kendrick vs Drake,rap_battle,True,catalog,kendrick,Kendrick Lamar,2022-05-14,zI383uEwA6Q,N95,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b1_catalog_kendrick_03,b1,Kendrick vs Drake,rap_battle,True,catalog,kendrick,Kendrick Lamar,2022-05-13,6nTcdw7bVdc,Count Me Out (Official Audio),viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b1_catalog_kendrick_04,b1,Kendrick vs Drake,rap_battle,True,catalog,kendrick,Kendrick Lamar,2022-11-16,toBTPGfurLc,Rich Spirit,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b1_catalog_kendrick_05,b1,Kendrick vs Drake,rap_battle,True,catalog,kendrick,Kendrick Lamar,2022-05-13,Lx3MGrafykU,Die Hard ft. Blxst & Amanda Reifer,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b1_catalog_drake_02,b1,Kendrick vs Drake,rap_battle,True,catalog,drake,Drake,2021-09-03,THVbtGqEO1o,Fair Trade ft. Travis Scott,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b1_catalog_drake_03,b1,Kendrick vs Drake,rap_battle,True,catalog,drake,Drake,2021-11-05,XqpQpt_cmhE,"Knife Talk ft. 21 Savage, Project Pat",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b1_catalog_drake_04,b1,Kendrick vs Drake,rap_battle,True,catalog,drake,Drake,2022-06-17,V7UgPHjN9qE,Jimmy Cooks ft. 21 Savage,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b1_catalog_drake_05,b1,Kendrick vs Drake,rap_battle,True,catalog,drake,Drake,2021-09-03,vX9msKu75qs,"Way 2 Sexy ft. Future, Young Thug",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b2_catalog_pusha_02,b2,Pusha T vs Drake,rap_battle,True,catalog,pusha,Pusha T,2016-01-01,R0NpahenvAg,"M.P.A. ft. Kanye West, A$AP Rocky, The-Dream",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b2_catalog_pusha_03,b2,Pusha T vs Drake,rap_battle,True,catalog,pusha,Pusha T,2015-11-20,NPI_6MX74j4,Untouchable,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b2_catalog_pusha_04,b2,Pusha T vs Drake,rap_battle,True,catalog,pusha,Pusha T,2015-12-14,crCFDQyfORM,"Crutches, Crosses, Caskets",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b2_catalog_pusha_05,b2,Pusha T vs Drake,rap_battle,True,catalog,pusha,Pusha T,2016-06-28,tPp7dNDe00U,Drug Dealers Anonymous,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b2_catalog_drake_02,b2,Pusha T vs Drake,rap_battle,True,catalog,drake,Drake,2015-10-26,uxpDa-c-4Mc,Hotline Bling,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b2_catalog_drake_03,b2,Pusha T vs Drake,rap_battle,True,catalog,drake,Drake,2015-08-18,7LnBvuzjpr4,Energy,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b2_catalog_drake_04,b2,Pusha T vs Drake,rap_battle,True,catalog,drake,Drake,2016-05-15,vcer12OFU2g,One Dance (Live On SNL),viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)。window内候補が3件のみのため4件目なし
+b4_catalog_eminem_02,b4,Eminem vs MGK,rap_battle,False,catalog,eminem,Eminem,2015-10-01,oeCihv9A3ac,Phenomenal,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)。この期間はアルバム間の端境期でEminemの新曲リリースが少なく候補2件のみ
+b4_catalog_eminem_03,b4,Eminem vs MGK,rap_battle,False,catalog,eminem,Eminem,2016-11-18,_Ci6LhAmYJk,Infinite (F.B.T. Remix),viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b4_catalog_mgk_02,b4,Eminem vs MGK,rap_battle,False,catalog,mgk,MGK,2017-04-21,tgvbhxb9yk8,At My Best ft. Hailee Steinfeld,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b4_catalog_mgk_03,b4,Eminem vs MGK,rap_battle,False,catalog,mgk,MGK,2016-09-22,BuSBo8AVpV0,Young Man ft. Chief Keef,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b4_catalog_mgk_04,b4,Eminem vs MGK,rap_battle,False,catalog,mgk,MGK,2016-02-26,X5-sg1SnDAM,Alpha Omega,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b4_catalog_mgk_05,b4,Eminem vs MGK,rap_battle,False,catalog,mgk,MGK,2017-06-07,BKywT1BQW_M,"Trap Paris ft. Quavo, Ty Dolla $ign",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_wayne_02,b5,Wayne vs Birdman,contract_breakdown,False,catalog,wayne,Lil Wayne,2012-01-31,OZLUa8JUR18,Mirror ft. Bruno Mars,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_wayne_03,b5,Wayne vs Birdman,contract_breakdown,False,catalog,wayne,Lil Wayne,2013-02-15,KY44zvhWhp4,"Love Me ft. Drake, Future",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_wayne_04,b5,Wayne vs Birdman,contract_breakdown,False,catalog,wayne,Lil Wayne,2012-11-28,5z25pGEGBM4,No Worries ft. Detail,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_wayne_05,b5,Wayne vs Birdman,contract_breakdown,False,catalog,wayne,Lil Wayne,2013-07-17,_Nb4EHY_2bI,God Bless Amerika,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_birdman_02,b5,Wayne vs Birdman,contract_breakdown,False,catalog,birdman,Birdman,2012-05-25,6ImFf__U6io,"Dark Shades ft. Lil Wayne, Mack Maine",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_birdman_03,b5,Wayne vs Birdman,contract_breakdown,False,catalog,birdman,Birdman,2012-06-11,DTmwGXP2c6Q,Born Stunna (Explicit Version),viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_birdman_04,b5,Wayne vs Birdman,contract_breakdown,False,catalog,birdman,Birdman,2013-01-18,6cOjnTHQLGM,"Shout Out ft. Gudda Gudda, French Montana",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b5_catalog_birdman_05,b5,Wayne vs Birdman,contract_breakdown,False,catalog,birdman,Birdman,2012-06-11,kFHQzwNMo_Q,Born Stunna ft. Rick Ross,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_megan_02,b6,Megan vs Nicki,rap_battle,False,catalog,megan,Megan Thee Stallion,2021-02-04,AqaQsL-8I_M,Cry Baby ft. DaBaby,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_megan_03,b6,Megan vs Nicki,rap_battle,False,catalog,megan,Megan Thee Stallion,2022-03-11,K7JrX7PHGBE,Sweetest Pie (with Dua Lipa),viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_megan_04,b6,Megan vs Nicki,rap_battle,False,catalog,megan,Megan Thee Stallion,2021-06-11,KynkMn5Hv3Q,Thot Shit,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_megan_05,b6,Megan vs Nicki,rap_battle,False,catalog,megan,Megan Thee Stallion,2022-06-02,qQuQ8zDxGh0,Plan B,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_nicki_02,b6,Megan vs Nicki,rap_battle,False,catalog,nicki,Nicki Minaj,2022-02-04,yrGR11TDRYM,Do We Have A Problem? ft. Lil Baby,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_nicki_03,b6,Megan vs Nicki,rap_battle,False,catalog,nicki,Nicki Minaj,2021-05-14,_Q7rcUm0Dro,"Seeing Green ft. Drake, Lil Wayne",viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_nicki_04,b6,Megan vs Nicki,rap_battle,False,catalog,nicki,Nicki Minaj,2022-02-11,O-M1ITkiptg,Bussin ft. Lil Baby,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b6_catalog_nicki_05,b6,Megan vs Nicki,rap_battle,False,catalog,nicki,Nicki Minaj,2021-05-14,9zRe5wnqSi4,Itty Bitty Piggy,viewcount_analysis用(recency-matched)。カタログ曲は全キャリア最大ヒットではなく、ビーフ1〜3年前のリリースの中での再生数上位を選定(POST曲との経過時間バイアスを避けるため)
+b7_catalog_cube,b7,Ice Cube vs NWA,rap_battle,False,catalog,cube,Ice Cube,1990-05-16,ko0llmBIELI,Who's The Mack?,【B7除外】beefカテゴリが両アーティストとも欠損のためB7全体を分析から除外。動画ID自体はコメント取得済み(1351件)だが使用しない
+b7_catalog_nwa,b7,Ice Cube vs NWA,rap_battle,False,catalog,nwa,N.W.A.,1988-08-08,TMZi25Pq3T8,Straight Outta Compton,【B7除外】beefカテゴリが両アーティストとも欠損のためB7全体を分析から除外。動画ID自体はコメント取得済み(1500件)だが使用しない
+b7_beef_cube,b7,Ice Cube vs NWA,rap_battle,False,beef,cube,Ice Cube,1991-10-31,,No Vaseline,【B7除外】videos.list上はcommentCountが表示される(6803件)にもかかわらずcommentThreads.list実行時に403 commentsDisabledを確認(動画ID: rSK8jTzl1Kw、Ice Cube - Topicの自動生成チャンネル)。video_idは空欄化して収集対象から除外
+b7_beef_nwa,b7,Ice Cube vs NWA,rap_battle,False,beef,nwa,N.W.A.,1991-05-28,,Real Niggaz,【B7除外】commentThreads.list実行時に403 commentsDisabledを確認(動画ID: dOP5BgkTqak、N.W.A. - Topicの自動生成チャンネル)。B7のbeefカテゴリは両アーティストとも欠損のためB7全体をB3と同様の理由で分析から除外(6ビーフ目追加の試みは失敗、5ビーフ構成を維持)
+b7_post_cube,b7,Ice Cube vs NWA,rap_battle,False,post,cube,Ice Cube,1993-02-23,h4UqMyldS7Q,It Was A Good Day,【B7除外】beefカテゴリが両アーティストとも欠損のためB7全体を分析から除外。動画ID自体はコメント取得済み(1500件)だが使用しない

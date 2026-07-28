@@ -1,0 +1,2 @@
+n_sample,n_topics,n_outliers,ari_bertopic_vs_genre,ari_bertopic_vs_artist,ari_bertopic_vs_hdbscan
+12000,34,6146,0.016495817855502592,0.040116512734611434,0.003856588799757814

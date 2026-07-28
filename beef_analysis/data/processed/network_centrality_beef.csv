@@ -1,0 +1,18 @@
+artist,degree,betweenness,mention_count,is_party
+Drake,0.4375,0.24166666666666667,546,True
+MGK,0.0625,0.0,381,True
+Eminem,0.1875,0.125,379,True
+Nicki Minaj,0.1875,0.0,288,True
+Pusha T,0.1875,0.0,203,True
+Megan Thee Stallion,0.1875,0.058333333333333334,187,True
+Kendrick Lamar,0.25,0.008333333333333333,182,True
+Lil Wayne,0.0625,0.0,79,True
+Kanye West,0.125,0.06666666666666667,34,False
+Birdman,0.0625,0.0,25,True
+Future,0.0625,0.0,24,False
+Jay-Z,0.0625,0.0,12,False
+Meek Mill,0.0,0.0,4,False
+Travis Scott,0.0,0.0,2,False
+J. Cole,0.0,0.0,1,False
+Nas,0.0,0.0,1,False
+Rick Ross,0.0,0.0,1,False

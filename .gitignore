@@ -72,3 +72,20 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Bulk scraped YouTube comment data (reproducible via collect/ scripts + API,
+# not redistributed in bulk on GitHub; summary/aggregate CSVs are kept)
+beef_analysis/data/raw/
+beef_analysis/data/raw_v2/
+beef_analysis/data/processed/all_comments_v2.csv
+beef_analysis/data/processed/comments_clean_v2.csv
+beef_analysis/data/processed/comments_with_win_loss_v2.csv
+beef_analysis/data/processed/comments_with_sentiment_v2.csv
+beef_analysis/data/processed/llm_stance_sample.csv
+beef_analysis/data/processed/llm_stance_merged.csv
+genre_analysis_v3/data/raw/
+genre_analysis_v3/data/processed/all_comments_genre_v3.csv
+genre_analysis_v3/data/processed/comments_clean_genre_v3.csv
+genre_analysis_v3/data/processed/cluster_assignments_genre_v3.csv
+genre_analysis_v3/data/processed/beef_context_clean.csv
+genre_analysis_v3/data/processed/bertopic_assignments.csv
